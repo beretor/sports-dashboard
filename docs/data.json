@@ -1,16 +1,67 @@
 {
-  "generated_at": "2026-04-08T15:30:09",
+  "generated_at": "2026-04-08T15:55:15",
   "strava": {
-    "athlete": "Athlète",
+    "athlete": "Pierre",
     "period_days": 7,
     "summary_ai": "Résumé IA indisponible.",
     "stats": {
-      "total_activities": 0,
-      "total_distance_km": 0,
-      "total_duration_min": 0,
-      "total_elevation_m": 0
+      "total_activities": 5,
+      "total_distance_km": 315.4,
+      "total_duration_min": 1965,
+      "total_elevation_m": 2822
     },
-    "activities": []
+    "activities": [
+      {
+        "date": "2026-04-08",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "distance_km": 8.92,
+        "duration_min": 45,
+        "pace": "17.2 km/h",
+        "avg_hr": 122,
+        "elevation_m": 69
+      },
+      {
+        "date": "2026-04-07",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "distance_km": 17.76,
+        "duration_min": 633,
+        "pace": "18.6 km/h",
+        "avg_hr": 108,
+        "elevation_m": 99
+      },
+      {
+        "date": "2026-04-04",
+        "type": "Ride",
+        "name": "De Ronde 2026",
+        "distance_km": 246.62,
+        "duration_min": 621,
+        "pace": "27.0 km/h",
+        "avg_hr": 136,
+        "elevation_m": 2272
+      },
+      {
+        "date": "2026-04-02",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "distance_km": 17.67,
+        "duration_min": 608,
+        "pace": "19.6 km/h",
+        "avg_hr": 115,
+        "elevation_m": 88
+      },
+      {
+        "date": "2026-04-01",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Race Preparation - Road Race",
+        "distance_km": 24.4,
+        "duration_min": 59,
+        "pace": "25.0 km/h",
+        "avg_hr": 121,
+        "elevation_m": 294
+      }
+    ]
   },
   "garmin": {
     "summary_ai": "Résumé IA indisponible.",
@@ -29,8 +80,7 @@
   },
   "suggestions": [],
   "errors": [
-    "Strava : 400 Client Error: Bad Request for url: https://www.strava.com/oauth/token",
-    "Garmin : Authentication failed: Login failed (429 Rate Limit). Try again later.",
-    "Claude : Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZrYSvUDf55XcnWPkXeje'}"
+    "Garmin : Garmin : aucun token valide trouvé dans ~/.garth, ~/.garminconnect ou ~/.claude-coach/garmin_tokens.json.\nLance 'python scripts/garmin_export_tokens.py' en local.",
+    "Claude : Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZraMwd1z2YpbNNr9BQ2e'}"
   ]
 }
