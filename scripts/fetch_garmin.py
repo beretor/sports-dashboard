@@ -26,33 +26,28 @@ from garminconnect import Garmin
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
 def _init_client() -> Garmin:
-    """Connexion Garmin : tokens locaux en priorité, sinon email/password."""
-    # Essai avec tokens déjà stockés
-    for token_path in (
-        os.path.expanduser("~/.garminconnect"),
-        os.path.expanduser("~/.garth"),
-    ):
+    """Connexion Garmin via tokens stockés (garth)."""
+    token_paths = [
+        os.path.expanduser("~/.garth"),           # restauré par GitHub Actions
+        os.path.expanduser("~/.garminconnect"),    # ancien format
+        os.path.expanduser("~/.claude-coach/garmin_tokens.json"),  # local
+    ]
+
+    for token_path in token_paths:
         if os.path.exists(token_path):
             try:
                 client = Garmin()
                 client.login(token_path)
-                print(f"[Garmin] Connecté via tokens : {token_path}")
+                print(f"[Garmin] ✓ Connecté via tokens : {token_path}")
                 return client
             except Exception as e:
                 print(f"[Garmin] Tokens invalides ({token_path}) : {e}")
 
-    # Fallback : email + password
-    email    = os.environ.get("GARMIN_EMAIL")
-    password = os.environ.get("GARMIN_PASSWORD")
-    if not email or not password:
-        raise EnvironmentError(
-            "Garmin : aucun token trouvé et GARMIN_EMAIL/GARMIN_PASSWORD manquants."
-        )
-
-    client = Garmin(email=email, password=password)
-    client.login()
-    print("[Garmin] Connecté via email/password.")
-    return client
+    raise EnvironmentError(
+        "Garmin : aucun token valide trouvé dans ~/.garth, ~/.garminconnect "
+        "ou ~/.claude-coach/garmin_tokens.json.\n"
+        "Lance 'python scripts/garmin_export_tokens.py' en local."
+    )
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

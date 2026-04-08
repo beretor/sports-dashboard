@@ -35,14 +35,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # ── 3. Génération du dashboard ───────────────────────────────────────────
+      # ── 3. Restauration des tokens Garmin ───────────────────────────────────
+      - name: Restore Garmin tokens
+        run: |
+          mkdir -p ~/.garth
+          echo "${{ secrets.GARMIN_TOKENS }}" | base64 -d > /tmp/garmin_tokens.zip
+          unzip -o /tmp/garmin_tokens.zip -d ~/.garth
+          echo "✅ Tokens Garmin restaurés"
+
+      # ── 4. Génération du dashboard ───────────────────────────────────────────
       - name: Generate data.json
         env:
           STRAVA_CLIENT_ID:     ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
-          GARMIN_EMAIL:         ${{ secrets.GARMIN_EMAIL }}
-          GARMIN_PASSWORD:      ${{ secrets.GARMIN_PASSWORD }}
           ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate.py
 
