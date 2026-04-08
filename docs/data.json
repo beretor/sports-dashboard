@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-04-08T07:00:00",
+  "strava": {
+    "athlete": "Pierre",
+    "period_days": 7,
+    "summary_ai": "Bonne semaine d'entraînement avec un bon équilibre entre intensité et récupération. La sortie longue de dimanche (18 km) montre une bonne endurance de base. Les allures sont stables, signe d'une fatigue maîtrisée. Continue sur cette lancée !",
+    "stats": {
+      "total_activities": 4,
+      "total_distance_km": 42.3,
+      "total_duration_min": 218,
+      "total_elevation_m": 312
+    },
+    "activities": [
+      {
+        "date": "2026-04-07",
+        "type": "Run",
+        "name": "Sortie longue dominicale",
+        "distance_km": 18.2,
+        "duration_min": 102,
+        "pace": "5:36/km",
+        "avg_hr": 142,
+        "elevation_m": 145
+      },
+      {
+        "date": "2026-04-05",
+        "type": "Run",
+        "name": "Tempo run",
+        "distance_km": 10.1,
+        "duration_min": 52,
+        "pace": "5:09/km",
+        "avg_hr": 158,
+        "elevation_m": 87
+      },
+      {
+        "date": "2026-04-03",
+        "type": "Ride",
+        "name": "Sortie vélo matinale",
+        "distance_km": 11.8,
+        "duration_min": 42,
+        "pace": "16.8 km/h",
+        "avg_hr": 128,
+        "elevation_m": 62
+      },
+      {
+        "date": "2026-04-02",
+        "type": "Run",
+        "name": "Easy run récupération",
+        "distance_km": 7.2,
+        "duration_min": 44,
+        "pace": "6:06/km",
+        "avg_hr": 131,
+        "elevation_m": 18
+      }
+    ]
+  },
+  "garmin": {
+    "summary_ai": "Ta VFC est bonne (58 ms) et ta FC de repos est stable à 48 bpm, signe d'une bonne récupération. Le poids est stable. Ton niveau de stress reste modéré en semaine — veille à bien dormir avant les séances intensives.",
+    "metrics": {
+      "resting_hr_bpm": 48,
+      "hrv_ms": 58,
+      "weight_kg": 73.2,
+      "stress_score": 32,
+      "sleep_hours": 7.4,
+      "body_battery": 78
+    },
+    "trend": {
+      "resting_hr_7d": [50, 49, 51, 48, 48, 47, 48],
+      "hrv_7d": [54, 56, 52, 58, 60, 57, 58]
+    }
+  },
+  "suggestions": [
+    {
+      "icon": "🏃",
+      "type": "Run",
+      "title": "Fartlek en forêt",
+      "description": "Profite de ta bonne VFC pour une séance ludique : 40 min avec des accélérations spontanées sur les portions plates. Pas de montre, juste la sensation.",
+      "difficulty": "Modérée",
+      "duration": "40 min"
+    },
+    {
+      "icon": "🚴",
+      "type": "Vélo",
+      "title": "Sortie endurance Z2",
+      "description": "1h30 à allure conversationnelle pour capitaliser sur ta sortie longue de dimanche sans accumuler de fatigue. Idéal en semaine.",
+      "difficulty": "Facile",
+      "duration": "1h30"
+    },
+    {
+      "icon": "🧘",
+      "type": "Récupération",
+      "title": "Yoga & mobilité",
+      "description": "Ton score de stress à 32 suggère un peu de tension. 30 min de yoga ou de stretching actif feront du bien avant ta prochaine séance intense.",
+      "difficulty": "Très facile",
+      "duration": "30 min"
+    },
+    {
+      "icon": "⛰️",
+      "type": "Trail",
+      "title": "Sortie trail découverte",
+      "description": "Ta forme est bonne et le dénivelé de la semaine reste faible. Une sortie trail de 12-15 km avec 300 m D+ serait un beau challenge pour le week-end.",
+      "difficulty": "Élevée",
+      "duration": "1h45"
+    }
+  ]
+}

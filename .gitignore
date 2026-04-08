@@ -1,0 +1,25 @@
+# Variables d'environnement — NE JAMAIS committer
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Tokens Garmin (si stockés localement)
+.garminconnect/
+.garth/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp

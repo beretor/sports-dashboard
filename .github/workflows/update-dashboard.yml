@@ -1,0 +1,64 @@
+name: Update Sports Dashboard
+
+on:
+  # ── Déclenchement automatique (tous les matins à 7h00 UTC) ──
+  schedule:
+    - cron: "0 7 * * *"
+
+  # ── Déclenchement manuel depuis l'onglet Actions de GitHub ──
+  workflow_dispatch:
+
+# Permissions nécessaires pour committer le data.json généré
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Fetch & Generate dashboard
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ─────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Token avec droit d'écriture pour le commit final
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python ────────────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 3. Génération du dashboard ───────────────────────────────────────────
+      - name: Generate data.json
+        env:
+          STRAVA_CLIENT_ID:     ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          GARMIN_EMAIL:         ${{ secrets.GARMIN_EMAIL }}
+          GARMIN_PASSWORD:      ${{ secrets.GARMIN_PASSWORD }}
+          ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate.py
+
+      # ── 4. Commit & Push si data.json a changé ───────────────────────────────
+      - name: Commit updated data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add docs/data.json
+
+          # Ne commit que si le fichier a réellement changé
+          if git diff --cached --quiet; then
+            echo "Aucun changement dans data.json — rien à committer."
+          else
+            git commit -m "chore: update dashboard data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "✅ data.json mis à jour et poussé."
+          fi
