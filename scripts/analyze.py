@@ -11,15 +11,14 @@ Clé gratuite sur https://aistudio.google.com/apikey
 
 import json
 import os
-import google.generativeai as genai
+from google import genai
 
 
 def _get_client():
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise EnvironmentError("GEMINI_API_KEY manquante.")
-    genai.configure(api_key=api_key)
-    return genai.GenerativeModel("gemini-2.0-flash")
+    return genai.Client(api_key=api_key)
 
 
 def _build_prompt(strava: dict) -> str:
@@ -67,14 +66,31 @@ Réponds UNIQUEMENT avec ce JSON (sans texte avant/après, sans balises markdown
 Contraintes : exactement 4 suggestions, variées (pas 4 runs), basées sur les vraies données."""
 
 
+MODELS = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-2.0-flash-lite"]
+
+
 def generate_analysis(strava: dict) -> dict:
-    model  = _get_client()
+    client = _get_client()
     prompt = _build_prompt(strava)
 
     print("[Gemini] Génération de l'analyse…")
 
-    response = model.generate_content(prompt)
-    full_text = response.text.strip()
+    last_error = None
+    for model in MODELS:
+        try:
+            print(f"[Gemini] Essai avec {model}…")
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+            )
+            full_text = response.text.strip()
+            break
+        except Exception as e:
+            print(f"[Gemini] ✗ {model} : {str(e)[:120]}")
+            last_error = e
+            continue
+    else:
+        raise last_error
 
     # Nettoie les backticks éventuels (```json ... ```)
     if full_text.startswith("```"):
