@@ -9,41 +9,22 @@ Nécessite dans .env (ou GitHub Secrets) :
 """
 
 import os
-import time
 import requests
 from datetime import datetime, timedelta, timezone
 
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DAYS_BACK = 7
+DAYS_BACK = 30
 STRAVA_TOKEN_URL = "https://www.strava.com/oauth/token"
 STRAVA_API_BASE  = "https://www.strava.com/api/v3"
-
-ACTIVITY_TYPE_ICONS = {
-    "Run":       "🏃",
-    "Ride":      "🚴",
-    "Swim":      "🏊",
-    "Hike":      "🥾",
-    "Walk":      "🚶",
-    "WeightTraining": "🏋️",
-    "Workout":   "💪",
-    "Yoga":      "🧘",
-    "Soccer":    "⚽",
-    "Tennis":    "🎾",
-}
 
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
 def _get_access_token() -> str:
-    """Échange le refresh_token contre un access_token."""
-    client_id     = os.environ["STRAVA_CLIENT_ID"]
-    client_secret = os.environ["STRAVA_CLIENT_SECRET"]
-    refresh_token = os.environ["STRAVA_REFRESH_TOKEN"]
-
     resp = requests.post(STRAVA_TOKEN_URL, data={
-        "client_id":     client_id,
-        "client_secret": client_secret,
-        "refresh_token": refresh_token,
+        "client_id":     os.environ["STRAVA_CLIENT_ID"],
+        "client_secret": os.environ["STRAVA_CLIENT_SECRET"],
+        "refresh_token": os.environ["STRAVA_REFRESH_TOKEN"],
         "grant_type":    "refresh_token",
     }, timeout=15)
     resp.raise_for_status()
@@ -52,101 +33,146 @@ def _get_access_token() -> str:
 
 # ── Formatters ────────────────────────────────────────────────────────────────
 def _format_pace(speed_ms: float, activity_type: str) -> str:
-    """Convertit m/s en allure (min/km) pour la course, km/h pour le vélo."""
     if speed_ms <= 0:
         return "—"
-    if activity_type in ("Run", "Hike", "Walk"):
-        pace_sec_per_km = 1000 / speed_ms
-        mins = int(pace_sec_per_km // 60)
-        secs = int(pace_sec_per_km % 60)
-        return f"{mins}:{secs:02d}/km"
+    if activity_type in ("Run", "Hike", "Walk", "TrailRun"):
+        pace_sec = 1000 / speed_ms
+        return f"{int(pace_sec // 60)}:{int(pace_sec % 60):02d}/km"
     else:
         return f"{speed_ms * 3.6:.1f} km/h"
 
 
 def _format_duration(seconds: int) -> int:
-    """Retourne la durée en minutes."""
     return round(seconds / 60)
+
+
+def _hms(seconds: int) -> str:
+    """Retourne HH:MM:SS ou MM:SS."""
+    h = seconds // 3600
+    m = (seconds % 3600) // 60
+    s = seconds % 60
+    if h:
+        return f"{h}:{m:02d}:{s:02d}"
+    return f"{m}:{s:02d}"
+
+
+# ── Weekly aggregation ────────────────────────────────────────────────────────
+def _build_weekly_stats(activities: list, days: int) -> list:
+    """
+    Agrège les activités par semaine (lundi→dimanche).
+    Retourne les N dernières semaines complètes + semaine en cours.
+    """
+    from collections import defaultdict
+    weeks = defaultdict(lambda: {"distance_km": 0, "duration_min": 0,
+                                  "count": 0, "elevation_m": 0})
+    for act in activities:
+        d = datetime.fromisoformat(act["date"])
+        # Lundi de la semaine
+        monday = (d - timedelta(days=d.weekday())).strftime("%Y-%m-%d")
+        weeks[monday]["distance_km"]  += act["distance_km"]
+        weeks[monday]["duration_min"] += act["duration_min"]
+        weeks[monday]["elevation_m"]  += act["elevation_m"]
+        weeks[monday]["count"]        += 1
+
+    # Trie par date et arrondit
+    result = []
+    for monday in sorted(weeks.keys()):
+        w = weeks[monday]
+        result.append({
+            "week_start":   monday,
+            "distance_km":  round(w["distance_km"], 1),
+            "duration_min": round(w["duration_min"]),
+            "elevation_m":  round(w["elevation_m"]),
+            "count":        w["count"],
+        })
+    return result
 
 
 # ── Main fetch ────────────────────────────────────────────────────────────────
 def fetch_activities(days: int = DAYS_BACK) -> dict:
-    """
-    Retourne un dict prêt à être injecté dans data.json section 'strava'.
-    """
-    token  = _get_access_token()
+    token   = _get_access_token()
     headers = {"Authorization": f"Bearer {token}"}
-
-    # Timestamp UNIX de début (il y a N jours)
     after_ts = int((datetime.now(timezone.utc) - timedelta(days=days)).timestamp())
 
-    # Récupère toutes les activités (pagination simple, max 200)
-    resp = requests.get(
+    # Liste des activités
+    raw = requests.get(
         f"{STRAVA_API_BASE}/athlete/activities",
         headers=headers,
-        params={"after": after_ts, "per_page": 50, "page": 1},
+        params={"after": after_ts, "per_page": 100, "page": 1},
         timeout=30,
     )
-    resp.raise_for_status()
-    raw_activities = resp.json()
+    raw.raise_for_status()
+    raw_activities = raw.json()
 
-    # Récupère le profil athlète (pour le prénom)
-    athlete_resp = requests.get(
-        f"{STRAVA_API_BASE}/athlete",
-        headers=headers,
-        timeout=10,
-    )
+    # Profil athlète
+    athlete_resp = requests.get(f"{STRAVA_API_BASE}/athlete", headers=headers, timeout=10)
     athlete_name = "Athlète"
     if athlete_resp.ok:
         a = athlete_resp.json()
         athlete_name = a.get("firstname", "Athlète")
 
-    # ── Transforme les activités ──
+    # ── Transforme chaque activité ──
     activities = []
-    total_distance_m   = 0
-    total_duration_s   = 0
-    total_elevation_m  = 0
+    total_distance_m  = 0
+    total_duration_s  = 0
+    total_elevation_m = 0
 
     for act in raw_activities:
-        act_type    = act.get("sport_type") or act.get("type", "Workout")
-        distance_km = round(act.get("distance", 0) / 1000, 2)
-        duration_min = _format_duration(act.get("elapsed_time", 0))
-        speed_ms    = act.get("average_speed", 0)
-        avg_hr      = act.get("average_heartrate")
-        elevation_m = round(act.get("total_elevation_gain", 0))
-
-        # Date ISO (Strava renvoie "2026-04-07T06:30:00Z")
-        start_date  = act.get("start_date", "")[:10]  # garde "YYYY-MM-DD"
+        act_type     = act.get("sport_type") or act.get("type", "Workout")
+        distance_km  = round(act.get("distance", 0) / 1000, 2)
+        elapsed_s    = act.get("elapsed_time", 0)
+        moving_s     = act.get("moving_time", elapsed_s)
+        speed_ms     = act.get("average_speed", 0)
+        avg_hr       = act.get("average_heartrate")
+        max_hr       = act.get("max_heartrate")
+        elevation_m  = round(act.get("total_elevation_gain", 0))
+        calories     = act.get("kilojoules") or act.get("calories")
+        avg_cadence  = act.get("average_cadence")
+        avg_watts    = act.get("average_watts")
+        suffer_score = act.get("suffer_score")
+        start_date   = act.get("start_date", "")[:10]
 
         activities.append({
-            "date":        start_date,
-            "type":        act_type,
-            "name":        act.get("name", "Activité"),
-            "distance_km": distance_km,
-            "duration_min": duration_min,
-            "pace":        _format_pace(speed_ms, act_type),
-            "avg_hr":      int(avg_hr) if avg_hr else None,
-            "elevation_m": elevation_m,
+            "id":           act.get("id"),
+            "date":         start_date,
+            "start_time":   act.get("start_date_local", "")[:16].replace("T", " "),
+            "type":         act_type,
+            "name":         act.get("name", "Activité"),
+            "description":  act.get("description") or "",
+            "distance_km":  distance_km,
+            "duration_min": _format_duration(elapsed_s),
+            "moving_time":  _hms(moving_s),
+            "elapsed_time": _hms(elapsed_s),
+            "pace":         _format_pace(speed_ms, act_type),
+            "avg_hr":       int(avg_hr) if avg_hr else None,
+            "max_hr":       int(max_hr) if max_hr else None,
+            "elevation_m":  elevation_m,
+            "calories":     int(calories) if calories else None,
+            "avg_cadence":  round(avg_cadence) if avg_cadence else None,
+            "avg_watts":    round(avg_watts) if avg_watts else None,
+            "suffer_score": int(suffer_score) if suffer_score else None,
+            "kudos":        act.get("kudos_count", 0),
+            "strava_url":   f"https://www.strava.com/activities/{act.get('id')}",
         })
 
         total_distance_m  += act.get("distance", 0)
-        total_duration_s  += act.get("elapsed_time", 0)
+        total_duration_s  += elapsed_s
         total_elevation_m += act.get("total_elevation_gain", 0)
 
-    # Trie par date décroissante
     activities.sort(key=lambda x: x["date"], reverse=True)
 
     return {
         "athlete":     athlete_name,
         "period_days": days,
-        "summary_ai":  "",   # rempli par analyze.py
+        "summary_ai":  "",
         "stats": {
-            "total_activities":  len(activities),
-            "total_distance_km": round(total_distance_m / 1000, 1),
+            "total_activities":   len(activities),
+            "total_distance_km":  round(total_distance_m / 1000, 1),
             "total_duration_min": _format_duration(total_duration_s),
-            "total_elevation_m": round(total_elevation_m),
+            "total_elevation_m":  round(total_elevation_m),
         },
-        "activities": activities,
+        "activities":    activities,
+        "weekly_stats":  _build_weekly_stats(activities, days),
     }
 
 

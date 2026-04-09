@@ -5,142 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sports Dashboard</title>
   <style>
-    /* ── Reset & Base ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:        #0f1117;
-      --surface:   #1a1d27;
-      --surface2:  #22263a;
-      --border:    #2e3248;
-      --text:      #e8eaf6;
-      --muted:     #8b90b8;
-      --accent:    #6c63ff;
-      --accent2:   #ff6584;
-      --green:     #4ade80;
-      --orange:    #fb923c;
-      --red:       #f87171;
-      --blue:      #60a5fa;
-      --radius:    12px;
-      --shadow:    0 4px 24px rgba(0,0,0,.35);
+      --bg:       #0f1117;
+      --surface:  #1a1d27;
+      --surface2: #22263a;
+      --border:   #2e3248;
+      --text:     #e8eaf6;
+      --muted:    #8b90b8;
+      --accent:   #6c63ff;
+      --green:    #4ade80;
+      --orange:   #fb923c;
+      --red:      #f87171;
+      --blue:     #60a5fa;
+      --strava:   #fc4c02;
+      --radius:   12px;
+      --shadow:   0 4px 24px rgba(0,0,0,.4);
     }
 
-    body {
-      background: var(--bg);
-      color: var(--text);
+    body { background: var(--bg); color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      min-height: 100vh;
-      padding: 24px 16px 48px;
-    }
+      min-height: 100vh; padding: 24px 16px 60px; }
 
-    /* ── Layout ───────────────────────────────────────────────── */
-    .container { max-width: 900px; margin: 0 auto; }
+    .container { max-width: 960px; margin: 0 auto; }
 
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 32px;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
+    /* ── Header ── */
+    header { display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 32px; flex-wrap: wrap; gap: 12px; }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header h1 span { color: var(--strava); }
+    .generated-at { font-size: .78rem; color: var(--muted);
+      background: var(--surface); border: 1px solid var(--border);
+      padding: 4px 12px; border-radius: 999px; }
 
-    header h1 {
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -.5px;
-    }
-
-    header h1 span { color: var(--accent); }
-
-    .generated-at {
-      font-size: .78rem;
-      color: var(--muted);
-      background: var(--surface);
-      border: 1px solid var(--border);
-      padding: 4px 12px;
-      border-radius: 999px;
-    }
-
-    /* ── Sections ─────────────────────────────────────────────── */
-    section { margin-bottom: 28px; }
-
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 16px;
-    }
-
-    .section-icon {
-      width: 36px; height: 36px;
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.1rem;
-    }
-
+    /* ── Section ── */
+    section { margin-bottom: 32px; }
+    .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .section-icon { width: 36px; height: 36px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
     .icon-strava  { background: rgba(252,76,2,.15); }
-    .icon-garmin  { background: rgba(0,175,230,.15); }
+    .icon-charts  { background: rgba(96,165,250,.15); }
     .icon-ideas   { background: rgba(108,99,255,.15); }
+    .section-header h2 { font-size: 1.05rem; font-weight: 600; }
 
-    .section-header h2 {
-      font-size: 1.05rem;
-      font-weight: 600;
-    }
+    /* ── Card ── */
+    .card { background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
 
-    /* ── Card ─────────────────────────────────────────────────── */
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px;
-      box-shadow: var(--shadow);
-    }
+    /* ── AI Summary ── */
+    .ai-summary { background: var(--surface2); border-left: 3px solid var(--strava);
+      border-radius: 8px; padding: 14px 16px; font-size: .9rem; line-height: 1.6;
+      margin-bottom: 20px; }
+    .ai-label { font-size: .7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; color: var(--strava); margin-bottom: 6px; }
 
-    /* ── AI Summary ───────────────────────────────────────────── */
-    .ai-summary {
-      background: var(--surface2);
-      border-left: 3px solid var(--accent);
-      border-radius: 8px;
-      padding: 14px 16px;
-      font-size: .9rem;
-      line-height: 1.6;
-      color: var(--text);
-      margin-bottom: 20px;
-    }
-
-    .ai-label {
-      font-size: .7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--accent);
-      margin-bottom: 6px;
-    }
-
-    /* ── Stat Pills ───────────────────────────────────────────── */
-    .stats-row {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
-
-    .stat-pill {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 6px 16px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: .82rem;
-    }
-
+    /* ── Stats pills ── */
+    .stats-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+    .stat-pill { background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 999px; padding: 6px 16px;
+      display: flex; align-items: center; gap: 6px; font-size: .82rem; }
     .stat-pill strong { color: var(--text); }
     .stat-pill span   { color: var(--muted); }
 
-    /* ── Activity Table ───────────────────────────────────────── */
+    /* ── Activity list ── */
     .activities { display: flex; flex-direction: column; gap: 10px; }
 
     .activity-row {
@@ -152,284 +80,198 @@
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 12px 16px;
+      cursor: pointer;
+      transition: border-color .15s, background .15s;
     }
+    .activity-row:hover { border-color: var(--strava); background: #2a1e1a; }
 
-    .activity-type-icon {
-      width: 36px; height: 36px;
-      border-radius: 8px;
+    .activity-type-icon { width: 36px; height: 36px; border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-
-    .type-Run   { background: rgba(252,76,2,.15); }
-    .type-Ride  { background: rgba(0,175,230,.15); }
+      font-size: 1.1rem; flex-shrink: 0; }
+    .type-Run, .type-TrailRun { background: rgba(252,76,2,.15); }
+    .type-Ride, .type-VirtualRide { background: rgba(0,175,230,.15); }
     .type-Swim  { background: rgba(96,165,250,.15); }
+    .type-Hike, .type-Walk { background: rgba(74,222,128,.12); }
 
-    .activity-info {}
-    .activity-name {
-      font-size: .88rem;
-      font-weight: 600;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    .activity-name { font-size: .88rem; font-weight: 600; overflow: hidden;
+      text-overflow: ellipsis; white-space: nowrap; }
+    .activity-meta { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .hr-badge { display: inline-flex; align-items: center; gap: 4px;
+      font-size: .72rem; padding: 2px 8px; border-radius: 999px;
+      background: rgba(248,113,113,.1); color: var(--red); margin-left: 6px; }
+    .activity-stats { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+    .activity-dist  { font-size: .9rem; font-weight: 700; }
+    .activity-pace  { font-size: .75rem; color: var(--muted); }
 
-    .activity-meta {
-      font-size: .75rem;
-      color: var(--muted);
-      margin-top: 2px;
-    }
+    /* ── Charts grid ── */
+    .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 600px) { .charts-grid { grid-template-columns: 1fr; } }
 
-    .activity-stats {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 3px;
-    }
+    .chart-card { background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px; }
+    .chart-title { font-size: .82rem; color: var(--muted); margin-bottom: 12px; font-weight: 600; }
+    canvas { display: block; width: 100% !important; }
 
-    .activity-dist {
-      font-size: .9rem;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .activity-pace {
-      font-size: .75rem;
-      color: var(--muted);
-    }
-
-    /* ── HR Badge ─────────────────────────────────────────────── */
-    .hr-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-size: .72rem;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: rgba(248,113,113,.1);
-      color: var(--red);
-      margin-left: 6px;
-    }
-
-    /* ── Garmin Metrics Grid ──────────────────────────────────── */
-    .metrics-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-
-    .metric-card {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      text-align: center;
-    }
-
-    .metric-icon { font-size: 1.4rem; margin-bottom: 6px; }
-
-    .metric-value {
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .metric-unit {
-      font-size: .72rem;
-      color: var(--muted);
-      margin-left: 2px;
-    }
-
-    .metric-label {
-      font-size: .72rem;
-      color: var(--muted);
-      margin-top: 4px;
-    }
-
-    .good    { color: var(--green); }
-    .neutral { color: var(--blue); }
-    .warn    { color: var(--orange); }
-
-    /* ── Sparkline ────────────────────────────────────────────── */
-    .sparkline-row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .sparkline-block {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px 16px;
-      flex: 1;
-      min-width: 180px;
-    }
-
-    .sparkline-title {
-      font-size: .75rem;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    canvas { display: block; }
-
-    /* ── Suggestions ──────────────────────────────────────────── */
+    /* ── Suggestions ── */
     .suggestions { display: flex; flex-direction: column; gap: 12px; }
-
-    .suggestion-card {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      display: grid;
-      grid-template-columns: 48px 1fr auto;
-      align-items: start;
-      gap: 14px;
-    }
-
-    .suggestion-emoji {
-      width: 48px; height: 48px;
-      font-size: 1.5rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .suggestion-title {
-      font-size: .92rem;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
-
-    .suggestion-desc {
-      font-size: .8rem;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    .suggestion-badges {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 5px;
-      flex-shrink: 0;
-    }
-
-    .badge {
-      font-size: .7rem;
-      font-weight: 600;
-      padding: 3px 10px;
-      border-radius: 999px;
-      white-space: nowrap;
-    }
-
+    .suggestion-card { background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 10px; padding: 16px;
+      display: grid; grid-template-columns: 48px 1fr auto; align-items: start; gap: 14px; }
+    .suggestion-emoji { width: 48px; height: 48px; font-size: 1.5rem;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+    .suggestion-title { font-size: .92rem; font-weight: 600; margin-bottom: 4px; }
+    .suggestion-desc  { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+    .suggestion-badges { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; }
+    .badge { font-size: .7rem; font-weight: 600; padding: 3px 10px;
+      border-radius: 999px; white-space: nowrap; }
     .badge-duration { background: rgba(108,99,255,.15); color: var(--accent); }
     .badge-easy     { background: rgba(74,222,128,.12); color: var(--green); }
     .badge-medium   { background: rgba(251,146,60,.12); color: var(--orange); }
     .badge-hard     { background: rgba(248,113,113,.12); color: var(--red); }
 
-    /* ── Loading / Error ──────────────────────────────────────── */
-    .loading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 200px;
-      color: var(--muted);
-      font-size: .9rem;
-      gap: 10px;
+    /* ── Modal ── */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.75);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 100; padding: 16px;
+      opacity: 0; pointer-events: none; transition: opacity .2s;
+    }
+    .modal-overlay.open { opacity: 1; pointer-events: all; }
+
+    .modal {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; width: 100%; max-width: 560px;
+      max-height: 90vh; overflow-y: auto;
+      transform: translateY(16px); transition: transform .2s;
+      box-shadow: 0 24px 60px rgba(0,0,0,.6);
+    }
+    .modal-overlay.open .modal { transform: translateY(0); }
+
+    .modal-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      padding: 20px 20px 0; gap: 12px;
+    }
+    .modal-title { font-size: 1.1rem; font-weight: 700; line-height: 1.3; }
+    .modal-subtitle { font-size: .8rem; color: var(--muted); margin-top: 4px; }
+    .modal-close {
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--muted); width: 32px; height: 32px; border-radius: 8px;
+      cursor: pointer; font-size: 1.1rem; display: flex; align-items: center;
+      justify-content: center; flex-shrink: 0; transition: color .15s;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    .modal-body { padding: 16px 20px 20px; }
+
+    .modal-stats {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 10px; margin-bottom: 16px;
+    }
+    .modal-stat {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px; text-align: center;
+    }
+    .modal-stat-icon { font-size: 1.2rem; margin-bottom: 4px; }
+    .modal-stat-value { font-size: 1.1rem; font-weight: 700; }
+    .modal-stat-label { font-size: .7rem; color: var(--muted); margin-top: 2px; }
+
+    .modal-extras {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+    }
+    .modal-extra {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 6px 12px; font-size: .8rem;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .modal-extra .label { color: var(--muted); }
+
+    .modal-desc {
+      font-size: .85rem; color: var(--muted); line-height: 1.6;
+      background: var(--surface2); border-radius: 8px; padding: 12px;
+      margin-bottom: 16px;
     }
 
-    .spinner {
-      width: 20px; height: 20px;
-      border: 2px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin .8s linear infinite;
+    .strava-link {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; padding: 10px; border-radius: 10px;
+      background: var(--strava); color: white; font-weight: 600; font-size: .88rem;
+      text-decoration: none; transition: opacity .15s;
     }
+    .strava-link:hover { opacity: .85; }
 
+    /* ── Loading / Error ── */
+    .loading { display: flex; align-items: center; justify-content: center;
+      height: 200px; color: var(--muted); font-size: .9rem; gap: 10px; }
+    .spinner { width: 20px; height: 20px; border: 2px solid var(--border);
+      border-top-color: var(--strava); border-radius: 50%;
+      animation: spin .8s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
+    .error-msg { text-align: center; padding: 32px; color: var(--red); font-size: .88rem; }
 
-    .error-msg {
-      text-align: center;
-      padding: 32px;
-      color: var(--red);
-      font-size: .88rem;
-    }
-
-    /* ── Responsive ───────────────────────────────────────────── */
-    @media (max-width: 560px) {
+    @media (max-width: 480px) {
       .suggestion-card { grid-template-columns: 40px 1fr; }
-      .suggestion-badges { flex-direction: row; grid-column: 1 / -1; }
-      .activity-row { grid-template-columns: 32px 1fr auto; }
+      .suggestion-badges { flex-direction: row; grid-column: 1/-1; }
+      .modal-stats { grid-template-columns: repeat(2, 1fr); }
     }
   </style>
 </head>
 <body>
 <div class="container">
 
-  <!-- Header -->
   <header>
     <h1>⚡ Sports <span>Dashboard</span></h1>
     <div class="generated-at" id="generated-at">Chargement…</div>
   </header>
 
-  <!-- Loading state -->
-  <div class="loading" id="loading">
-    <div class="spinner"></div>
-    Récupération des données…
-  </div>
+  <div class="loading" id="loading"><div class="spinner"></div>Récupération des données…</div>
 
-  <!-- Main content (hidden until loaded) -->
   <div id="content" style="display:none">
 
-    <!-- ── Strava ───────────────────────────────────────────── -->
+    <!-- ── Strava ── -->
     <section>
       <div class="section-header">
         <div class="section-icon icon-strava">🏅</div>
         <h2>Performance Strava — <span id="strava-period"></span></h2>
       </div>
       <div class="card">
-        <div class="ai-label">✦ Résumé IA</div>
-        <div class="ai-summary" id="strava-summary"></div>
-
+        <div id="strava-ai-wrap" style="display:none">
+          <div class="ai-label">✦ Résumé IA</div>
+          <div class="ai-summary" id="strava-summary"></div>
+        </div>
         <div class="stats-row" id="strava-stats"></div>
-
         <div class="activities" id="activities"></div>
       </div>
     </section>
 
-    <!-- ── Garmin ───────────────────────────────────────────── -->
+    <!-- ── Graphiques ── -->
     <section>
       <div class="section-header">
-        <div class="section-icon icon-garmin">💓</div>
-        <h2>État de forme — Garmin Connect</h2>
+        <div class="section-icon icon-charts">📊</div>
+        <h2>Activité par semaine</h2>
       </div>
-      <div class="card">
-        <div class="ai-label">✦ Résumé IA</div>
-        <div class="ai-summary" id="garmin-summary"></div>
-
-        <div class="metrics-grid" id="garmin-metrics"></div>
-
-        <div class="sparkline-row">
-          <div class="sparkline-block">
-            <div class="sparkline-title">FC repos — 7 jours (bpm)</div>
-            <canvas id="chart-hr" height="50"></canvas>
-          </div>
-          <div class="sparkline-block">
-            <div class="sparkline-title">VFC — 7 jours (ms)</div>
-            <canvas id="chart-hrv" height="50"></canvas>
-          </div>
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-title">Distance hebdomadaire (km)</div>
+          <canvas id="chart-dist" height="160"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Durée hebdomadaire (min)</div>
+          <canvas id="chart-time" height="160"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Dénivelé hebdomadaire (m)</div>
+          <canvas id="chart-elev" height="160"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Activités par semaine</div>
+          <canvas id="chart-count" height="160"></canvas>
         </div>
       </div>
     </section>
 
-    <!-- ── Suggestions ─────────────────────────────────────── -->
-    <section>
+    <!-- ── Suggestions ── -->
+    <section id="suggestions-section">
       <div class="section-header">
         <div class="section-icon icon-ideas">💡</div>
         <h2>Idées de sorties</h2>
@@ -439,185 +281,239 @@
 
   </div>
 
-  <!-- Error state -->
   <div class="error-msg" id="error" style="display:none">
     ⚠️ Impossible de charger les données.<br>
     <small>Vérifiez que <code>data.json</code> est bien présent.</small>
   </div>
+</div>
 
+<!-- ── Activity Modal ── -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-subtitle" id="modal-subtitle"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-stats" id="modal-stats"></div>
+      <div class="modal-extras" id="modal-extras"></div>
+      <div class="modal-desc" id="modal-desc" style="display:none"></div>
+      <a class="strava-link" id="modal-strava-link" href="#" target="_blank" rel="noopener">
+        Voir sur Strava →
+      </a>
+    </div>
+  </div>
 </div>
 
 <script>
-/* ── Helpers ──────────────────────────────────────────────────── */
 const $ = id => document.getElementById(id);
 
-function activityIcon(type) {
-  return { Run: '🏃', Ride: '🚴', Swim: '🏊', Hike: '🥾' }[type] || '⚡';
+// ── Type icons ──────────────────────────────────────────────────────────────
+const TYPE_ICONS = {
+  Run:'🏃', TrailRun:'🏔️', Ride:'🚴', VirtualRide:'🚴', Swim:'🏊',
+  Hike:'🥾', Walk:'🚶', WeightTraining:'🏋️', Workout:'💪', Yoga:'🧘',
+  Soccer:'⚽', Tennis:'🎾', Ski:'⛷️', Snowboard:'🏂',
+};
+const typeIcon = t => TYPE_ICONS[t] || '⚡';
+
+function difficultyClass(d) {
+  return { 'Très facile':'easy', 'Facile':'easy', 'Modérée':'medium', 'Élevée':'hard' }[d] || 'medium';
 }
 
-function difficultyBadge(d) {
-  const map = {
-    'Très facile': 'easy', 'Facile': 'easy',
-    'Modérée': 'medium', 'Élevée': 'hard'
-  };
-  return map[d] || 'medium';
+function fmtDate(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR',
+    { weekday:'short', day:'numeric', month:'short' });
 }
 
-function formatDate(iso) {
-  return new Date(iso).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
+function fmtGenerated(iso) {
+  return new Date(iso).toLocaleString('fr-FR',
+    { day:'numeric', month:'long', year:'numeric', hour:'2-digit', minute:'2-digit' });
 }
 
-function formatGenerated(iso) {
-  return new Date(iso).toLocaleString('fr-FR', {
-    day: 'numeric', month: 'long', year: 'numeric',
-    hour: '2-digit', minute: '2-digit'
-  });
-}
-
-/* ── Sparkline canvas ─────────────────────────────────────────── */
-function drawSparkline(canvasId, data, color) {
+// ── Bar chart ───────────────────────────────────────────────────────────────
+function drawBarChart(canvasId, labels, values, color) {
   const canvas = $(canvasId);
-  if (!canvas) return;
+  if (!canvas || !values.length) return;
   const dpr = window.devicePixelRatio || 1;
-  const W = canvas.parentElement.clientWidth - 32;
-  const H = 50;
-  canvas.width  = W * dpr;
-  canvas.height = H * dpr;
-  canvas.style.width  = W + 'px';
-  canvas.style.height = H + 'px';
-
+  const W   = canvas.parentElement.clientWidth - 36;
+  const H   = 160;
+  canvas.width  = W * dpr; canvas.height = H * dpr;
+  canvas.style.width = W+'px'; canvas.style.height = H+'px';
   const ctx = canvas.getContext('2d');
   ctx.scale(dpr, dpr);
 
-  const min = Math.min(...data) - 2;
-  const max = Math.max(...data) + 2;
-  const pts = data.map((v, i) => ({
-    x: (i / (data.length - 1)) * (W - 8) + 4,
-    y: H - 4 - ((v - min) / (max - min)) * (H - 8)
-  }));
+  const max      = Math.max(...values, 1);
+  const n        = values.length;
+  const barW     = Math.max(4, (W - (n+1)*4) / n);
+  const chartH   = H - 28;
 
-  // Fill
-  const grad = ctx.createLinearGradient(0, 0, 0, H);
-  grad.addColorStop(0, color + '55');
-  grad.addColorStop(1, color + '00');
-  ctx.beginPath();
-  ctx.moveTo(pts[0].x, H);
-  pts.forEach(p => ctx.lineTo(p.x, p.y));
-  ctx.lineTo(pts[pts.length - 1].x, H);
-  ctx.closePath();
-  ctx.fillStyle = grad;
-  ctx.fill();
+  values.forEach((v, i) => {
+    const x = 4 + i * (barW + 4);
+    const h = Math.max(2, (v / max) * chartH);
+    const y = chartH - h;
 
-  // Line
-  ctx.beginPath();
-  ctx.moveTo(pts[0].x, pts[0].y);
-  pts.forEach(p => ctx.lineTo(p.x, p.y));
-  ctx.strokeStyle = color;
-  ctx.lineWidth = 2;
-  ctx.lineJoin = 'round';
-  ctx.stroke();
-
-  // Dots
-  pts.forEach(p => {
+    // Bar
+    const grad = ctx.createLinearGradient(0, y, 0, chartH);
+    grad.addColorStop(0, color + 'ee');
+    grad.addColorStop(1, color + '55');
+    ctx.fillStyle = grad;
     ctx.beginPath();
-    ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
-    ctx.fillStyle = color;
+    ctx.roundRect(x, y, barW, h, 3);
     ctx.fill();
+
+    // Label semaine (derniers 4 chars de la date = -MM-DD ou just DD)
+    if (labels[i]) {
+      const parts = labels[i].split('-');
+      const lbl   = parts[2] + '/' + parts[1];
+      ctx.fillStyle = '#8b90b8';
+      ctx.font = `${Math.min(10, barW)}px system-ui`;
+      ctx.textAlign = 'center';
+      ctx.fillText(lbl, x + barW/2, H - 6);
+    }
   });
 }
 
-/* ── Render ───────────────────────────────────────────────────── */
-function render(d) {
-  // Header
-  $('generated-at').textContent = 'Mis à jour le ' + formatGenerated(d.generated_at);
+// ── Modal ───────────────────────────────────────────────────────────────────
+function openModal(act) {
+  $('modal-title').textContent    = act.name;
+  $('modal-subtitle').textContent = fmtDate(act.date) + (act.start_time ? ' · ' + act.start_time.slice(11) : '') + ' · ' + act.type;
 
-  /* ── Strava ── */
-  $('strava-period').textContent = `7 derniers jours · ${d.strava.stats.total_activities} activités`;
-  $('strava-summary').textContent = d.strava.summary_ai;
+  const mainStats = [
+    { icon:'📏', value: act.distance_km + ' km',         label: 'Distance' },
+    { icon:'⏱️', value: act.moving_time || act.duration_min + ' min', label: 'Durée' },
+    { icon:'⛰️', value: act.elevation_m + ' m',           label: 'Dénivelé' },
+  ];
+  $('modal-stats').innerHTML = mainStats.map(s => `
+    <div class="modal-stat">
+      <div class="modal-stat-icon">${s.icon}</div>
+      <div class="modal-stat-value">${s.value}</div>
+      <div class="modal-stat-label">${s.label}</div>
+    </div>`).join('');
+
+  const extras = [];
+  if (act.pace && act.pace !== '—')    extras.push({ icon:'🏃', label:'Allure', val: act.pace });
+  if (act.avg_hr)  extras.push({ icon:'❤️',  label:'FC moy',  val: act.avg_hr + ' bpm' });
+  if (act.max_hr)  extras.push({ icon:'🔴',  label:'FC max',  val: act.max_hr + ' bpm' });
+  if (act.calories) extras.push({ icon:'🔥', label:'Calories', val: act.calories + ' kcal' });
+  if (act.avg_cadence) extras.push({ icon:'🔄', label:'Cadence', val: act.avg_cadence + ' spm' });
+  if (act.avg_watts)   extras.push({ icon:'⚡', label:'Watts',   val: act.avg_watts + ' W' });
+  if (act.suffer_score) extras.push({ icon:'💪', label:'Souffrance', val: act.suffer_score });
+  if (act.kudos)   extras.push({ icon:'👍', label:'Kudos', val: act.kudos });
+
+  $('modal-extras').innerHTML = extras.map(e => `
+    <div class="modal-extra">
+      <span>${e.icon}</span>
+      <span class="label">${e.label}</span>
+      <strong>${e.val}</strong>
+    </div>`).join('');
+
+  const descEl = $('modal-desc');
+  if (act.description) {
+    descEl.textContent = act.description;
+    descEl.style.display = 'block';
+  } else {
+    descEl.style.display = 'none';
+  }
+
+  $('modal-strava-link').href = act.strava_url || '#';
+  $('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(e) {
+  if (e && e.target !== $('modal-overlay')) return;
+  $('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { $('modal-overlay').classList.remove('open'); document.body.style.overflow = ''; }
+});
+
+// ── Render ──────────────────────────────────────────────────────────────────
+function render(d) {
+  $('generated-at').textContent = 'Mis à jour le ' + fmtGenerated(d.generated_at);
+
+  // ── Strava ──
+  const s = d.strava;
+  $('strava-period').textContent = `${s.period_days} derniers jours · ${s.stats.total_activities} activités`;
+
+  if (s.summary_ai) {
+    $('strava-summary').textContent = s.summary_ai;
+    $('strava-ai-wrap').style.display = 'block';
+  }
 
   const statsEl = $('strava-stats');
-  const s = d.strava.stats;
   [
-    ['📏', s.total_distance_km + ' km', 'distance'],
-    ['⏱️', s.total_duration_min + ' min', 'durée'],
-    ['⛰️', s.total_elevation_m + ' m', 'dénivelé'],
+    ['📏', s.stats.total_distance_km + ' km', 'distance'],
+    ['⏱️', s.stats.total_duration_min + ' min', 'durée'],
+    ['⛰️', s.stats.total_elevation_m + ' m', 'dénivelé'],
   ].forEach(([icon, val, label]) => {
-    statsEl.innerHTML += `
-      <div class="stat-pill">
-        ${icon} <strong>${val}</strong><span>${label}</span>
-      </div>`;
+    statsEl.innerHTML += `<div class="stat-pill">${icon} <strong>${val}</strong><span>${label}</span></div>`;
   });
 
   const actEl = $('activities');
-  d.strava.activities.forEach(a => {
-    actEl.innerHTML += `
-      <div class="activity-row">
-        <div class="activity-type-icon type-${a.type}">${activityIcon(a.type)}</div>
-        <div class="activity-info">
-          <div class="activity-name">${a.name}</div>
-          <div class="activity-meta">
-            ${formatDate(a.date)}
-            <span class="hr-badge">♥ ${a.avg_hr} bpm</span>
-            · ${a.elevation_m} m D+
-          </div>
+  (s.activities || []).forEach(act => {
+    const div = document.createElement('div');
+    div.className = 'activity-row';
+    div.innerHTML = `
+      <div class="activity-type-icon type-${act.type}">${typeIcon(act.type)}</div>
+      <div class="activity-info">
+        <div class="activity-name">${act.name}</div>
+        <div class="activity-meta">
+          ${fmtDate(act.date)}
+          ${act.avg_hr ? `<span class="hr-badge">♥ ${act.avg_hr} bpm</span>` : ''}
+          · ${act.elevation_m} m D+
+          ${act.calories ? ' · 🔥 ' + act.calories + ' kcal' : ''}
         </div>
-        <div class="activity-stats">
-          <div class="activity-dist">${a.distance_km} km</div>
-          <div class="activity-pace">${a.pace}</div>
-        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="activity-dist">${act.distance_km} km</div>
+        <div class="activity-pace">${act.pace}</div>
       </div>`;
+    div.addEventListener('click', () => openModal(act));
+    actEl.appendChild(div);
   });
 
-  /* ── Garmin ── */
-  $('garmin-summary').textContent = d.garmin.summary_ai;
+  // ── Charts ──
+  const weekly = s.weekly_stats || [];
+  if (weekly.length) {
+    const labels = weekly.map(w => w.week_start);
+    setTimeout(() => {
+      drawBarChart('chart-dist',  labels, weekly.map(w => w.distance_km),  '#fc4c02');
+      drawBarChart('chart-time',  labels, weekly.map(w => w.duration_min), '#6c63ff');
+      drawBarChart('chart-elev',  labels, weekly.map(w => w.elevation_m),  '#4ade80');
+      drawBarChart('chart-count', labels, weekly.map(w => w.count),        '#60a5fa');
+    }, 50);
+  }
 
-  const m = d.garmin.metrics;
-  const metricsEl = $('garmin-metrics');
-
-  const metricsDef = [
-    { icon: '💓', value: m.resting_hr_bpm, unit: 'bpm', label: 'FC repos', cls: m.resting_hr_bpm < 55 ? 'good' : 'warn' },
-    { icon: '📊', value: m.hrv_ms, unit: 'ms', label: 'VFC (HRV)', cls: m.hrv_ms > 50 ? 'good' : 'warn' },
-    { icon: '⚖️', value: m.weight_kg, unit: 'kg', label: 'Poids', cls: 'neutral' },
-    { icon: '🔋', value: m.body_battery, unit: '%', label: 'Body Battery', cls: m.body_battery > 60 ? 'good' : 'warn' },
-    { icon: '😌', value: m.stress_score, unit: '', label: 'Stress', cls: m.stress_score < 40 ? 'good' : 'warn' },
-    { icon: '😴', value: m.sleep_hours, unit: 'h', label: 'Sommeil', cls: m.sleep_hours >= 7 ? 'good' : 'warn' },
-  ];
-
-  metricsDef.forEach(({ icon, value, unit, label, cls }) => {
-    metricsEl.innerHTML += `
-      <div class="metric-card">
-        <div class="metric-icon">${icon}</div>
-        <div class="metric-value ${cls}">${value}<span class="metric-unit">${unit}</span></div>
-        <div class="metric-label">${label}</div>
-      </div>`;
-  });
-
-  // Sparklines
-  setTimeout(() => {
-    drawSparkline('chart-hr',  d.garmin.trend.resting_hr_7d, '#f87171');
-    drawSparkline('chart-hrv', d.garmin.trend.hrv_7d,        '#4ade80');
-  }, 50);
-
-  /* ── Suggestions ── */
+  // ── Suggestions ──
   const suggEl = $('suggestions');
-  d.suggestions.forEach(s => {
-    const bdgClass = difficultyBadge(s.difficulty);
-    suggEl.innerHTML += `
-      <div class="suggestion-card">
-        <div class="suggestion-emoji">${s.icon}</div>
-        <div>
-          <div class="suggestion-title">${s.title}</div>
-          <div class="suggestion-desc">${s.description}</div>
-        </div>
-        <div class="suggestion-badges">
-          <span class="badge badge-duration">⏱ ${s.duration}</span>
-          <span class="badge badge-${bdgClass}">${s.difficulty}</span>
-        </div>
-      </div>`;
-  });
+  const suggSection = $('suggestions-section');
+  if (!d.suggestions || !d.suggestions.length) {
+    suggSection.style.display = 'none';
+  } else {
+    d.suggestions.forEach(s => {
+      suggEl.innerHTML += `
+        <div class="suggestion-card">
+          <div class="suggestion-emoji">${s.icon}</div>
+          <div>
+            <div class="suggestion-title">${s.title}</div>
+            <div class="suggestion-desc">${s.description}</div>
+          </div>
+          <div class="suggestion-badges">
+            <span class="badge badge-duration">⏱ ${s.duration}</span>
+            <span class="badge badge-${difficultyClass(s.difficulty)}">${s.difficulty}</span>
+          </div>
+        </div>`;
+    });
+  }
 }
 
-/* ── Boot ─────────────────────────────────────────────────────── */
+// ── Boot ──────────────────────────────────────────────────────────────────────
 fetch('data.json')
   .then(r => { if (!r.ok) throw new Error(); return r.json(); })
   .then(data => {
