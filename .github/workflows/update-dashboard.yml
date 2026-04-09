@@ -8,6 +8,11 @@ on:
   # ── Déclenchement manuel depuis l'onglet Actions de GitHub ──
   workflow_dispatch:
 
+# Un seul run à la fois — annule le précédent si un nouveau démarre
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: true
+
 # Permissions nécessaires pour committer le data.json généré
 permissions:
   contents: write
