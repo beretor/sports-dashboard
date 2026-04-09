@@ -62,8 +62,6 @@ jobs:
             echo "Aucun changement dans data.json — rien à committer."
           else
             git commit -m "chore: update dashboard data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git fetch origin main
-            git rebase origin/main
-            git push --force-with-lease
+            git push origin HEAD:main --force
             echo "✅ data.json mis à jour et poussé."
           fi
