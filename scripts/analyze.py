@@ -1,29 +1,31 @@
 """
 analyze.py
 ----------
-Utilise Claude (claude-opus-4-6) pour générer :
+Utilise Gemini (gemini-2.0-flash) pour générer :
   1. Un résumé narratif des activités Strava (30 jours)
   2. 4 idées de sorties sportives
 
-Nécessite ANTHROPIC_API_KEY dans l'environnement.
+Nécessite GEMINI_API_KEY dans l'environnement.
+Clé gratuite sur https://aistudio.google.com/apikey
 """
 
 import json
 import os
-import anthropic
+import google.generativeai as genai
 
 
-def _get_client() -> anthropic.Anthropic:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+def _get_client():
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise EnvironmentError("ANTHROPIC_API_KEY manquante.")
-    return anthropic.Anthropic(api_key=api_key)
+        raise EnvironmentError("GEMINI_API_KEY manquante.")
+    genai.configure(api_key=api_key)
+    return genai.GenerativeModel("gemini-2.0-flash")
 
 
 def _build_prompt(strava: dict) -> str:
     stats = strava.get("stats", {})
     lines = []
-    for act in strava.get("activities", [])[:20]:  # max 20 pour le prompt
+    for act in strava.get("activities", [])[:20]:
         hr_str  = f" | FC {act['avg_hr']} bpm" if act.get("avg_hr") else ""
         cal_str = f" | {act['calories']} kcal" if act.get("calories") else ""
         lines.append(
@@ -42,11 +44,11 @@ Activités récentes :
 {chr(10).join(lines) if lines else "  (aucune activité)"}
 """.strip()
 
-    return f"""Tu es un coach sportif expert. Analyse les données de {strava.get('athlete', 'l\'athlète')} :
+    return f"""Tu es un coach sportif expert. Analyse les données de {strava.get('athlete', "l'athlète")} :
 
 {strava_block}
 
-Réponds UNIQUEMENT avec ce JSON (sans texte avant/après) :
+Réponds UNIQUEMENT avec ce JSON (sans texte avant/après, sans balises markdown) :
 
 {{
   "strava_summary": "Résumé narratif motivant de la période (2-3 phrases). Points forts, tendances, encouragement.",
@@ -66,35 +68,27 @@ Contraintes : exactement 4 suggestions, variées (pas 4 runs), basées sur les v
 
 
 def generate_analysis(strava: dict) -> dict:
-    client = _get_client()
+    model  = _get_client()
     prompt = _build_prompt(strava)
 
-    print("[Claude] Génération de l'analyse…")
+    print("[Gemini] Génération de l'analyse…")
 
-    with client.messages.stream(
-        model="claude-opus-4-6",
-        max_tokens=1024,
-        thinking={"type": "adaptive"},
-        messages=[{"role": "user", "content": prompt}],
-    ) as stream:
-        response = stream.get_final_message()
+    response = model.generate_content(prompt)
+    full_text = response.text.strip()
 
-    full_text = next((b.text for b in response.content if b.type == "text"), "")
-
-    # Nettoie les backticks éventuels
-    clean = full_text.strip()
-    if clean.startswith("```"):
-        clean = "\n".join(
-            l for l in clean.split("\n") if not l.strip().startswith("```")
+    # Nettoie les backticks éventuels (```json ... ```)
+    if full_text.startswith("```"):
+        full_text = "\n".join(
+            l for l in full_text.split("\n") if not l.strip().startswith("```")
         ).strip()
 
     try:
-        result = json.loads(clean)
+        result = json.loads(full_text)
     except json.JSONDecodeError as e:
-        print(f"[Claude] Erreur JSON : {e}")
+        print(f"[Gemini] Erreur JSON : {e}\nRéponse : {full_text[:300]}")
         result = {"strava_summary": "Analyse indisponible.", "suggestions": []}
 
-    print(f"[Claude] ✓ {len(result.get('suggestions', []))} suggestions générées")
+    print(f"[Gemini] ✓ {len(result.get('suggestions', []))} suggestions générées")
     return result
 
 
