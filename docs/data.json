@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-04-26T08:15:17",
+  "generated_at": "2026-04-27T09:16:35",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 34,
-      "total_distance_km": 730.7,
-      "total_duration_min": 8078,
-      "total_elevation_m": 5722
+      "total_distance_km": 720.5,
+      "total_duration_min": 8055,
+      "total_elevation_m": 5908
     },
     "activities": [
+      {
+        "id": 18262517706,
+        "date": "2026-04-26",
+        "start_time": "2026-04-26 08:57",
+        "type": "Ride",
+        "name": "Col de la croix de toutes aures",
+        "description": "",
+        "distance_km": 70.0,
+        "duration_min": 164,
+        "moving_time": "2:43:20",
+        "elapsed_time": "2:43:35",
+        "pace": "25.7 km/h",
+        "avg_hr": 147,
+        "max_hr": 193,
+        "elevation_m": 958,
+        "calories": 1482,
+        "avg_cadence": null,
+        "avg_watts": 151,
+        "suffer_score": 255,
+        "kudos": 22,
+        "strava_url": "https://www.strava.com/activities/18262517706"
+      },
       {
         "id": 18224022912,
         "date": "2026-04-23",
@@ -118,7 +140,7 @@
         "avg_cadence": 90,
         "avg_watts": 355,
         "suffer_score": 121,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/18210453571"
       },
       {
@@ -736,37 +758,15 @@
         "suffer_score": 15,
         "kudos": 20,
         "strava_url": "https://www.strava.com/activities/17897788780"
-      },
-      {
-        "id": 17885281535,
-        "date": "2026-03-28",
-        "start_time": "2026-03-28 07:23",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 80.28,
-        "duration_min": 186,
-        "moving_time": "3:03:01",
-        "elapsed_time": "3:06:05",
-        "pace": "26.3 km/h",
-        "avg_hr": 141,
-        "max_hr": 175,
-        "elevation_m": 772,
-        "calories": 1971,
-        "avg_cadence": 77,
-        "avg_watts": 180,
-        "suffer_score": 225,
-        "kudos": 19,
-        "strava_url": "https://www.strava.com/activities/17885281535"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-03-23",
-        "distance_km": 88.5,
-        "duration_min": 244,
-        "elevation_m": 797,
-        "count": 2
+        "distance_km": 8.2,
+        "duration_min": 58,
+        "elevation_m": 25,
+        "count": 1
       },
       {
         "week_start": "2026-03-30",
@@ -791,15 +791,15 @@
       },
       {
         "week_start": "2026-04-20",
-        "distance_km": 108.1,
-        "duration_min": 981,
-        "elevation_m": 715,
-        "count": 10
+        "distance_km": 178.1,
+        "duration_min": 1145,
+        "elevation_m": 1673,
+        "count": 11
       }
     ]
   },
   "suggestions": [],
   "errors": [
-    "Claude : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\\nPlease retry in 42.669957696s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}"
+    "Claude : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\nPlease retry in 24.287334516s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}"
   ]
 }
