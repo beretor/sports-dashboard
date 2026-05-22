@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-05-21T10:39:08",
+  "generated_at": "2026-05-22T10:23:52",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 37,
-      "total_distance_km": 736.1,
-      "total_duration_min": 6717,
-      "total_elevation_m": 6799
+      "total_activities": 36,
+      "total_distance_km": 729.8,
+      "total_duration_min": 7244,
+      "total_elevation_m": 6686
     },
     "activities": [
+      {
+        "id": 18597863766,
+        "date": "2026-05-21",
+        "start_time": "2026-05-21 08:25",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 17.63,
+        "duration_min": 627,
+        "moving_time": "54:02",
+        "elapsed_time": "10:26:39",
+        "pace": "19.6 km/h",
+        "avg_hr": 122,
+        "max_hr": 153,
+        "elevation_m": 92,
+        "calories": 411,
+        "avg_cadence": null,
+        "avg_watts": 127,
+        "suffer_score": 24,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/18597863766"
+      },
       {
         "id": 18586332922,
         "date": "2026-05-20",
@@ -760,50 +782,6 @@
         "strava_url": "https://www.strava.com/activities/18228232044"
       },
       {
-        "id": 18209506521,
-        "date": "2026-04-22",
-        "start_time": "2026-04-22 08:47",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 8.83,
-        "duration_min": 29,
-        "moving_time": "28:29",
-        "elapsed_time": "29:03",
-        "pace": "18.6 km/h",
-        "avg_hr": 123,
-        "max_hr": 157,
-        "elevation_m": 80,
-        "calories": 217,
-        "avg_cadence": null,
-        "avg_watts": 128,
-        "suffer_score": 13,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/18209506521"
-      },
-      {
-        "id": 18210453571,
-        "date": "2026-04-22",
-        "start_time": "2026-04-22 12:20",
-        "type": "Run",
-        "name": "Course à pied le midi",
-        "description": "",
-        "distance_km": 15.13,
-        "duration_min": 71,
-        "moving_time": "1:10:16",
-        "elapsed_time": "1:10:38",
-        "pace": "4:38/km",
-        "avg_hr": 149,
-        "max_hr": 164,
-        "elevation_m": 125,
-        "calories": 1494,
-        "avg_cadence": 90,
-        "avg_watts": 355,
-        "suffer_score": 121,
-        "kudos": 14,
-        "strava_url": "https://www.strava.com/activities/18210453571"
-      },
-      {
         "id": 18214734780,
         "date": "2026-04-22",
         "start_time": "2026-04-22 18:40",
@@ -829,10 +807,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-04-20",
-        "distance_km": 122.9,
-        "duration_min": 390,
-        "elevation_m": 1355,
-        "count": 7
+        "distance_km": 99.0,
+        "duration_min": 290,
+        "elevation_m": 1150,
+        "count": 5
       },
       {
         "week_start": "2026-04-27",
@@ -857,15 +835,15 @@
       },
       {
         "week_start": "2026-05-18",
-        "distance_km": 62.6,
-        "duration_min": 1413,
-        "elevation_m": 334,
-        "count": 7
+        "distance_km": 80.2,
+        "duration_min": 2040,
+        "elevation_m": 426,
+        "count": 8
       }
     ]
   },
   "suggestions": [],
   "errors": [
-    "Claude : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\nPlease retry in 51.926320856s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
+    "Claude : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\\nPlease retry in 7.144125313s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}"
   ]
 }
