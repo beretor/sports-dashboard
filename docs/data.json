@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-08-11T08:08:18",
+  "generated_at": "2026-08-12T08:15:19",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 24,
-      "total_distance_km": 479.6,
-      "total_duration_min": 6010,
-      "total_elevation_m": 8472
+      "total_distance_km": 473.8,
+      "total_duration_min": 5648,
+      "total_elevation_m": 8744
     },
     "activities": [
+      {
+        "id": 19694473576,
+        "date": "2026-08-11",
+        "start_time": "2026-08-11 11:22",
+        "type": "Hike",
+        "name": "Soca river trail 🇸🇮",
+        "description": "",
+        "distance_km": 8.25,
+        "duration_min": 131,
+        "moving_time": "1:39:32",
+        "elapsed_time": "2:10:42",
+        "pace": "12:04/km",
+        "avg_hr": 123,
+        "max_hr": 170,
+        "elevation_m": 235,
+        "calories": null,
+        "avg_cadence": 65,
+        "avg_watts": null,
+        "suffer_score": 48,
+        "kudos": 8,
+        "strava_url": "https://www.strava.com/activities/19694473576"
+      },
+      {
+        "id": 19697556814,
+        "date": "2026-08-11",
+        "start_time": "2026-08-11 15:38",
+        "type": "Kayaking",
+        "name": "Raft Soča river",
+        "description": "",
+        "distance_km": 5.67,
+        "duration_min": 74,
+        "moving_time": "1:03:58",
+        "elapsed_time": "1:14:01",
+        "pace": "5.3 km/h",
+        "avg_hr": 93,
+        "max_hr": 129,
+        "elevation_m": 173,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 9,
+        "kudos": 6,
+        "strava_url": "https://www.strava.com/activities/19697556814"
+      },
       {
         "id": 19652235734,
         "date": "2026-08-08",
@@ -494,66 +538,15 @@
         "suffer_score": 5,
         "kudos": 4,
         "strava_url": "https://www.strava.com/activities/19310431566"
-      },
-      {
-        "id": 19296287257,
-        "date": "2026-07-13",
-        "start_time": "2026-07-13 08:46",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 18.68,
-        "duration_min": 543,
-        "moving_time": "55:10",
-        "elapsed_time": "9:02:55",
-        "pace": "20.3 km/h",
-        "avg_hr": 116,
-        "max_hr": 146,
-        "elevation_m": 136,
-        "calories": 465,
-        "avg_cadence": null,
-        "avg_watts": 141,
-        "suffer_score": 16,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19296287257"
-      },
-      {
-        "id": 19281786490,
-        "date": "2026-07-12",
-        "start_time": "2026-07-12 14:10",
-        "type": "Swim",
-        "name": "Natation dans l'après-midi",
-        "description": "",
-        "distance_km": 1.0,
-        "duration_min": 24,
-        "moving_time": "19:29",
-        "elapsed_time": "23:49",
-        "pace": "3.1 km/h",
-        "avg_hr": 122,
-        "max_hr": 147,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 15,
-        "kudos": 6,
-        "strava_url": "https://www.strava.com/activities/19281786490"
       }
     ],
     "weekly_stats": [
       {
-        "week_start": "2026-07-06",
-        "distance_km": 1.0,
-        "duration_min": 24,
-        "elevation_m": 0,
-        "count": 1
-      },
-      {
         "week_start": "2026-07-13",
-        "distance_km": 209.4,
-        "duration_min": 2675,
-        "elevation_m": 3613,
-        "count": 7
+        "distance_km": 190.7,
+        "duration_min": 2132,
+        "elevation_m": 3477,
+        "count": 6
       },
       {
         "week_start": "2026-07-20",
@@ -575,6 +568,13 @@
         "duration_min": 555,
         "elevation_m": 2526,
         "count": 5
+      },
+      {
+        "week_start": "2026-08-10",
+        "distance_km": 13.9,
+        "duration_min": 205,
+        "elevation_m": 408,
+        "count": 2
       }
     ]
   },
