@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T08:15:19",
+  "generated_at": "2026-08-13T08:18:58",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 24,
-      "total_distance_km": 473.8,
-      "total_duration_min": 5648,
-      "total_elevation_m": 8744
+      "total_activities": 23,
+      "total_distance_km": 385.0,
+      "total_duration_min": 5480,
+      "total_elevation_m": 7984
     },
     "activities": [
       {
@@ -30,7 +30,7 @@
         "avg_cadence": 65,
         "avg_watts": null,
         "suffer_score": 48,
-        "kudos": 8,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/19694473576"
       },
       {
@@ -52,7 +52,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 9,
-        "kudos": 6,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/19697556814"
       },
       {
@@ -74,7 +74,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 8,
-        "kudos": 8,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19652235734"
       },
       {
@@ -496,28 +496,6 @@
         "strava_url": "https://www.strava.com/activities/19325760724"
       },
       {
-        "id": 19304712234,
-        "date": "2026-07-14",
-        "start_time": "2026-07-14 06:11",
-        "type": "Ride",
-        "name": "Ⓜ️Ⓜ️🇫🇷",
-        "description": "",
-        "distance_km": 88.82,
-        "duration_min": 168,
-        "moving_time": "2:42:19",
-        "elapsed_time": "2:48:01",
-        "pace": "32.8 km/h",
-        "avg_hr": 137,
-        "max_hr": 178,
-        "elevation_m": 760,
-        "calories": 1964,
-        "avg_cadence": 87,
-        "avg_watts": 202,
-        "suffer_score": 169,
-        "kudos": 17,
-        "strava_url": "https://www.strava.com/activities/19304712234"
-      },
-      {
         "id": 19310431566,
         "date": "2026-07-14",
         "start_time": "2026-07-14 14:44",
@@ -543,10 +521,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-07-13",
-        "distance_km": 190.7,
-        "duration_min": 2132,
-        "elevation_m": 3477,
-        "count": 6
+        "distance_km": 101.9,
+        "duration_min": 1964,
+        "elevation_m": 2717,
+        "count": 5
       },
       {
         "week_start": "2026-07-20",
