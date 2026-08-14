@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-08-13T08:18:58",
+  "generated_at": "2026-08-14T08:13:36",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 23,
-      "total_distance_km": 385.0,
-      "total_duration_min": 5480,
-      "total_elevation_m": 7984
+      "total_activities": 22,
+      "total_distance_km": 375.7,
+      "total_duration_min": 5007,
+      "total_elevation_m": 8015
     },
     "activities": [
+      {
+        "id": 19725772979,
+        "date": "2026-08-13",
+        "start_time": "2026-08-13 13:35",
+        "type": "Hike",
+        "name": "Peričnik waterfalls",
+        "description": "",
+        "distance_km": 5.84,
+        "duration_min": 145,
+        "moving_time": "1:48:05",
+        "elapsed_time": "2:24:44",
+        "pace": "18:31/km",
+        "avg_hr": 84,
+        "max_hr": 124,
+        "elevation_m": 127,
+        "calories": null,
+        "avg_cadence": 52,
+        "avg_watts": null,
+        "suffer_score": 12,
+        "kudos": 10,
+        "strava_url": "https://www.strava.com/activities/19725772979"
+      },
       {
         "id": 19694473576,
         "date": "2026-08-11",
@@ -30,7 +52,7 @@
         "avg_cadence": 65,
         "avg_watts": null,
         "suffer_score": 48,
-        "kudos": 10,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/19694473576"
       },
       {
@@ -52,7 +74,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 9,
-        "kudos": 8,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/19697556814"
       },
       {
@@ -472,59 +494,15 @@
         "suffer_score": 30,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/19338954036"
-      },
-      {
-        "id": 19325760724,
-        "date": "2026-07-15",
-        "start_time": "2026-07-15 08:51",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 14.29,
-        "duration_min": 599,
-        "moving_time": "48:32",
-        "elapsed_time": "9:58:45",
-        "pace": "17.7 km/h",
-        "avg_hr": 117,
-        "max_hr": 155,
-        "elevation_m": 96,
-        "calories": 354,
-        "avg_cadence": null,
-        "avg_watts": 122,
-        "suffer_score": 14,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19325760724"
-      },
-      {
-        "id": 19310431566,
-        "date": "2026-07-14",
-        "start_time": "2026-07-14 14:44",
-        "type": "Swim",
-        "name": "Natation dans l'après-midi",
-        "description": "",
-        "distance_km": 0.85,
-        "duration_min": 19,
-        "moving_time": "16:24",
-        "elapsed_time": "18:51",
-        "pace": "3.1 km/h",
-        "avg_hr": 110,
-        "max_hr": 127,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 5,
-        "kudos": 4,
-        "strava_url": "https://www.strava.com/activities/19310431566"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-07-13",
-        "distance_km": 101.9,
-        "duration_min": 1964,
-        "elevation_m": 2717,
-        "count": 5
+        "distance_km": 86.8,
+        "duration_min": 1346,
+        "elevation_m": 2621,
+        "count": 3
       },
       {
         "week_start": "2026-07-20",
@@ -549,10 +527,10 @@
       },
       {
         "week_start": "2026-08-10",
-        "distance_km": 13.9,
-        "duration_min": 205,
-        "elevation_m": 408,
-        "count": 2
+        "distance_km": 19.8,
+        "duration_min": 350,
+        "elevation_m": 535,
+        "count": 3
       }
     ]
   },
