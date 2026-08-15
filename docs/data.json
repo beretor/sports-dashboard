@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-08-14T08:13:36",
+  "generated_at": "2026-08-15T07:28:30",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 22,
-      "total_distance_km": 375.7,
-      "total_duration_min": 5007,
-      "total_elevation_m": 8015
+      "total_activities": 23,
+      "total_distance_km": 363.3,
+      "total_duration_min": 4721,
+      "total_elevation_m": 8185
     },
     "activities": [
+      {
+        "id": 19736907581,
+        "date": "2026-08-14",
+        "start_time": "2026-08-14 10:28",
+        "type": "Hike",
+        "name": "Gorges de Voje",
+        "description": "",
+        "distance_km": 5.06,
+        "duration_min": 121,
+        "moving_time": "1:49:56",
+        "elapsed_time": "2:01:15",
+        "pace": "21:43/km",
+        "avg_hr": 87,
+        "max_hr": 126,
+        "elevation_m": 159,
+        "calories": null,
+        "avg_cadence": 51,
+        "avg_watts": null,
+        "suffer_score": 13,
+        "kudos": 6,
+        "strava_url": "https://www.strava.com/activities/19736907581"
+      },
+      {
+        "id": 19741107441,
+        "date": "2026-08-14",
+        "start_time": "2026-08-14 15:11",
+        "type": "GravelRide",
+        "name": "Sortie vélo dans l'après-midi",
+        "description": "",
+        "distance_km": 5.91,
+        "duration_min": 195,
+        "moving_time": "51:02",
+        "elapsed_time": "3:14:55",
+        "pace": "6.9 km/h",
+        "avg_hr": 90,
+        "max_hr": 126,
+        "elevation_m": 151,
+        "calories": 225,
+        "avg_cadence": null,
+        "avg_watts": 74,
+        "suffer_score": 6,
+        "kudos": 8,
+        "strava_url": "https://www.strava.com/activities/19741107441"
+      },
       {
         "id": 19725772979,
         "date": "2026-08-13",
@@ -30,7 +74,7 @@
         "avg_cadence": 52,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 10,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19725772979"
       },
       {
@@ -52,7 +96,7 @@
         "avg_cadence": 65,
         "avg_watts": null,
         "suffer_score": 48,
-        "kudos": 11,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19694473576"
       },
       {
@@ -74,7 +118,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 9,
-        "kudos": 10,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/19697556814"
       },
       {
@@ -472,37 +516,15 @@
         "suffer_score": null,
         "kudos": 17,
         "strava_url": "https://www.strava.com/activities/19364694591"
-      },
-      {
-        "id": 19338954036,
-        "date": "2026-07-16",
-        "start_time": "2026-07-16 08:37",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 23.36,
-        "duration_min": 602,
-        "moving_time": "1:10:43",
-        "elapsed_time": "10:02:29",
-        "pace": "19.8 km/h",
-        "avg_hr": 120,
-        "max_hr": 165,
-        "elevation_m": 140,
-        "calories": 573,
-        "avg_cadence": null,
-        "avg_watts": 135,
-        "suffer_score": 30,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19338954036"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-07-13",
-        "distance_km": 86.8,
-        "duration_min": 1346,
-        "elevation_m": 2621,
-        "count": 3
+        "distance_km": 63.4,
+        "duration_min": 744,
+        "elevation_m": 2481,
+        "count": 2
       },
       {
         "week_start": "2026-07-20",
@@ -527,10 +549,10 @@
       },
       {
         "week_start": "2026-08-10",
-        "distance_km": 19.8,
-        "duration_min": 350,
-        "elevation_m": 535,
-        "count": 3
+        "distance_km": 30.7,
+        "duration_min": 666,
+        "elevation_m": 845,
+        "count": 5
       }
     ]
   },
