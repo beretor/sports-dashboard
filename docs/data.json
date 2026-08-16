@@ -1,16 +1,82 @@
 {
-  "generated_at": "2026-08-15T07:28:30",
+  "generated_at": "2026-08-16T07:28:43",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 23,
-      "total_distance_km": 363.3,
-      "total_duration_min": 4721,
-      "total_elevation_m": 8185
+      "total_activities": 27,
+      "total_distance_km": 399.7,
+      "total_duration_min": 5367,
+      "total_elevation_m": 9344
     },
     "activities": [
+      {
+        "id": 19751275007,
+        "date": "2026-08-15",
+        "start_time": "2026-08-15 10:15",
+        "type": "Ride",
+        "name": "Bohinj cycling",
+        "description": "",
+        "distance_km": 20.38,
+        "duration_min": 177,
+        "moving_time": "1:51:14",
+        "elapsed_time": "2:56:35",
+        "pace": "11.0 km/h",
+        "avg_hr": 101,
+        "max_hr": 165,
+        "elevation_m": 296,
+        "calories": 474,
+        "avg_cadence": null,
+        "avg_watts": 71,
+        "suffer_score": 22,
+        "kudos": 5,
+        "strava_url": "https://www.strava.com/activities/19751275007"
+      },
+      {
+        "id": 19753831665,
+        "date": "2026-08-15",
+        "start_time": "2026-08-15 15:21",
+        "type": "Swim",
+        "name": "Afternoon Swim",
+        "description": "",
+        "distance_km": 1.51,
+        "duration_min": 40,
+        "moving_time": "39:05",
+        "elapsed_time": "39:38",
+        "pace": "2.3 km/h",
+        "avg_hr": 131,
+        "max_hr": 149,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 24,
+        "avg_watts": null,
+        "suffer_score": 44,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/19753831665"
+      },
+      {
+        "id": 19756990750,
+        "date": "2026-08-15",
+        "start_time": "2026-08-15 16:11",
+        "type": "Swim",
+        "name": "Natation dans l'après-midi",
+        "description": "",
+        "distance_km": 0.6,
+        "duration_min": 31,
+        "moving_time": "31:24",
+        "elapsed_time": "31:24",
+        "pace": "1.1 km/h",
+        "avg_hr": 113,
+        "max_hr": 135,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 27,
+        "avg_watts": null,
+        "suffer_score": 12,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/19756990750"
+      },
       {
         "id": 19736907581,
         "date": "2026-08-14",
@@ -30,7 +96,7 @@
         "avg_cadence": 51,
         "avg_watts": null,
         "suffer_score": 13,
-        "kudos": 6,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/19736907581"
       },
       {
@@ -52,7 +118,7 @@
         "avg_cadence": null,
         "avg_watts": 74,
         "suffer_score": 6,
-        "kudos": 8,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/19741107441"
       },
       {
@@ -74,8 +140,30 @@
         "avg_cadence": 52,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/19725772979"
+      },
+      {
+        "id": 19756993596,
+        "date": "2026-08-12",
+        "start_time": "2026-08-12 10:09",
+        "type": "Hike",
+        "name": "Lac Krnsko",
+        "description": "",
+        "distance_km": 13.85,
+        "duration_min": 398,
+        "moving_time": "4:30:20",
+        "elapsed_time": "6:38:27",
+        "pace": "19:30/km",
+        "avg_hr": 95,
+        "max_hr": 131,
+        "elevation_m": 863,
+        "calories": null,
+        "avg_cadence": 56,
+        "avg_watts": null,
+        "suffer_score": 40,
+        "kudos": 7,
+        "strava_url": "https://www.strava.com/activities/19756993596"
       },
       {
         "id": 19694473576,
@@ -549,10 +637,10 @@
       },
       {
         "week_start": "2026-08-10",
-        "distance_km": 30.7,
-        "duration_min": 666,
-        "elevation_m": 845,
-        "count": 5
+        "distance_km": 67.1,
+        "duration_min": 1312,
+        "elevation_m": 2004,
+        "count": 9
       }
     ]
   },
