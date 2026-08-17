@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-08-16T07:28:43",
+  "generated_at": "2026-08-17T07:51:06",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 27,
-      "total_distance_km": 399.7,
-      "total_duration_min": 5367,
-      "total_elevation_m": 9344
+      "total_activities": 28,
+      "total_distance_km": 413.0,
+      "total_duration_min": 5437,
+      "total_elevation_m": 9507
     },
     "activities": [
+      {
+        "id": 19770119124,
+        "date": "2026-08-16",
+        "start_time": "2026-08-16 18:17",
+        "type": "TrailRun",
+        "name": "Tour lac Bohinj",
+        "description": "",
+        "distance_km": 13.34,
+        "duration_min": 70,
+        "moving_time": "1:08:41",
+        "elapsed_time": "1:10:30",
+        "pace": "5:09/km",
+        "avg_hr": 161,
+        "max_hr": 190,
+        "elevation_m": 163,
+        "calories": 1277,
+        "avg_cadence": 88,
+        "avg_watts": 310,
+        "suffer_score": 182,
+        "kudos": 13,
+        "strava_url": "https://www.strava.com/activities/19770119124"
+      },
       {
         "id": 19751275007,
         "date": "2026-08-15",
@@ -30,7 +52,7 @@
         "avg_cadence": null,
         "avg_watts": 71,
         "suffer_score": 22,
-        "kudos": 5,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/19751275007"
       },
       {
@@ -52,7 +74,7 @@
         "avg_cadence": 24,
         "avg_watts": null,
         "suffer_score": 44,
-        "kudos": 4,
+        "kudos": 7,
         "strava_url": "https://www.strava.com/activities/19753831665"
       },
       {
@@ -74,7 +96,7 @@
         "avg_cadence": 27,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 3,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/19756990750"
       },
       {
@@ -96,7 +118,7 @@
         "avg_cadence": 51,
         "avg_watts": null,
         "suffer_score": 13,
-        "kudos": 8,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19736907581"
       },
       {
@@ -118,7 +140,7 @@
         "avg_cadence": null,
         "avg_watts": 74,
         "suffer_score": 6,
-        "kudos": 11,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19741107441"
       },
       {
@@ -140,7 +162,7 @@
         "avg_cadence": 52,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 13,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/19725772979"
       },
       {
@@ -162,7 +184,7 @@
         "avg_cadence": 56,
         "avg_watts": null,
         "suffer_score": 40,
-        "kudos": 7,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19756993596"
       },
       {
@@ -637,10 +659,10 @@
       },
       {
         "week_start": "2026-08-10",
-        "distance_km": 67.1,
-        "duration_min": 1312,
-        "elevation_m": 2004,
-        "count": 9
+        "distance_km": 80.4,
+        "duration_min": 1382,
+        "elevation_m": 2167,
+        "count": 10
       }
     ]
   },
