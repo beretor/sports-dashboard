@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-17T07:51:06",
+  "generated_at": "2026-08-18T07:35:43",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 28,
-      "total_distance_km": 413.0,
-      "total_duration_min": 5437,
-      "total_elevation_m": 9507
+      "total_activities": 27,
+      "total_distance_km": 368.6,
+      "total_duration_min": 5043,
+      "total_elevation_m": 8234
     },
     "activities": [
       {
@@ -30,7 +30,7 @@
         "avg_cadence": 88,
         "avg_watts": 310,
         "suffer_score": 182,
-        "kudos": 13,
+        "kudos": 16,
         "strava_url": "https://www.strava.com/activities/19770119124"
       },
       {
@@ -52,7 +52,7 @@
         "avg_cadence": null,
         "avg_watts": 71,
         "suffer_score": 22,
-        "kudos": 10,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19751275007"
       },
       {
@@ -74,7 +74,7 @@
         "avg_cadence": 24,
         "avg_watts": null,
         "suffer_score": 44,
-        "kudos": 7,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/19753831665"
       },
       {
@@ -96,7 +96,7 @@
         "avg_cadence": 27,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 6,
+        "kudos": 7,
         "strava_url": "https://www.strava.com/activities/19756990750"
       },
       {
@@ -118,7 +118,7 @@
         "avg_cadence": 51,
         "avg_watts": null,
         "suffer_score": 13,
-        "kudos": 9,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/19736907581"
       },
       {
@@ -162,7 +162,7 @@
         "avg_cadence": 52,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 15,
+        "kudos": 16,
         "strava_url": "https://www.strava.com/activities/19725772979"
       },
       {
@@ -184,7 +184,7 @@
         "avg_cadence": 56,
         "avg_watts": null,
         "suffer_score": 40,
-        "kudos": 12,
+        "kudos": 14,
         "strava_url": "https://www.strava.com/activities/19756993596"
       },
       {
@@ -604,37 +604,15 @@
         "suffer_score": 72,
         "kudos": 16,
         "strava_url": "https://www.strava.com/activities/19377052364"
-      },
-      {
-        "id": 19364694591,
-        "date": "2026-07-18",
-        "start_time": "2026-07-18 10:19",
-        "type": "MountainBikeRide",
-        "name": "Refuge de Bostan",
-        "description": "",
-        "distance_km": 44.44,
-        "duration_min": 394,
-        "moving_time": "4:44:47",
-        "elapsed_time": "6:33:38",
-        "pace": "9.4 km/h",
-        "avg_hr": null,
-        "max_hr": null,
-        "elevation_m": 1273,
-        "calories": 1856,
-        "avg_cadence": null,
-        "avg_watts": 109,
-        "suffer_score": null,
-        "kudos": 17,
-        "strava_url": "https://www.strava.com/activities/19364694591"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-07-13",
-        "distance_km": 63.4,
-        "duration_min": 744,
-        "elevation_m": 2481,
-        "count": 2
+        "distance_km": 19.0,
+        "duration_min": 350,
+        "elevation_m": 1208,
+        "count": 1
       },
       {
         "week_start": "2026-07-20",
@@ -668,6 +646,6 @@
   },
   "suggestions": [],
   "errors": [
-    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}"
+    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements.', 'status': 'NOT_FOUND'}}"
   ]
 }
