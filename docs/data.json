@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-08-18T07:35:43",
+  "generated_at": "2026-08-19T07:35:53",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 27,
-      "total_distance_km": 368.6,
-      "total_duration_min": 5043,
-      "total_elevation_m": 8234
+      "total_activities": 26,
+      "total_distance_km": 340.9,
+      "total_duration_min": 4101,
+      "total_elevation_m": 7124
     },
     "activities": [
+      {
+        "id": 19790410232,
+        "date": "2026-08-18",
+        "start_time": "2026-08-18 09:43",
+        "type": "TrailRun",
+        "name": "Parc Tivoli",
+        "description": "",
+        "distance_km": 10.05,
+        "duration_min": 74,
+        "moving_time": "1:11:01",
+        "elapsed_time": "1:13:42",
+        "pace": "7:03/km",
+        "avg_hr": 132,
+        "max_hr": 166,
+        "elevation_m": 236,
+        "calories": 1002,
+        "avg_cadence": 81,
+        "avg_watts": 239,
+        "suffer_score": 40,
+        "kudos": 13,
+        "strava_url": "https://www.strava.com/activities/19790410232"
+      },
       {
         "id": 19770119124,
         "date": "2026-08-16",
@@ -30,7 +52,7 @@
         "avg_cadence": 88,
         "avg_watts": 310,
         "suffer_score": 182,
-        "kudos": 16,
+        "kudos": 17,
         "strava_url": "https://www.strava.com/activities/19770119124"
       },
       {
@@ -52,7 +74,7 @@
         "avg_cadence": null,
         "avg_watts": 71,
         "suffer_score": 22,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/19751275007"
       },
       {
@@ -74,7 +96,7 @@
         "avg_cadence": 24,
         "avg_watts": null,
         "suffer_score": 44,
-        "kudos": 8,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19753831665"
       },
       {
@@ -96,7 +118,7 @@
         "avg_cadence": 27,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 7,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/19756990750"
       },
       {
@@ -118,7 +140,7 @@
         "avg_cadence": 51,
         "avg_watts": null,
         "suffer_score": 13,
-        "kudos": 10,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/19736907581"
       },
       {
@@ -140,7 +162,7 @@
         "avg_cadence": null,
         "avg_watts": 74,
         "suffer_score": 6,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/19741107441"
       },
       {
@@ -162,7 +184,7 @@
         "avg_cadence": 52,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 16,
+        "kudos": 17,
         "strava_url": "https://www.strava.com/activities/19725772979"
       },
       {
@@ -184,7 +206,7 @@
         "avg_cadence": 56,
         "avg_watts": null,
         "suffer_score": 40,
-        "kudos": 14,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/19756993596"
       },
       {
@@ -560,66 +582,15 @@
         "suffer_score": 37,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/19407401830"
-      },
-      {
-        "id": 19391734450,
-        "date": "2026-07-20",
-        "start_time": "2026-07-20 08:28",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 18.71,
-        "duration_min": 667,
-        "moving_time": "1:01:00",
-        "elapsed_time": "11:06:36",
-        "pace": "18.4 km/h",
-        "avg_hr": 119,
-        "max_hr": 152,
-        "elevation_m": 138,
-        "calories": 479,
-        "avg_cadence": null,
-        "avg_watts": 131,
-        "suffer_score": 22,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19391734450"
-      },
-      {
-        "id": 19377052364,
-        "date": "2026-07-19",
-        "start_time": "2026-07-19 09:47",
-        "type": "Hike",
-        "name": "Lac de la Vogealle",
-        "description": "",
-        "distance_km": 18.96,
-        "duration_min": 350,
-        "moving_time": "5:01:06",
-        "elapsed_time": "5:49:35",
-        "pace": "15:53/km",
-        "avg_hr": 107,
-        "max_hr": 161,
-        "elevation_m": 1208,
-        "calories": null,
-        "avg_cadence": 56,
-        "avg_watts": null,
-        "suffer_score": 72,
-        "kudos": 16,
-        "strava_url": "https://www.strava.com/activities/19377052364"
       }
     ],
     "weekly_stats": [
       {
-        "week_start": "2026-07-13",
-        "distance_km": 19.0,
-        "duration_min": 350,
-        "elevation_m": 1208,
-        "count": 1
-      },
-      {
         "week_start": "2026-07-20",
-        "distance_km": 108.9,
-        "duration_min": 2299,
-        "elevation_m": 807,
-        "count": 7
+        "distance_km": 90.2,
+        "duration_min": 1632,
+        "elevation_m": 669,
+        "count": 6
       },
       {
         "week_start": "2026-07-27",
@@ -641,6 +612,13 @@
         "duration_min": 1382,
         "elevation_m": 2167,
         "count": 10
+      },
+      {
+        "week_start": "2026-08-17",
+        "distance_km": 10.1,
+        "duration_min": 74,
+        "elevation_m": 236,
+        "count": 1
       }
     ]
   },
