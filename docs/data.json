@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-19T07:35:53",
+  "generated_at": "2026-08-20T07:39:14",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 26,
-      "total_distance_km": 340.9,
-      "total_duration_min": 4101,
-      "total_elevation_m": 7124
+      "total_activities": 25,
+      "total_distance_km": 321.7,
+      "total_duration_min": 3433,
+      "total_elevation_m": 6993
     },
     "activities": [
       {
@@ -30,7 +30,7 @@
         "avg_cadence": 81,
         "avg_watts": 239,
         "suffer_score": 40,
-        "kudos": 13,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/19790410232"
       },
       {
@@ -382,7 +382,7 @@
         "avg_cadence": 57,
         "avg_watts": null,
         "suffer_score": 34,
-        "kudos": 15,
+        "kudos": 16,
         "strava_url": "https://www.strava.com/activities/19568726173"
       },
       {
@@ -560,37 +560,15 @@
         "suffer_score": 40,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/19420519859"
-      },
-      {
-        "id": 19407401830,
-        "date": "2026-07-21",
-        "start_time": "2026-07-21 08:25",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 19.25,
-        "duration_min": 668,
-        "moving_time": "1:06:55",
-        "elapsed_time": "11:08:00",
-        "pace": "17.3 km/h",
-        "avg_hr": 122,
-        "max_hr": 177,
-        "elevation_m": 131,
-        "calories": 487,
-        "avg_cadence": null,
-        "avg_watts": 121,
-        "suffer_score": 37,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19407401830"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-07-20",
-        "distance_km": 90.2,
-        "duration_min": 1632,
-        "elevation_m": 669,
-        "count": 6
+        "distance_km": 71.0,
+        "duration_min": 964,
+        "elevation_m": 538,
+        "count": 5
       },
       {
         "week_start": "2026-07-27",
