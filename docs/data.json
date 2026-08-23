@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-08-22T07:29:09",
+  "generated_at": "2026-08-23T07:31:20",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 23,
-      "total_distance_km": 284.4,
-      "total_duration_min": 2718,
-      "total_elevation_m": 6728
+      "total_activities": 22,
+      "total_distance_km": 261.5,
+      "total_duration_min": 2563,
+      "total_elevation_m": 6615
     },
     "activities": [
+      {
+        "id": 19847493734,
+        "date": "2026-08-22",
+        "start_time": "2026-08-22 10:50",
+        "type": "Hike",
+        "name": "Marais Salants de Piran",
+        "description": "",
+        "distance_km": 2.03,
+        "duration_min": 48,
+        "moving_time": "37:20",
+        "elapsed_time": "47:36",
+        "pace": "18:26/km",
+        "avg_hr": 86,
+        "max_hr": 110,
+        "elevation_m": 6,
+        "calories": null,
+        "avg_cadence": 50,
+        "avg_watts": null,
+        "suffer_score": 4,
+        "kudos": 8,
+        "strava_url": "https://www.strava.com/activities/19847493734"
+      },
       {
         "id": 19790410232,
         "date": "2026-08-18",
@@ -472,59 +494,15 @@
         "suffer_score": 44,
         "kudos": 12,
         "strava_url": "https://www.strava.com/activities/19468455212"
-      },
-      {
-        "id": 19430449446,
-        "date": "2026-07-23",
-        "start_time": "2026-07-23 12:22",
-        "type": "Run",
-        "name": "Lunch Run",
-        "description": "",
-        "distance_km": 12.29,
-        "duration_min": 59,
-        "moving_time": "58:51",
-        "elapsed_time": "58:51",
-        "pace": "4:47/km",
-        "avg_hr": 153,
-        "max_hr": 169,
-        "elevation_m": 39,
-        "calories": 1168,
-        "avg_cadence": 90,
-        "avg_watts": 331,
-        "suffer_score": 113,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19430449446"
-      },
-      {
-        "id": 19435684741,
-        "date": "2026-07-23",
-        "start_time": "2026-07-23 16:24",
-        "type": "Ride",
-        "name": "Afternoon Ride",
-        "description": "",
-        "distance_km": 12.55,
-        "duration_min": 144,
-        "moving_time": "44:53",
-        "elapsed_time": "2:24:19",
-        "pace": "16.8 km/h",
-        "avg_hr": 102,
-        "max_hr": 137,
-        "elevation_m": 80,
-        "calories": 304,
-        "avg_cadence": null,
-        "avg_watts": 113,
-        "suffer_score": 8,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19435684741"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-07-20",
-        "distance_km": 33.6,
-        "duration_min": 249,
-        "elevation_m": 273,
-        "count": 3
+        "distance_km": 8.8,
+        "duration_min": 46,
+        "elevation_m": 154,
+        "count": 1
       },
       {
         "week_start": "2026-07-27",
@@ -549,10 +527,10 @@
       },
       {
         "week_start": "2026-08-17",
-        "distance_km": 10.1,
-        "duration_min": 74,
-        "elevation_m": 236,
-        "count": 1
+        "distance_km": 12.1,
+        "duration_min": 122,
+        "elevation_m": 242,
+        "count": 2
       }
     ]
   },
