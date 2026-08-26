@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-08-25T07:41:26",
+  "generated_at": "2026-08-26T07:43:15",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 22,
-      "total_distance_km": 261.8,
-      "total_duration_min": 2563,
-      "total_elevation_m": 6512
+      "total_activities": 24,
+      "total_distance_km": 289.1,
+      "total_duration_min": 3240,
+      "total_elevation_m": 6670
     },
     "activities": [
+      {
+        "id": 19896032100,
+        "date": "2026-08-25",
+        "start_time": "2026-08-25 08:30",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 18.32,
+        "duration_min": 631,
+        "moving_time": "57:57",
+        "elapsed_time": "10:31:24",
+        "pace": "19.0 km/h",
+        "avg_hr": 124,
+        "max_hr": 170,
+        "elevation_m": 106,
+        "calories": 420,
+        "avg_cadence": null,
+        "avg_watts": 121,
+        "suffer_score": 36,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/19896032100"
+      },
+      {
+        "id": 19897231178,
+        "date": "2026-08-25",
+        "start_time": "2026-08-25 19:31",
+        "type": "Run",
+        "name": "Evening Run",
+        "description": "",
+        "distance_km": 9.02,
+        "duration_min": 46,
+        "moving_time": "45:17",
+        "elapsed_time": "45:35",
+        "pace": "5:01/km",
+        "avg_hr": 146,
+        "max_hr": 166,
+        "elevation_m": 52,
+        "calories": 859,
+        "avg_cadence": 88,
+        "avg_watts": 316,
+        "suffer_score": 68,
+        "kudos": 8,
+        "strava_url": "https://www.strava.com/activities/19897231178"
+      },
       {
         "id": 19883217368,
         "date": "2026-08-24",
@@ -30,7 +74,7 @@
         "avg_cadence": 87,
         "avg_watts": 323,
         "suffer_score": 94,
-        "kudos": 2,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/19883217368"
       },
       {
@@ -527,10 +571,10 @@
       },
       {
         "week_start": "2026-08-24",
-        "distance_km": 9.0,
-        "duration_min": 46,
-        "elevation_m": 51,
-        "count": 1
+        "distance_km": 36.4,
+        "duration_min": 723,
+        "elevation_m": 209,
+        "count": 3
       }
     ]
   },
