@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-29T12:57:38",
+  "generated_at": "2026-08-30T12:35:52",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 25,
-      "total_distance_km": 346.3,
-      "total_duration_min": 3411,
-      "total_elevation_m": 7276
+      "total_activities": 26,
+      "total_distance_km": 350.0,
+      "total_duration_min": 3502,
+      "total_elevation_m": 7314
     },
     "activities": [
       {
@@ -30,8 +30,30 @@
         "avg_cadence": null,
         "avg_watts": 107,
         "suffer_score": 96,
-        "kudos": 7,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/19947194603"
+      },
+      {
+        "id": 19950972886,
+        "date": "2026-08-29",
+        "start_time": "2026-08-29 15:44",
+        "type": "Kayaking",
+        "name": "Kayak dans la Bourne",
+        "description": "",
+        "distance_km": 3.64,
+        "duration_min": 92,
+        "moving_time": "1:06:40",
+        "elapsed_time": "1:31:42",
+        "pace": "3.3 km/h",
+        "avg_hr": 87,
+        "max_hr": 115,
+        "elevation_m": 38,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 8,
+        "kudos": 12,
+        "strava_url": "https://www.strava.com/activities/19950972886"
       },
       {
         "id": 19906075562,
@@ -593,10 +615,10 @@
       },
       {
         "week_start": "2026-08-24",
-        "distance_km": 103.0,
-        "duration_min": 1012,
-        "elevation_m": 1577,
-        "count": 5
+        "distance_km": 106.7,
+        "duration_min": 1104,
+        "elevation_m": 1615,
+        "count": 6
       }
     ]
   },
