@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T14:50:19",
+  "generated_at": "2026-09-01T12:21:00",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 27,
-      "total_distance_km": 387.5,
-      "total_duration_min": 3758,
-      "total_elevation_m": 7424
+      "total_distance_km": 387.0,
+      "total_duration_min": 3509,
+      "total_elevation_m": 6710
     },
     "activities": [
       {
@@ -52,8 +52,30 @@
         "avg_cadence": 90,
         "avg_watts": 353,
         "suffer_score": 113,
-        "kudos": 3,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19974365957"
+      },
+      {
+        "id": 19978952607,
+        "date": "2026-08-31",
+        "start_time": "2026-08-31 18:23",
+        "type": "Ride",
+        "name": "Evening Ride",
+        "description": "",
+        "distance_km": 8.89,
+        "duration_min": 29,
+        "moving_time": "27:36",
+        "elapsed_time": "28:34",
+        "pace": "19.3 km/h",
+        "avg_hr": 112,
+        "max_hr": 141,
+        "elevation_m": 50,
+        "calories": 207,
+        "avg_cadence": null,
+        "avg_watts": 125,
+        "suffer_score": 6,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/19978952607"
       },
       {
         "id": 19968804688,
@@ -582,38 +604,9 @@
         "suffer_score": 157,
         "kudos": 15,
         "strava_url": "https://www.strava.com/activities/19579278758"
-      },
-      {
-        "id": 19568726173,
-        "date": "2026-08-02",
-        "start_time": "2026-08-02 09:07",
-        "type": "Hike",
-        "name": "Rhune familiale",
-        "description": "",
-        "distance_km": 9.39,
-        "duration_min": 278,
-        "moving_time": "3:39:48",
-        "elapsed_time": "4:37:37",
-        "pace": "23:24/km",
-        "avg_hr": 97,
-        "max_hr": 135,
-        "elevation_m": 764,
-        "calories": null,
-        "avg_cadence": 57,
-        "avg_watts": null,
-        "suffer_score": 34,
-        "kudos": 16,
-        "strava_url": "https://www.strava.com/activities/19568726173"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-07-27",
-        "distance_km": 9.4,
-        "duration_min": 278,
-        "elevation_m": 764,
-        "count": 1
-      },
       {
         "week_start": "2026-08-03",
         "distance_km": 138.6,
@@ -644,10 +637,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 17.4,
-        "duration_min": 275,
-        "elevation_m": 89,
-        "count": 2
+        "distance_km": 26.3,
+        "duration_min": 304,
+        "elevation_m": 139,
+        "count": 3
       }
     ]
   },
