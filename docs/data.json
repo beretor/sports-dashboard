@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-01T12:21:00",
+  "generated_at": "2026-09-02T11:56:58",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 27,
-      "total_distance_km": 387.0,
-      "total_duration_min": 3509,
-      "total_elevation_m": 6710
+      "total_distance_km": 359.6,
+      "total_duration_min": 3418,
+      "total_elevation_m": 6544
     },
     "activities": [
+      {
+        "id": 19996462877,
+        "date": "2026-09-01",
+        "start_time": "2026-09-01 21:47",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Pyramid cadence efforts #2",
+        "description": "",
+        "distance_km": 23.43,
+        "duration_min": 68,
+        "moving_time": "1:08:30",
+        "elapsed_time": "1:08:30",
+        "pace": "20.5 km/h",
+        "avg_hr": 141,
+        "max_hr": 168,
+        "elevation_m": 641,
+        "calories": 690,
+        "avg_cadence": 85,
+        "avg_watts": 168,
+        "suffer_score": 86,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/19996462877"
+      },
       {
         "id": 19973839810,
         "date": "2026-08-31",
@@ -582,37 +604,15 @@
         "suffer_score": 7,
         "kudos": 10,
         "strava_url": "https://www.strava.com/activities/19615093283"
-      },
-      {
-        "id": 19579278758,
-        "date": "2026-08-03",
-        "start_time": "2026-08-03 07:15",
-        "type": "Ride",
-        "name": "Lizarieta",
-        "description": "",
-        "distance_km": 50.86,
-        "duration_min": 159,
-        "moving_time": "2:15:24",
-        "elapsed_time": "2:39:18",
-        "pace": "22.5 km/h",
-        "avg_hr": 135,
-        "max_hr": 195,
-        "elevation_m": 807,
-        "calories": 1143,
-        "avg_cadence": null,
-        "avg_watts": 141,
-        "suffer_score": 157,
-        "kudos": 15,
-        "strava_url": "https://www.strava.com/activities/19579278758"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-03",
-        "distance_km": 138.6,
-        "duration_min": 555,
-        "elevation_m": 2526,
-        "count": 5
+        "distance_km": 87.7,
+        "duration_min": 396,
+        "elevation_m": 1719,
+        "count": 4
       },
       {
         "week_start": "2026-08-10",
@@ -637,10 +637,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 26.3,
-        "duration_min": 304,
-        "elevation_m": 139,
-        "count": 3
+        "distance_km": 49.7,
+        "duration_min": 372,
+        "elevation_m": 780,
+        "count": 4
       }
     ]
   },
