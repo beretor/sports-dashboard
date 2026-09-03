@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-02T11:56:58",
+  "generated_at": "2026-09-03T11:55:13",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 27,
-      "total_distance_km": 359.6,
-      "total_duration_min": 3418,
-      "total_elevation_m": 6544
+      "total_activities": 29,
+      "total_distance_km": 398.8,
+      "total_duration_min": 4104,
+      "total_elevation_m": 7138
     },
     "activities": [
+      {
+        "id": 20008482217,
+        "date": "2026-09-02",
+        "start_time": "2026-09-02 08:41",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 18.03,
+        "duration_min": 629,
+        "moving_time": "55:36",
+        "elapsed_time": "10:29:17",
+        "pace": "19.5 km/h",
+        "avg_hr": 123,
+        "max_hr": 168,
+        "elevation_m": 123,
+        "calories": 452,
+        "avg_cadence": null,
+        "avg_watts": 136,
+        "suffer_score": 28,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20008482217"
+      },
+      {
+        "id": 20011462980,
+        "date": "2026-09-02",
+        "start_time": "2026-09-02 22:08",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Steady Climbing #3",
+        "description": "",
+        "distance_km": 21.21,
+        "duration_min": 57,
+        "moving_time": "57:04",
+        "elapsed_time": "57:04",
+        "pace": "22.3 km/h",
+        "avg_hr": 144,
+        "max_hr": 173,
+        "elevation_m": 471,
+        "calories": 631,
+        "avg_cadence": 85,
+        "avg_watts": 184,
+        "suffer_score": 80,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20011462980"
+      },
       {
         "id": 19996462877,
         "date": "2026-09-01",
@@ -637,10 +681,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 49.7,
-        "duration_min": 372,
-        "elevation_m": 780,
-        "count": 4
+        "distance_km": 89.0,
+        "duration_min": 1058,
+        "elevation_m": 1374,
+        "count": 6
       }
     ]
   },
