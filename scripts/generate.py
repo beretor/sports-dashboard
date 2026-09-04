@@ -23,8 +23,12 @@ except ImportError:
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from fetch_strava import fetch_activities
-from analyze     import generate_analysis
+USE_MCP = os.environ.get("STRAVA_USE_MCP", "").lower() in ("1", "true", "yes")
+if USE_MCP:
+    from fetch_strava_mcp import fetch_activities
+else:
+    from fetch_strava import fetch_activities
+from analyze import generate_analysis
 
 OUTPUT_FILE = Path(__file__).parent.parent / "docs" / "data.json"
 
@@ -37,7 +41,8 @@ def run():
     errors = []
 
     # ── 1. Strava ──────────────────────────────────────────────────
-    print("\n[1/2] Récupération Strava (30 jours)…")
+    mode = "MCP" if USE_MCP else "REST"
+    print(f"\n[1/2] Récupération Strava (30 jours, mode {mode})…")
     strava_data = None
     try:
         strava_data = fetch_activities(days=30)
