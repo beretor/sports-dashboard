@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-03T11:55:13",
+  "generated_at": "2026-09-04T11:58:04",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 29,
-      "total_distance_km": 398.8,
-      "total_duration_min": 4104,
-      "total_elevation_m": 7138
+      "total_activities": 30,
+      "total_distance_km": 431.8,
+      "total_duration_min": 4742,
+      "total_elevation_m": 7278
     },
     "activities": [
+      {
+        "id": 20029893429,
+        "date": "2026-09-04",
+        "start_time": "2026-09-04 08:24",
+        "type": "Run",
+        "name": "Morning Run",
+        "description": "",
+        "distance_km": 12.76,
+        "duration_min": 61,
+        "moving_time": "1:00:41",
+        "elapsed_time": "1:01:22",
+        "pace": "4:45/km",
+        "avg_hr": 158,
+        "max_hr": 184,
+        "elevation_m": 38,
+        "calories": 1215,
+        "avg_cadence": 90,
+        "avg_watts": 334,
+        "suffer_score": 145,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/20029893429"
+      },
+      {
+        "id": 20022564964,
+        "date": "2026-09-03",
+        "start_time": "2026-09-03 08:28",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 21.43,
+        "duration_min": 633,
+        "moving_time": "1:08:56",
+        "elapsed_time": "10:32:41",
+        "pace": "18.7 km/h",
+        "avg_hr": 119,
+        "max_hr": 168,
+        "elevation_m": 102,
+        "calories": 520,
+        "avg_cadence": null,
+        "avg_watts": 126,
+        "suffer_score": 27,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20022564964"
+      },
       {
         "id": 20008482217,
         "date": "2026-09-02",
@@ -606,28 +650,6 @@
         "strava_url": "https://www.strava.com/activities/19624274564"
       },
       {
-        "id": 19609223816,
-        "date": "2026-08-05",
-        "start_time": "2026-08-05 10:03",
-        "type": "Tennis",
-        "name": "Morning Tennis",
-        "description": "",
-        "distance_km": 1.16,
-        "duration_min": 56,
-        "moving_time": "23:35",
-        "elapsed_time": "55:52",
-        "pace": "3.0 km/h",
-        "avg_hr": 120,
-        "max_hr": 178,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 57,
-        "avg_watts": null,
-        "suffer_score": 7,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19609223816"
-      },
-      {
         "id": 19615093283,
         "date": "2026-08-05",
         "start_time": "2026-08-05 17:45",
@@ -653,10 +675,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-08-03",
-        "distance_km": 87.7,
-        "duration_min": 396,
+        "distance_km": 86.5,
+        "duration_min": 340,
         "elevation_m": 1719,
-        "count": 4
+        "count": 3
       },
       {
         "week_start": "2026-08-10",
@@ -681,10 +703,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 89.0,
-        "duration_min": 1058,
-        "elevation_m": 1374,
-        "count": 6
+        "distance_km": 123.2,
+        "duration_min": 1752,
+        "elevation_m": 1514,
+        "count": 8
       }
     ]
   },
