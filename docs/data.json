@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-04T11:58:04",
+  "generated_at": "2026-09-05T11:07:42",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 30,
-      "total_distance_km": 431.8,
-      "total_duration_min": 4742,
-      "total_elevation_m": 7278
+      "total_activities": 29,
+      "total_distance_km": 428.8,
+      "total_duration_min": 4659,
+      "total_elevation_m": 6351
     },
     "activities": [
+      {
+        "id": 20043376101,
+        "date": "2026-09-05",
+        "start_time": "2026-09-05 07:47",
+        "type": "Ride",
+        "name": "Sortie avec Guillaume et Nico 🍒",
+        "description": "",
+        "distance_km": 80.25,
+        "duration_min": 200,
+        "moving_time": "3:09:44",
+        "elapsed_time": "3:20:27",
+        "pace": "25.4 km/h",
+        "avg_hr": 124,
+        "max_hr": 173,
+        "elevation_m": 792,
+        "calories": 1811,
+        "avg_cadence": 77,
+        "avg_watts": 161,
+        "suffer_score": 92,
+        "kudos": 5,
+        "strava_url": "https://www.strava.com/activities/20043376101"
+      },
       {
         "id": 20029893429,
         "date": "2026-09-04",
@@ -30,7 +52,7 @@
         "avg_cadence": 90,
         "avg_watts": 334,
         "suffer_score": 145,
-        "kudos": 4,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/20029893429"
       },
       {
@@ -626,59 +648,15 @@
         "suffer_score": 8,
         "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19652235734"
-      },
-      {
-        "id": 19624274564,
-        "date": "2026-08-06",
-        "start_time": "2026-08-06 07:36",
-        "type": "Ride",
-        "name": "Jaizkibel et Castel Ingles",
-        "description": "",
-        "distance_km": 82.24,
-        "duration_min": 260,
-        "moving_time": "3:54:15",
-        "elapsed_time": "4:19:31",
-        "pace": "21.1 km/h",
-        "avg_hr": 139,
-        "max_hr": 186,
-        "elevation_m": 1719,
-        "calories": 2156,
-        "avg_cadence": null,
-        "avg_watts": 153,
-        "suffer_score": 267,
-        "kudos": 19,
-        "strava_url": "https://www.strava.com/activities/19624274564"
-      },
-      {
-        "id": 19615093283,
-        "date": "2026-08-05",
-        "start_time": "2026-08-05 17:45",
-        "type": "Swim",
-        "name": "Natation dans l'après-midi",
-        "description": "",
-        "distance_km": 1.04,
-        "duration_min": 24,
-        "moving_time": "23:59",
-        "elapsed_time": "24:08",
-        "pace": "2.6 km/h",
-        "avg_hr": 114,
-        "max_hr": 130,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 25,
-        "avg_watts": null,
-        "suffer_score": 7,
-        "kudos": 10,
-        "strava_url": "https://www.strava.com/activities/19615093283"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-03",
-        "distance_km": 86.5,
-        "duration_min": 340,
-        "elevation_m": 1719,
-        "count": 3
+        "distance_km": 3.2,
+        "duration_min": 56,
+        "elevation_m": 0,
+        "count": 1
       },
       {
         "week_start": "2026-08-10",
@@ -703,10 +681,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 123.2,
-        "duration_min": 1752,
-        "elevation_m": 1514,
-        "count": 8
+        "distance_km": 203.4,
+        "duration_min": 1952,
+        "elevation_m": 2306,
+        "count": 9
       }
     ]
   },
