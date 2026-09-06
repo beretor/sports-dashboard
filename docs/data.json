@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-05T11:07:42",
+  "generated_at": "2026-09-06T11:30:38",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 29,
-      "total_distance_km": 428.8,
-      "total_duration_min": 4659,
-      "total_elevation_m": 6351
+      "total_activities": 31,
+      "total_distance_km": 431.1,
+      "total_duration_min": 4711,
+      "total_elevation_m": 6357
     },
     "activities": [
+      {
+        "id": 20058681580,
+        "date": "2026-09-06",
+        "start_time": "2026-09-06 11:47",
+        "type": "Tennis",
+        "name": "Tennis le midi",
+        "description": "",
+        "distance_km": 1.24,
+        "duration_min": 45,
+        "moving_time": "28:21",
+        "elapsed_time": "44:43",
+        "pace": "2.6 km/h",
+        "avg_hr": 110,
+        "max_hr": 199,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 59,
+        "avg_watts": null,
+        "suffer_score": 7,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20058681580"
+      },
       {
         "id": 20043376101,
         "date": "2026-09-05",
@@ -30,8 +52,30 @@
         "avg_cadence": 77,
         "avg_watts": 161,
         "suffer_score": 92,
-        "kudos": 5,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/20043376101"
+      },
+      {
+        "id": 20053239580,
+        "date": "2026-09-05",
+        "start_time": "2026-09-06 00:56",
+        "type": "Ride",
+        "name": "Night Ride",
+        "description": "",
+        "distance_km": 1.09,
+        "duration_min": 7,
+        "moving_time": "4:07",
+        "elapsed_time": "6:44",
+        "pace": "15.9 km/h",
+        "avg_hr": 101,
+        "max_hr": 129,
+        "elevation_m": 6,
+        "calories": 24,
+        "avg_cadence": null,
+        "avg_watts": 98,
+        "suffer_score": null,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20053239580"
       },
       {
         "id": 20029893429,
@@ -52,7 +96,7 @@
         "avg_cadence": 90,
         "avg_watts": 334,
         "suffer_score": 145,
-        "kudos": 8,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20029893429"
       },
       {
@@ -681,10 +725,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 203.4,
-        "duration_min": 1952,
-        "elevation_m": 2306,
-        "count": 9
+        "distance_km": 205.8,
+        "duration_min": 2004,
+        "elevation_m": 2312,
+        "count": 11
       }
     ]
   },
