@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T11:30:38",
+  "generated_at": "2026-09-07T13:16:41",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 31,
-      "total_distance_km": 431.1,
-      "total_duration_min": 4711,
+      "total_distance_km": 429.4,
+      "total_duration_min": 4689,
       "total_elevation_m": 6357
     },
     "activities": [
@@ -30,8 +30,30 @@
         "avg_cadence": 59,
         "avg_watts": null,
         "suffer_score": 7,
-        "kudos": 0,
+        "kudos": 4,
         "strava_url": "https://www.strava.com/activities/20058681580"
+      },
+      {
+        "id": 20062257671,
+        "date": "2026-09-06",
+        "start_time": "2026-09-06 15:53",
+        "type": "Swim",
+        "name": "Natation dans l'après-midi",
+        "description": "",
+        "distance_km": 1.5,
+        "duration_min": 35,
+        "moving_time": "30:18",
+        "elapsed_time": "34:50",
+        "pace": "3.0 km/h",
+        "avg_hr": 110,
+        "max_hr": 127,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 8,
+        "kudos": 6,
+        "strava_url": "https://www.strava.com/activities/20062257671"
       },
       {
         "id": 20043376101,
@@ -52,7 +74,7 @@
         "avg_cadence": 77,
         "avg_watts": 161,
         "suffer_score": 92,
-        "kudos": 10,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/20043376101"
       },
       {
@@ -670,38 +692,9 @@
         "suffer_score": 9,
         "kudos": 11,
         "strava_url": "https://www.strava.com/activities/19697556814"
-      },
-      {
-        "id": 19652235734,
-        "date": "2026-08-08",
-        "start_time": "2026-08-08 11:33",
-        "type": "Surfing",
-        "name": "Surf avec Tim",
-        "description": "",
-        "distance_km": 3.25,
-        "duration_min": 56,
-        "moving_time": "55:25",
-        "elapsed_time": "56:29",
-        "pace": "3.5 km/h",
-        "avg_hr": 95,
-        "max_hr": 123,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 8,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19652235734"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-08-03",
-        "distance_km": 3.2,
-        "duration_min": 56,
-        "elevation_m": 0,
-        "count": 1
-      },
       {
         "week_start": "2026-08-10",
         "distance_km": 80.4,
@@ -725,10 +718,10 @@
       },
       {
         "week_start": "2026-08-31",
-        "distance_km": 205.8,
-        "duration_min": 2004,
+        "distance_km": 207.2,
+        "duration_min": 2039,
         "elevation_m": 2312,
-        "count": 11
+        "count": 12
       }
     ]
   },
