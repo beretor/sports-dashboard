@@ -1,16 +1,104 @@
 {
-  "generated_at": "2026-09-07T13:16:41",
+  "generated_at": "2026-09-08T11:58:24",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 31,
-      "total_distance_km": 429.4,
-      "total_duration_min": 4689,
-      "total_elevation_m": 6357
+      "total_activities": 35,
+      "total_distance_km": 489.3,
+      "total_duration_min": 5429,
+      "total_elevation_m": 6808
     },
     "activities": [
+      {
+        "id": 20084215558,
+        "date": "2026-09-08",
+        "start_time": "2026-09-08 08:24",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 8.82,
+        "duration_min": 30,
+        "moving_time": "29:05",
+        "elapsed_time": "30:00",
+        "pace": "18.2 km/h",
+        "avg_hr": 119,
+        "max_hr": 153,
+        "elevation_m": 51,
+        "calories": 221,
+        "avg_cadence": null,
+        "avg_watts": 127,
+        "suffer_score": 11,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20084215558"
+      },
+      {
+        "id": 20086748119,
+        "date": "2026-09-08",
+        "start_time": "2026-09-08 13:02",
+        "type": "Swim",
+        "name": "Afternoon Swim",
+        "description": "",
+        "distance_km": 1.5,
+        "duration_min": 34,
+        "moving_time": "30:48",
+        "elapsed_time": "34:04",
+        "pace": "2.9 km/h",
+        "avg_hr": 116,
+        "max_hr": 161,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 12,
+        "kudos": 1,
+        "strava_url": "https://www.strava.com/activities/20086748119"
+      },
+      {
+        "id": 20076334676,
+        "date": "2026-09-07",
+        "start_time": "2026-09-07 08:23",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 18.08,
+        "duration_min": 612,
+        "moving_time": "57:56",
+        "elapsed_time": "10:12:05",
+        "pace": "18.7 km/h",
+        "avg_hr": 142,
+        "max_hr": 193,
+        "elevation_m": 89,
+        "calories": 426,
+        "avg_cadence": null,
+        "avg_watts": 123,
+        "suffer_score": 83,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20076334676"
+      },
+      {
+        "id": 20079932765,
+        "date": "2026-09-07",
+        "start_time": "2026-09-07 21:41",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Steady Climbing #4",
+        "description": "",
+        "distance_km": 31.52,
+        "duration_min": 64,
+        "moving_time": "1:04:08",
+        "elapsed_time": "1:04:08",
+        "pace": "29.5 km/h",
+        "avg_hr": 141,
+        "max_hr": 168,
+        "elevation_m": 311,
+        "calories": 711,
+        "avg_cadence": 85,
+        "avg_watts": 185,
+        "suffer_score": 76,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/20079932765"
+      },
       {
         "id": 20058681580,
         "date": "2026-09-06",
@@ -30,7 +118,7 @@
         "avg_cadence": 59,
         "avg_watts": null,
         "suffer_score": 7,
-        "kudos": 4,
+        "kudos": 5,
         "strava_url": "https://www.strava.com/activities/20058681580"
       },
       {
@@ -52,7 +140,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 8,
-        "kudos": 6,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/20062257671"
       },
       {
@@ -74,7 +162,7 @@
         "avg_cadence": 77,
         "avg_watts": 161,
         "suffer_score": 92,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/20043376101"
       },
       {
@@ -722,6 +810,13 @@
         "duration_min": 2039,
         "elevation_m": 2312,
         "count": 12
+      },
+      {
+        "week_start": "2026-09-07",
+        "distance_km": 59.9,
+        "duration_min": 740,
+        "elevation_m": 451,
+        "count": 4
       }
     ]
   },
