@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-08T11:58:24",
+  "generated_at": "2026-09-09T12:09:13",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 35,
-      "total_distance_km": 489.3,
-      "total_duration_min": 5429,
-      "total_elevation_m": 6808
+      "total_activities": 38,
+      "total_distance_km": 521.9,
+      "total_duration_min": 5559,
+      "total_elevation_m": 6972
     },
     "activities": [
+      {
+        "id": 20100361451,
+        "date": "2026-09-09",
+        "start_time": "2026-09-09 08:52",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 9.29,
+        "duration_min": 30,
+        "moving_time": "28:28",
+        "elapsed_time": "29:40",
+        "pace": "19.6 km/h",
+        "avg_hr": 124,
+        "max_hr": 158,
+        "elevation_m": 48,
+        "calories": 233,
+        "avg_cadence": null,
+        "avg_watts": 137,
+        "suffer_score": 12,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20100361451"
+      },
+      {
+        "id": 20101128467,
+        "date": "2026-09-09",
+        "start_time": "2026-09-09 12:23",
+        "type": "Run",
+        "name": "Lunch Run",
+        "description": "",
+        "distance_km": 12.16,
+        "duration_min": 57,
+        "moving_time": "55:15",
+        "elapsed_time": "57:11",
+        "pace": "4:32/km",
+        "avg_hr": 149,
+        "max_hr": 162,
+        "elevation_m": 27,
+        "calories": 1158,
+        "avg_cadence": 91,
+        "avg_watts": 350,
+        "suffer_score": 93,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20101128467"
+      },
       {
         "id": 20084215558,
         "date": "2026-09-08",
@@ -52,8 +96,30 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 1,
+        "kudos": 4,
         "strava_url": "https://www.strava.com/activities/20086748119"
+      },
+      {
+        "id": 20090904874,
+        "date": "2026-09-08",
+        "start_time": "2026-09-08 18:17",
+        "type": "Ride",
+        "name": "Evening Ride",
+        "description": "",
+        "distance_km": 11.14,
+        "duration_min": 43,
+        "moving_time": "35:56",
+        "elapsed_time": "42:41",
+        "pace": "18.6 km/h",
+        "avg_hr": 111,
+        "max_hr": 150,
+        "elevation_m": 89,
+        "calories": 299,
+        "avg_cadence": null,
+        "avg_watts": 139,
+        "suffer_score": 8,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20090904874"
       },
       {
         "id": 20076334676,
@@ -162,7 +228,7 @@
         "avg_cadence": 77,
         "avg_watts": 161,
         "suffer_score": 92,
-        "kudos": 13,
+        "kudos": 14,
         "strava_url": "https://www.strava.com/activities/20043376101"
       },
       {
@@ -813,10 +879,10 @@
       },
       {
         "week_start": "2026-09-07",
-        "distance_km": 59.9,
-        "duration_min": 740,
-        "elevation_m": 451,
-        "count": 4
+        "distance_km": 92.5,
+        "duration_min": 870,
+        "elevation_m": 615,
+        "count": 7
       }
     ]
   },
