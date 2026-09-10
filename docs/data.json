@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-09T12:09:13",
+  "generated_at": "2026-09-10T12:02:53",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 38,
-      "total_distance_km": 521.9,
-      "total_duration_min": 5559,
-      "total_elevation_m": 6972
+      "total_activities": 40,
+      "total_distance_km": 540.5,
+      "total_duration_min": 5552,
+      "total_elevation_m": 6844
     },
     "activities": [
+      {
+        "id": 20114373234,
+        "date": "2026-09-10",
+        "start_time": "2026-09-10 08:24",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 8.73,
+        "duration_min": 28,
+        "moving_time": "27:50",
+        "elapsed_time": "28:25",
+        "pace": "18.8 km/h",
+        "avg_hr": 129,
+        "max_hr": 171,
+        "elevation_m": 46,
+        "calories": 218,
+        "avg_cadence": null,
+        "avg_watts": 131,
+        "suffer_score": 17,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20114373234"
+      },
+      {
+        "id": 20114952702,
+        "date": "2026-09-10",
+        "start_time": "2026-09-10 12:23",
+        "type": "Run",
+        "name": "Lunch Run",
+        "description": "",
+        "distance_km": 9.08,
+        "duration_min": 45,
+        "moving_time": "44:58",
+        "elapsed_time": "44:58",
+        "pace": "4:57/km",
+        "avg_hr": 147,
+        "max_hr": 154,
+        "elevation_m": 15,
+        "calories": 861,
+        "avg_cadence": 88,
+        "avg_watts": 320,
+        "suffer_score": 73,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20114952702"
+      },
       {
         "id": 20100361451,
         "date": "2026-09-09",
@@ -52,8 +96,30 @@
         "avg_cadence": 91,
         "avg_watts": 350,
         "suffer_score": 93,
-        "kudos": 3,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20101128467"
+      },
+      {
+        "id": 20105643511,
+        "date": "2026-09-09",
+        "start_time": "2026-09-09 18:14",
+        "type": "Ride",
+        "name": "Evening Ride",
+        "description": "",
+        "distance_km": 9.05,
+        "duration_min": 51,
+        "moving_time": "27:56",
+        "elapsed_time": "51:06",
+        "pace": "19.4 km/h",
+        "avg_hr": 121,
+        "max_hr": 151,
+        "elevation_m": 46,
+        "calories": 206,
+        "avg_cadence": null,
+        "avg_watts": 123,
+        "suffer_score": 11,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20105643511"
       },
       {
         "id": 20084215558,
@@ -96,7 +162,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 12,
-        "kudos": 4,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20086748119"
       },
       {
@@ -228,7 +294,7 @@
         "avg_cadence": 77,
         "avg_watts": 161,
         "suffer_score": 92,
-        "kudos": 14,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/20043376101"
       },
       {
@@ -804,28 +870,6 @@
         "strava_url": "https://www.strava.com/activities/19756993596"
       },
       {
-        "id": 19694473576,
-        "date": "2026-08-11",
-        "start_time": "2026-08-11 11:22",
-        "type": "Hike",
-        "name": "Soca river trail 🇸🇮",
-        "description": "",
-        "distance_km": 8.25,
-        "duration_min": 131,
-        "moving_time": "1:39:32",
-        "elapsed_time": "2:10:42",
-        "pace": "12:04/km",
-        "avg_hr": 123,
-        "max_hr": 170,
-        "elevation_m": 235,
-        "calories": null,
-        "avg_cadence": 65,
-        "avg_watts": null,
-        "suffer_score": 48,
-        "kudos": 12,
-        "strava_url": "https://www.strava.com/activities/19694473576"
-      },
-      {
         "id": 19697556814,
         "date": "2026-08-11",
         "start_time": "2026-08-11 15:38",
@@ -851,10 +895,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-08-10",
-        "distance_km": 80.4,
-        "duration_min": 1382,
-        "elevation_m": 2167,
-        "count": 10
+        "distance_km": 72.2,
+        "duration_min": 1251,
+        "elevation_m": 1932,
+        "count": 9
       },
       {
         "week_start": "2026-08-17",
@@ -879,10 +923,10 @@
       },
       {
         "week_start": "2026-09-07",
-        "distance_km": 92.5,
-        "duration_min": 870,
-        "elevation_m": 615,
-        "count": 7
+        "distance_km": 119.4,
+        "duration_min": 994,
+        "elevation_m": 722,
+        "count": 10
       }
     ]
   },
