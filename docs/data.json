@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-11T12:01:16",
+  "generated_at": "2026-09-12T11:27:48",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 39,
-      "total_distance_km": 530.4,
-      "total_duration_min": 5109,
-      "total_elevation_m": 5847
+      "total_activities": 40,
+      "total_distance_km": 544.8,
+      "total_duration_min": 5174,
+      "total_elevation_m": 5892
     },
     "activities": [
+      {
+        "id": 20139023821,
+        "date": "2026-09-12",
+        "start_time": "2026-09-12 08:15",
+        "type": "Run",
+        "name": "Morning Run",
+        "description": "",
+        "distance_km": 14.4,
+        "duration_min": 65,
+        "moving_time": "1:04:59",
+        "elapsed_time": "1:04:59",
+        "pace": "4:30/km",
+        "avg_hr": 147,
+        "max_hr": 160,
+        "elevation_m": 45,
+        "calories": 1337,
+        "avg_cadence": 92,
+        "avg_watts": 343,
+        "suffer_score": 102,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20139023821"
+      },
       {
         "id": 20114373234,
         "date": "2026-09-10",
@@ -901,10 +923,10 @@
       },
       {
         "week_start": "2026-09-07",
-        "distance_km": 128.8,
-        "duration_min": 1023,
-        "elevation_m": 761,
-        "count": 11
+        "distance_km": 143.2,
+        "duration_min": 1088,
+        "elevation_m": 806,
+        "count": 12
       }
     ]
   },
