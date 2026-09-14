@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-13T12:32:20",
+  "generated_at": "2026-09-14T13:38:08",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 39,
-      "total_distance_km": 571.4,
-      "total_duration_min": 5066,
-      "total_elevation_m": 6228
+      "total_activities": 38,
+      "total_distance_km": 562.0,
+      "total_duration_min": 5015,
+      "total_elevation_m": 5865
     },
     "activities": [
+      {
+        "id": 20170424228,
+        "date": "2026-09-14",
+        "start_time": "2026-09-14 08:25",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 17.89,
+        "duration_min": 349,
+        "moving_time": "58:31",
+        "elapsed_time": "5:49:02",
+        "pace": "18.3 km/h",
+        "avg_hr": 121,
+        "max_hr": 160,
+        "elevation_m": 84,
+        "calories": 407,
+        "avg_cadence": null,
+        "avg_watts": 116,
+        "suffer_score": 24,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20170424228"
+      },
       {
         "id": 20154912055,
         "date": "2026-09-13",
@@ -30,8 +52,30 @@
         "avg_cadence": null,
         "avg_watts": 87,
         "suffer_score": 53,
-        "kudos": 7,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/20154912055"
+      },
+      {
+        "id": 20159483957,
+        "date": "2026-09-13",
+        "start_time": "2026-09-13 16:06",
+        "type": "Swim",
+        "name": "Afternoon Swim",
+        "description": "",
+        "distance_km": 0.5,
+        "duration_min": 11,
+        "moving_time": "9:55",
+        "elapsed_time": "11:17",
+        "pace": "3.0 km/h",
+        "avg_hr": 119,
+        "max_hr": 133,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 6,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/20159483957"
       },
       {
         "id": 20139023821,
@@ -52,7 +96,7 @@
         "avg_cadence": 92,
         "avg_watts": 343,
         "suffer_score": 102,
-        "kudos": 11,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/20139023821"
       },
       {
@@ -782,50 +826,6 @@
         "strava_url": "https://www.strava.com/activities/19770119124"
       },
       {
-        "id": 19751275007,
-        "date": "2026-08-15",
-        "start_time": "2026-08-15 10:15",
-        "type": "Ride",
-        "name": "Bohinj cycling",
-        "description": "",
-        "distance_km": 20.38,
-        "duration_min": 177,
-        "moving_time": "1:51:14",
-        "elapsed_time": "2:56:35",
-        "pace": "11.0 km/h",
-        "avg_hr": 101,
-        "max_hr": 165,
-        "elevation_m": 296,
-        "calories": 474,
-        "avg_cadence": null,
-        "avg_watts": 71,
-        "suffer_score": 22,
-        "kudos": 13,
-        "strava_url": "https://www.strava.com/activities/19751275007"
-      },
-      {
-        "id": 19753831665,
-        "date": "2026-08-15",
-        "start_time": "2026-08-15 15:21",
-        "type": "Swim",
-        "name": "Afternoon Swim",
-        "description": "",
-        "distance_km": 1.51,
-        "duration_min": 40,
-        "moving_time": "39:05",
-        "elapsed_time": "39:38",
-        "pace": "2.3 km/h",
-        "avg_hr": 131,
-        "max_hr": 149,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 24,
-        "avg_watts": null,
-        "suffer_score": 44,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19753831665"
-      },
-      {
         "id": 19756990750,
         "date": "2026-08-15",
         "start_time": "2026-08-15 16:11",
@@ -846,37 +846,15 @@
         "suffer_score": 12,
         "kudos": 8,
         "strava_url": "https://www.strava.com/activities/19756990750"
-      },
-      {
-        "id": 19741107441,
-        "date": "2026-08-14",
-        "start_time": "2026-08-14 15:11",
-        "type": "GravelRide",
-        "name": "Sortie vélo dans l'après-midi",
-        "description": "",
-        "distance_km": 5.91,
-        "duration_min": 195,
-        "moving_time": "51:02",
-        "elapsed_time": "3:14:55",
-        "pace": "6.9 km/h",
-        "avg_hr": 90,
-        "max_hr": 126,
-        "elevation_m": 151,
-        "calories": 225,
-        "avg_cadence": null,
-        "avg_watts": 74,
-        "suffer_score": 6,
-        "kudos": 13,
-        "strava_url": "https://www.strava.com/activities/19741107441"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-10",
-        "distance_km": 41.7,
-        "duration_min": 513,
-        "elevation_m": 610,
-        "count": 5
+        "distance_km": 13.9,
+        "duration_min": 101,
+        "elevation_m": 163,
+        "count": 2
       },
       {
         "week_start": "2026-08-17",
@@ -901,10 +879,17 @@
       },
       {
         "week_start": "2026-09-07",
-        "distance_km": 180.7,
-        "duration_min": 1246,
+        "distance_km": 181.2,
+        "duration_min": 1257,
         "elevation_m": 1428,
-        "count": 13
+        "count": 14
+      },
+      {
+        "week_start": "2026-09-14",
+        "distance_km": 17.9,
+        "duration_min": 349,
+        "elevation_m": 84,
+        "count": 1
       }
     ]
   },
