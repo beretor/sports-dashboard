@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T13:38:08",
+  "generated_at": "2026-09-15T12:27:26",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 38,
-      "total_distance_km": 562.0,
-      "total_duration_min": 5015,
-      "total_elevation_m": 5865
+      "total_distance_km": 577.1,
+      "total_duration_min": 5269,
+      "total_elevation_m": 5949
     },
     "activities": [
       {
@@ -32,6 +32,28 @@
         "suffer_score": 24,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20170424228"
+      },
+      {
+        "id": 20176424459,
+        "date": "2026-09-14",
+        "start_time": "2026-09-14 18:26",
+        "type": "Ride",
+        "name": "Sortie vélo en soirée",
+        "description": "",
+        "distance_km": 15.68,
+        "duration_min": 286,
+        "moving_time": "1:02:25",
+        "elapsed_time": "4:45:38",
+        "pace": "15.1 km/h",
+        "avg_hr": 94,
+        "max_hr": 119,
+        "elevation_m": 84,
+        "calories": 344,
+        "avg_cadence": null,
+        "avg_watts": 92,
+        "suffer_score": 9,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20176424459"
       },
       {
         "id": 20154912055,
@@ -824,37 +846,15 @@
         "suffer_score": 182,
         "kudos": 17,
         "strava_url": "https://www.strava.com/activities/19770119124"
-      },
-      {
-        "id": 19756990750,
-        "date": "2026-08-15",
-        "start_time": "2026-08-15 16:11",
-        "type": "Swim",
-        "name": "Natation dans l'après-midi",
-        "description": "",
-        "distance_km": 0.6,
-        "duration_min": 31,
-        "moving_time": "31:24",
-        "elapsed_time": "31:24",
-        "pace": "1.1 km/h",
-        "avg_hr": 113,
-        "max_hr": 135,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 27,
-        "avg_watts": null,
-        "suffer_score": 12,
-        "kudos": 8,
-        "strava_url": "https://www.strava.com/activities/19756990750"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-10",
-        "distance_km": 13.9,
-        "duration_min": 101,
+        "distance_km": 13.3,
+        "duration_min": 70,
         "elevation_m": 163,
-        "count": 2
+        "count": 1
       },
       {
         "week_start": "2026-08-17",
@@ -886,10 +886,10 @@
       },
       {
         "week_start": "2026-09-14",
-        "distance_km": 17.9,
-        "duration_min": 349,
-        "elevation_m": 84,
-        "count": 1
+        "distance_km": 33.6,
+        "duration_min": 635,
+        "elevation_m": 168,
+        "count": 2
       }
     ]
   },
