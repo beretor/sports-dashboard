@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-16T12:25:02",
+  "generated_at": "2026-09-17T12:24:57",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 41,
-      "total_distance_km": 624.8,
-      "total_duration_min": 6137,
-      "total_elevation_m": 6249
+      "total_distance_km": 624.7,
+      "total_duration_min": 6386,
+      "total_elevation_m": 6068
     },
     "activities": [
       {
@@ -52,8 +52,30 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 10,
-        "kudos": 1,
+        "kudos": 5,
         "strava_url": "https://www.strava.com/activities/20198321353"
+      },
+      {
+        "id": 20202530923,
+        "date": "2026-09-16",
+        "start_time": "2026-09-16 13:30",
+        "type": "Ride",
+        "name": "Sortie vélo dans l'après-midi",
+        "description": "",
+        "distance_km": 9.9,
+        "duration_min": 322,
+        "moving_time": "31:52",
+        "elapsed_time": "5:21:52",
+        "pace": "18.6 km/h",
+        "avg_hr": 110,
+        "max_hr": 149,
+        "elevation_m": 55,
+        "calories": 230,
+        "avg_cadence": null,
+        "avg_watts": 120,
+        "suffer_score": 7,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20202530923"
       },
       {
         "id": 20187894378,
@@ -96,7 +118,7 @@
         "avg_cadence": 85,
         "avg_watts": 179,
         "suffer_score": 74,
-        "kudos": 3,
+        "kudos": 4,
         "strava_url": "https://www.strava.com/activities/20191227394"
       },
       {
@@ -206,7 +228,7 @@
         "avg_cadence": 92,
         "avg_watts": 343,
         "suffer_score": 102,
-        "kudos": 12,
+        "kudos": 13,
         "strava_url": "https://www.strava.com/activities/20139023821"
       },
       {
@@ -890,37 +912,15 @@
         "suffer_score": 4,
         "kudos": 9,
         "strava_url": "https://www.strava.com/activities/19847493734"
-      },
-      {
-        "id": 19790410232,
-        "date": "2026-08-18",
-        "start_time": "2026-08-18 09:43",
-        "type": "TrailRun",
-        "name": "Parc Tivoli",
-        "description": "",
-        "distance_km": 10.05,
-        "duration_min": 74,
-        "moving_time": "1:11:01",
-        "elapsed_time": "1:13:42",
-        "pace": "7:03/km",
-        "avg_hr": 132,
-        "max_hr": 166,
-        "elevation_m": 236,
-        "calories": 1002,
-        "avg_cadence": 81,
-        "avg_watts": 239,
-        "suffer_score": 40,
-        "kudos": 17,
-        "strava_url": "https://www.strava.com/activities/19790410232"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-17",
-        "distance_km": 12.1,
-        "duration_min": 122,
-        "elevation_m": 242,
-        "count": 2
+        "distance_km": 2.0,
+        "duration_min": 48,
+        "elevation_m": 6,
+        "count": 1
       },
       {
         "week_start": "2026-08-24",
@@ -945,10 +945,10 @@
       },
       {
         "week_start": "2026-09-14",
-        "distance_km": 94.6,
-        "duration_min": 1573,
-        "elevation_m": 631,
-        "count": 6
+        "distance_km": 104.5,
+        "duration_min": 1895,
+        "elevation_m": 686,
+        "count": 7
       }
     ]
   },
