@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-17T12:24:57",
+  "generated_at": "2026-09-18T12:04:01",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 41,
-      "total_distance_km": 624.7,
-      "total_duration_min": 6386,
-      "total_elevation_m": 6068
+      "total_activities": 43,
+      "total_distance_km": 637.9,
+      "total_duration_min": 6494,
+      "total_elevation_m": 6564
     },
     "activities": [
+      {
+        "id": 20223826408,
+        "date": "2026-09-18",
+        "start_time": "2026-09-18 08:31",
+        "type": "TrailRun",
+        "name": "Hvar trail",
+        "description": "",
+        "distance_km": 12.7,
+        "duration_min": 93,
+        "moving_time": "1:21:27",
+        "elapsed_time": "1:33:09",
+        "pace": "6:24/km",
+        "avg_hr": 157,
+        "max_hr": 182,
+        "elevation_m": 496,
+        "calories": 1341,
+        "avg_cadence": 84,
+        "avg_watts": 278,
+        "suffer_score": 188,
+        "kudos": 9,
+        "strava_url": "https://www.strava.com/activities/20223826408"
+      },
+      {
+        "id": 20224455167,
+        "date": "2026-09-18",
+        "start_time": "2026-09-18 11:14",
+        "type": "Swim",
+        "name": "Lunch Swim",
+        "description": "",
+        "distance_km": 0.55,
+        "duration_min": 15,
+        "moving_time": "15:15",
+        "elapsed_time": "15:19",
+        "pace": "2.2 km/h",
+        "avg_hr": 146,
+        "max_hr": 160,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 22,
+        "avg_watts": null,
+        "suffer_score": 33,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/20224455167"
+      },
       {
         "id": 20197786436,
         "date": "2026-09-16",
@@ -52,7 +96,7 @@
         "avg_cadence": null,
         "avg_watts": null,
         "suffer_score": 10,
-        "kudos": 5,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20198321353"
       },
       {
@@ -118,7 +162,7 @@
         "avg_cadence": 85,
         "avg_watts": 179,
         "suffer_score": 74,
-        "kudos": 4,
+        "kudos": 5,
         "strava_url": "https://www.strava.com/activities/20191227394"
       },
       {
@@ -945,10 +989,10 @@
       },
       {
         "week_start": "2026-09-14",
-        "distance_km": 104.5,
-        "duration_min": 1895,
-        "elevation_m": 686,
-        "count": 7
+        "distance_km": 117.8,
+        "duration_min": 2003,
+        "elevation_m": 1182,
+        "count": 9
       }
     ]
   },
