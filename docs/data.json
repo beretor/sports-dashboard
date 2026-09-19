@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-18T12:04:01",
+  "generated_at": "2026-09-19T11:47:06",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 43,
-      "total_distance_km": 637.9,
-      "total_duration_min": 6494,
-      "total_elevation_m": 6564
+      "total_activities": 45,
+      "total_distance_km": 662.9,
+      "total_duration_min": 6850,
+      "total_elevation_m": 7210
     },
     "activities": [
+      {
+        "id": 20235954655,
+        "date": "2026-09-19",
+        "start_time": "2026-09-19 08:20",
+        "type": "TrailRun",
+        "name": "Morning Trail Run",
+        "description": "",
+        "distance_km": 13.38,
+        "duration_min": 76,
+        "moving_time": "1:08:34",
+        "elapsed_time": "1:16:01",
+        "pace": "5:07/km",
+        "avg_hr": 155,
+        "max_hr": 183,
+        "elevation_m": 183,
+        "calories": 1294,
+        "avg_cadence": 88,
+        "avg_watts": 315,
+        "suffer_score": 147,
+        "kudos": 6,
+        "strava_url": "https://www.strava.com/activities/20235954655"
+      },
       {
         "id": 20223826408,
         "date": "2026-09-18",
@@ -30,7 +52,7 @@
         "avg_cadence": 84,
         "avg_watts": 278,
         "suffer_score": 188,
-        "kudos": 9,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/20223826408"
       },
       {
@@ -52,8 +74,30 @@
         "avg_cadence": 22,
         "avg_watts": null,
         "suffer_score": 33,
-        "kudos": 4,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20224455167"
+      },
+      {
+        "id": 20229852087,
+        "date": "2026-09-18",
+        "start_time": "2026-09-18 14:33",
+        "type": "Hike",
+        "name": "Randonnée dans l'après-midi",
+        "description": "",
+        "distance_km": 11.61,
+        "duration_min": 280,
+        "moving_time": "3:11:14",
+        "elapsed_time": "4:40:13",
+        "pace": "16:29/km",
+        "avg_hr": 96,
+        "max_hr": 150,
+        "elevation_m": 463,
+        "calories": null,
+        "avg_cadence": 53,
+        "avg_watts": null,
+        "suffer_score": 30,
+        "kudos": 8,
+        "strava_url": "https://www.strava.com/activities/20229852087"
       },
       {
         "id": 20197786436,
@@ -989,10 +1033,10 @@
       },
       {
         "week_start": "2026-09-14",
-        "distance_km": 117.8,
-        "duration_min": 2003,
-        "elevation_m": 1182,
-        "count": 9
+        "distance_km": 142.8,
+        "duration_min": 2359,
+        "elevation_m": 1828,
+        "count": 11
       }
     ]
   },
