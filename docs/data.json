@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:47:06",
+  "generated_at": "2026-09-20T12:00:55",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
@@ -30,7 +30,7 @@
         "avg_cadence": 88,
         "avg_watts": 315,
         "suffer_score": 147,
-        "kudos": 6,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20235954655"
       },
       {
@@ -52,7 +52,7 @@
         "avg_cadence": 84,
         "avg_watts": 278,
         "suffer_score": 188,
-        "kudos": 15,
+        "kudos": 16,
         "strava_url": "https://www.strava.com/activities/20223826408"
       },
       {
@@ -96,7 +96,7 @@
         "avg_cadence": 53,
         "avg_watts": null,
         "suffer_score": 30,
-        "kudos": 8,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20229852087"
       },
       {
