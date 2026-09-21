@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-20T12:00:55",
+  "generated_at": "2026-09-21T13:36:57",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 45,
-      "total_distance_km": 662.9,
-      "total_duration_min": 6850,
-      "total_elevation_m": 7210
+      "total_activities": 46,
+      "total_distance_km": 679.8,
+      "total_duration_min": 7096,
+      "total_elevation_m": 7263
     },
     "activities": [
+      {
+        "id": 20265306576,
+        "date": "2026-09-21",
+        "start_time": "2026-09-21 08:26",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 8.83,
+        "duration_min": 247,
+        "moving_time": "28:32",
+        "elapsed_time": "4:07:18",
+        "pace": "18.6 km/h",
+        "avg_hr": 121,
+        "max_hr": 161,
+        "elevation_m": 35,
+        "calories": 205,
+        "avg_cadence": null,
+        "avg_watts": 120,
+        "suffer_score": 12,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20265306576"
+      },
+      {
+        "id": 20265898273,
+        "date": "2026-09-21",
+        "start_time": "2026-09-21 12:34",
+        "type": "Run",
+        "name": "Lunch Run",
+        "description": "",
+        "distance_km": 10.1,
+        "duration_min": 46,
+        "moving_time": "45:41",
+        "elapsed_time": "45:58",
+        "pace": "4:31/km",
+        "avg_hr": 151,
+        "max_hr": 168,
+        "elevation_m": 24,
+        "calories": 945,
+        "avg_cadence": 90,
+        "avg_watts": 346,
+        "suffer_score": 85,
+        "kudos": 2,
+        "strava_url": "https://www.strava.com/activities/20265898273"
+      },
       {
         "id": 20235954655,
         "date": "2026-09-19",
@@ -30,7 +74,7 @@
         "avg_cadence": 88,
         "avg_watts": 315,
         "suffer_score": 147,
-        "kudos": 9,
+        "kudos": 11,
         "strava_url": "https://www.strava.com/activities/20235954655"
       },
       {
@@ -96,7 +140,7 @@
         "avg_cadence": 53,
         "avg_watts": null,
         "suffer_score": 30,
-        "kudos": 9,
+        "kudos": 10,
         "strava_url": "https://www.strava.com/activities/20229852087"
       },
       {
@@ -978,38 +1022,9 @@
         "suffer_score": 94,
         "kudos": 7,
         "strava_url": "https://www.strava.com/activities/19883217368"
-      },
-      {
-        "id": 19847493734,
-        "date": "2026-08-22",
-        "start_time": "2026-08-22 10:50",
-        "type": "Hike",
-        "name": "Marais Salants de Piran",
-        "description": "",
-        "distance_km": 2.03,
-        "duration_min": 48,
-        "moving_time": "37:20",
-        "elapsed_time": "47:36",
-        "pace": "18:26/km",
-        "avg_hr": 86,
-        "max_hr": 110,
-        "elevation_m": 6,
-        "calories": null,
-        "avg_cadence": 50,
-        "avg_watts": null,
-        "suffer_score": 4,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19847493734"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-08-17",
-        "distance_km": 2.0,
-        "duration_min": 48,
-        "elevation_m": 6,
-        "count": 1
-      },
       {
         "week_start": "2026-08-24",
         "distance_km": 129.7,
@@ -1037,6 +1052,13 @@
         "duration_min": 2359,
         "elevation_m": 1828,
         "count": 11
+      },
+      {
+        "week_start": "2026-09-21",
+        "distance_km": 18.9,
+        "duration_min": 293,
+        "elevation_m": 59,
+        "count": 2
       }
     ]
   },
