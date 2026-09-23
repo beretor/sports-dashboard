@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T12:20:58",
+  "generated_at": "2026-09-23T12:33:16",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 50,
-      "total_distance_km": 703.2,
-      "total_duration_min": 7422,
-      "total_elevation_m": 7396
+      "total_activities": 51,
+      "total_distance_km": 710.1,
+      "total_duration_min": 7449,
+      "total_elevation_m": 7436
     },
     "activities": [
       {
@@ -52,7 +52,7 @@
         "avg_cadence": 23,
         "avg_watts": null,
         "suffer_score": 18,
-        "kudos": 1,
+        "kudos": 5,
         "strava_url": "https://www.strava.com/activities/20280146398"
       },
       {
@@ -76,6 +76,28 @@
         "suffer_score": 2,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20280830200"
+      },
+      {
+        "id": 20283912294,
+        "date": "2026-09-22",
+        "start_time": "2026-09-22 17:54",
+        "type": "Ride",
+        "name": "Afternoon Ride",
+        "description": "",
+        "distance_km": 6.91,
+        "duration_min": 27,
+        "moving_time": "24:49",
+        "elapsed_time": "27:06",
+        "pace": "16.7 km/h",
+        "avg_hr": 97,
+        "max_hr": 131,
+        "elevation_m": 40,
+        "calories": 165,
+        "avg_cadence": null,
+        "avg_watts": 111,
+        "suffer_score": 3,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20283912294"
       },
       {
         "id": 20265306576,
@@ -1143,15 +1165,15 @@
       },
       {
         "week_start": "2026-09-21",
-        "distance_km": 42.3,
-        "duration_min": 619,
-        "elevation_m": 192,
-        "count": 6
+        "distance_km": 49.2,
+        "duration_min": 646,
+        "elevation_m": 232,
+        "count": 7
       }
     ]
   },
   "suggestions": [],
   "errors": [
-    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
   ]
 }
