@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-24T12:32:19",
+  "generated_at": "2026-09-25T12:33:36",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 49,
-      "total_distance_km": 682.8,
-      "total_duration_min": 6772,
-      "total_elevation_m": 7279
+      "total_activities": 48,
+      "total_distance_km": 699.0,
+      "total_duration_min": 7544,
+      "total_elevation_m": 7345
     },
     "activities": [
+      {
+        "id": 20315781592,
+        "date": "2026-09-24",
+        "start_time": "2026-09-24 08:24",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 26.36,
+        "duration_min": 842,
+        "moving_time": "1:22:05",
+        "elapsed_time": "14:01:47",
+        "pace": "19.3 km/h",
+        "avg_hr": 117,
+        "max_hr": 166,
+        "elevation_m": 118,
+        "calories": 602,
+        "avg_cadence": null,
+        "avg_watts": 122,
+        "suffer_score": 29,
+        "kudos": 1,
+        "strava_url": "https://www.strava.com/activities/20315781592"
+      },
       {
         "id": 20279431588,
         "date": "2026-09-22",
@@ -1044,59 +1066,15 @@
         "suffer_score": 8,
         "kudos": 13,
         "strava_url": "https://www.strava.com/activities/19950972886"
-      },
-      {
-        "id": 19906075562,
-        "date": "2026-08-26",
-        "start_time": "2026-08-26 12:29",
-        "type": "Swim",
-        "name": "Natation le midi",
-        "description": "",
-        "distance_km": 1.07,
-        "duration_min": 24,
-        "moving_time": "21:05",
-        "elapsed_time": "23:41",
-        "pace": "3.0 km/h",
-        "avg_hr": 119,
-        "max_hr": 147,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 10,
-        "kudos": 6,
-        "strava_url": "https://www.strava.com/activities/19906075562"
-      },
-      {
-        "id": 19897231178,
-        "date": "2026-08-25",
-        "start_time": "2026-08-25 19:31",
-        "type": "Run",
-        "name": "Evening Run",
-        "description": "",
-        "distance_km": 9.02,
-        "duration_min": 46,
-        "moving_time": "45:17",
-        "elapsed_time": "45:35",
-        "pace": "5:01/km",
-        "avg_hr": 146,
-        "max_hr": 166,
-        "elevation_m": 52,
-        "calories": 859,
-        "avg_cadence": 88,
-        "avg_watts": 316,
-        "suffer_score": 68,
-        "kudos": 11,
-        "strava_url": "https://www.strava.com/activities/19897231178"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-24",
-        "distance_km": 102.3,
-        "duration_min": 469,
-        "elevation_m": 1479,
-        "count": 5
+        "distance_km": 92.2,
+        "duration_min": 399,
+        "elevation_m": 1427,
+        "count": 3
       },
       {
         "week_start": "2026-08-31",
@@ -1121,10 +1099,10 @@
       },
       {
         "week_start": "2026-09-21",
-        "distance_km": 49.2,
-        "duration_min": 646,
-        "elevation_m": 232,
-        "count": 7
+        "distance_km": 75.6,
+        "duration_min": 1488,
+        "elevation_m": 350,
+        "count": 8
       }
     ]
   },
