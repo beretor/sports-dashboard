@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27T12:45:11",
+  "generated_at": "2026-09-28T14:56:46",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 51,
-      "total_distance_km": 819.7,
-      "total_duration_min": 8447,
-      "total_elevation_m": 8224
+      "total_activities": 50,
+      "total_distance_km": 750.9,
+      "total_duration_min": 8104,
+      "total_elevation_m": 6818
     },
     "activities": [
       {
@@ -30,7 +30,7 @@
         "avg_cadence": 86,
         "avg_watts": 202,
         "suffer_score": 159,
-        "kudos": 10,
+        "kudos": 20,
         "strava_url": "https://www.strava.com/activities/20346031617"
       },
       {
@@ -52,8 +52,30 @@
         "avg_cadence": 56,
         "avg_watts": null,
         "suffer_score": 15,
-        "kudos": 0,
+        "kudos": 4,
         "strava_url": "https://www.strava.com/activities/20351018831"
+      },
+      {
+        "id": 20351669680,
+        "date": "2026-09-27",
+        "start_time": "2026-09-27 15:05",
+        "type": "Swim",
+        "name": "Afternoon Swim",
+        "description": "",
+        "distance_km": 0.5,
+        "duration_min": 14,
+        "moving_time": "9:58",
+        "elapsed_time": "14:26",
+        "pace": "3.0 km/h",
+        "avg_hr": 123,
+        "max_hr": 140,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 23,
+        "avg_watts": null,
+        "suffer_score": 8,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20351669680"
       },
       {
         "id": 20326077013,
@@ -1088,59 +1110,15 @@
         "suffer_score": 50,
         "kudos": 2,
         "strava_url": "https://www.strava.com/activities/19968804688"
-      },
-      {
-        "id": 19947194603,
-        "date": "2026-08-29",
-        "start_time": "2026-08-29 08:23",
-        "type": "Ride",
-        "name": "Col de Tourniol",
-        "description": "",
-        "distance_km": 65.62,
-        "duration_min": 265,
-        "moving_time": "3:56:50",
-        "elapsed_time": "4:25:20",
-        "pace": "16.6 km/h",
-        "avg_hr": 118,
-        "max_hr": 179,
-        "elevation_m": 1368,
-        "calories": 1524,
-        "avg_cadence": null,
-        "avg_watts": 107,
-        "suffer_score": 96,
-        "kudos": 15,
-        "strava_url": "https://www.strava.com/activities/19947194603"
-      },
-      {
-        "id": 19950972886,
-        "date": "2026-08-29",
-        "start_time": "2026-08-29 15:44",
-        "type": "Kayaking",
-        "name": "Kayak dans la Bourne",
-        "description": "",
-        "distance_km": 3.64,
-        "duration_min": 92,
-        "moving_time": "1:06:40",
-        "elapsed_time": "1:31:42",
-        "pace": "3.3 km/h",
-        "avg_hr": 87,
-        "max_hr": 115,
-        "elevation_m": 38,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 8,
-        "kudos": 13,
-        "strava_url": "https://www.strava.com/activities/19950972886"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-24",
-        "distance_km": 92.2,
-        "duration_min": 399,
-        "elevation_m": 1427,
-        "count": 3
+        "distance_km": 23.0,
+        "duration_min": 42,
+        "elevation_m": 21,
+        "count": 1
       },
       {
         "week_start": "2026-08-31",
@@ -1165,10 +1143,10 @@
       },
       {
         "week_start": "2026-09-21",
-        "distance_km": 196.2,
-        "duration_min": 2391,
+        "distance_km": 196.7,
+        "duration_min": 2405,
         "elevation_m": 1229,
-        "count": 11
+        "count": 12
       }
     ]
   },
