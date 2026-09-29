@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-28T14:56:46",
+  "generated_at": "2026-09-29T13:44:04",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 50,
-      "total_distance_km": 750.9,
-      "total_duration_min": 8104,
-      "total_elevation_m": 6818
+      "total_activities": 51,
+      "total_distance_km": 768.7,
+      "total_duration_min": 8742,
+      "total_elevation_m": 6907
     },
     "activities": [
+      {
+        "id": 20366968225,
+        "date": "2026-09-28",
+        "start_time": "2026-09-28 08:27",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 17.74,
+        "duration_min": 638,
+        "moving_time": "57:57",
+        "elapsed_time": "10:37:42",
+        "pace": "18.4 km/h",
+        "avg_hr": 111,
+        "max_hr": 142,
+        "elevation_m": 89,
+        "calories": 408,
+        "avg_cadence": null,
+        "avg_watts": 118,
+        "suffer_score": 14,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20366968225"
+      },
       {
         "id": 20346031617,
         "date": "2026-09-27",
@@ -1147,6 +1169,13 @@
         "duration_min": 2405,
         "elevation_m": 1229,
         "count": 12
+      },
+      {
+        "week_start": "2026-09-28",
+        "distance_km": 17.7,
+        "duration_min": 638,
+        "elevation_m": 89,
+        "count": 1
       }
     ]
   },
