@@ -1,16 +1,82 @@
 {
-  "generated_at": "2026-09-29T13:44:04",
+  "generated_at": "2026-09-30T13:20:07",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 51,
-      "total_distance_km": 768.7,
-      "total_duration_min": 8742,
-      "total_elevation_m": 6907
+      "total_distance_km": 786.2,
+      "total_duration_min": 9263,
+      "total_elevation_m": 7092
     },
     "activities": [
+      {
+        "id": 20391568115,
+        "date": "2026-09-30",
+        "start_time": "2026-09-30 12:49",
+        "type": "Run",
+        "name": "Lunch Run",
+        "description": "",
+        "distance_km": 12.15,
+        "duration_min": 56,
+        "moving_time": "55:32",
+        "elapsed_time": "55:44",
+        "pace": "4:34/km",
+        "avg_hr": 142,
+        "max_hr": 159,
+        "elevation_m": 16,
+        "calories": 1140,
+        "avg_cadence": 90,
+        "avg_watts": 343,
+        "suffer_score": 68,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20391568115"
+      },
+      {
+        "id": 20382690999,
+        "date": "2026-09-29",
+        "start_time": "2026-09-29 08:21",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 18.17,
+        "duration_min": 727,
+        "moving_time": "59:43",
+        "elapsed_time": "12:06:32",
+        "pace": "18.3 km/h",
+        "avg_hr": 114,
+        "max_hr": 150,
+        "elevation_m": 66,
+        "calories": 406,
+        "avg_cadence": null,
+        "avg_watts": 114,
+        "suffer_score": 18,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20382690999"
+      },
+      {
+        "id": 20384132305,
+        "date": "2026-09-29",
+        "start_time": "2026-09-29 21:53",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Sub Threshold #1",
+        "description": "",
+        "distance_km": 27.61,
+        "duration_min": 56,
+        "moving_time": "56:12",
+        "elapsed_time": "56:12",
+        "pace": "29.5 km/h",
+        "avg_hr": 143,
+        "max_hr": 168,
+        "elevation_m": 213,
+        "calories": 600,
+        "avg_cadence": 84,
+        "avg_watts": 178,
+        "suffer_score": 80,
+        "kudos": 2,
+        "strava_url": "https://www.strava.com/activities/20384132305"
+      },
       {
         "id": 20366968225,
         "date": "2026-09-28",
@@ -52,7 +118,7 @@
         "avg_cadence": 86,
         "avg_watts": 202,
         "suffer_score": 159,
-        "kudos": 20,
+        "kudos": 21,
         "strava_url": "https://www.strava.com/activities/20346031617"
       },
       {
@@ -1046,50 +1112,6 @@
         "strava_url": "https://www.strava.com/activities/19996462877"
       },
       {
-        "id": 19973839810,
-        "date": "2026-08-31",
-        "start_time": "2026-08-31 08:43",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 9.28,
-        "duration_min": 237,
-        "moving_time": "27:48",
-        "elapsed_time": "3:57:29",
-        "pace": "20.0 km/h",
-        "avg_hr": 119,
-        "max_hr": 156,
-        "elevation_m": 58,
-        "calories": 229,
-        "avg_cadence": null,
-        "avg_watts": 138,
-        "suffer_score": 10,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19973839810"
-      },
-      {
-        "id": 19974365957,
-        "date": "2026-08-31",
-        "start_time": "2026-08-31 12:41",
-        "type": "Run",
-        "name": "Lunch Run",
-        "description": "",
-        "distance_km": 8.14,
-        "duration_min": 38,
-        "moving_time": "37:42",
-        "elapsed_time": "37:42",
-        "pace": "4:37/km",
-        "avg_hr": 163,
-        "max_hr": 177,
-        "elevation_m": 31,
-        "calories": 797,
-        "avg_cadence": 90,
-        "avg_watts": 353,
-        "suffer_score": 113,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/19974365957"
-      },
-      {
         "id": 19978952607,
         "date": "2026-08-31",
         "start_time": "2026-08-31 18:23",
@@ -1110,44 +1132,15 @@
         "suffer_score": 6,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/19978952607"
-      },
-      {
-        "id": 19968804688,
-        "date": "2026-08-30",
-        "start_time": "2026-08-30 22:12",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Details",
-        "description": "",
-        "distance_km": 22.98,
-        "duration_min": 42,
-        "moving_time": "42:17",
-        "elapsed_time": "42:17",
-        "pace": "32.6 km/h",
-        "avg_hr": 140,
-        "max_hr": 174,
-        "elevation_m": 21,
-        "calories": 463,
-        "avg_cadence": 85,
-        "avg_watts": 183,
-        "suffer_score": 50,
-        "kudos": 2,
-        "strava_url": "https://www.strava.com/activities/19968804688"
       }
     ],
     "weekly_stats": [
       {
-        "week_start": "2026-08-24",
-        "distance_km": 23.0,
-        "duration_min": 42,
-        "elevation_m": 21,
-        "count": 1
-      },
-      {
         "week_start": "2026-08-31",
-        "distance_km": 207.2,
-        "duration_min": 2039,
-        "elevation_m": 2312,
-        "count": 12
+        "distance_km": 189.8,
+        "duration_min": 1764,
+        "elevation_m": 2223,
+        "count": 10
       },
       {
         "week_start": "2026-09-07",
@@ -1172,10 +1165,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 17.7,
-        "duration_min": 638,
-        "elevation_m": 89,
-        "count": 1
+        "distance_km": 75.7,
+        "duration_min": 1477,
+        "elevation_m": 384,
+        "count": 4
       }
     ]
   },
