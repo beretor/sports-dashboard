@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-30T13:20:07",
+  "generated_at": "2026-10-01T14:10:03",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 51,
-      "total_distance_km": 786.2,
-      "total_duration_min": 9263,
-      "total_elevation_m": 7092
+      "total_activities": 52,
+      "total_distance_km": 795.6,
+      "total_duration_min": 9294,
+      "total_elevation_m": 7115
     },
     "activities": [
+      {
+        "id": 20404840136,
+        "date": "2026-10-01",
+        "start_time": "2026-10-01 08:24",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 8.8,
+        "duration_min": 27,
+        "moving_time": "27:04",
+        "elapsed_time": "27:04",
+        "pace": "19.5 km/h",
+        "avg_hr": 115,
+        "max_hr": 145,
+        "elevation_m": 42,
+        "calories": 207,
+        "avg_cadence": null,
+        "avg_watts": 128,
+        "suffer_score": 7,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20404840136"
+      },
       {
         "id": 20391568115,
         "date": "2026-09-30",
@@ -30,8 +52,30 @@
         "avg_cadence": 90,
         "avg_watts": 343,
         "suffer_score": 68,
-        "kudos": 0,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20391568115"
+      },
+      {
+        "id": 20395474731,
+        "date": "2026-09-30",
+        "start_time": "2026-09-30 18:16",
+        "type": "Ride",
+        "name": "Evening Ride",
+        "description": "",
+        "distance_km": 9.46,
+        "duration_min": 32,
+        "moving_time": "28:58",
+        "elapsed_time": "32:14",
+        "pace": "19.6 km/h",
+        "avg_hr": 102,
+        "max_hr": 127,
+        "elevation_m": 31,
+        "calories": 204,
+        "avg_cadence": null,
+        "avg_watts": 118,
+        "suffer_score": 5,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20395474731"
       },
       {
         "id": 20382690999,
@@ -74,7 +118,7 @@
         "avg_cadence": 84,
         "avg_watts": 178,
         "suffer_score": 80,
-        "kudos": 2,
+        "kudos": 3,
         "strava_url": "https://www.strava.com/activities/20384132305"
       },
       {
@@ -1110,37 +1154,15 @@
         "suffer_score": 86,
         "kudos": 3,
         "strava_url": "https://www.strava.com/activities/19996462877"
-      },
-      {
-        "id": 19978952607,
-        "date": "2026-08-31",
-        "start_time": "2026-08-31 18:23",
-        "type": "Ride",
-        "name": "Evening Ride",
-        "description": "",
-        "distance_km": 8.89,
-        "duration_min": 29,
-        "moving_time": "27:36",
-        "elapsed_time": "28:34",
-        "pace": "19.3 km/h",
-        "avg_hr": 112,
-        "max_hr": 141,
-        "elevation_m": 50,
-        "calories": 207,
-        "avg_cadence": null,
-        "avg_watts": 125,
-        "suffer_score": 6,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/19978952607"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-31",
-        "distance_km": 189.8,
-        "duration_min": 1764,
-        "elevation_m": 2223,
-        "count": 10
+        "distance_km": 180.9,
+        "duration_min": 1735,
+        "elevation_m": 2173,
+        "count": 9
       },
       {
         "week_start": "2026-09-07",
@@ -1165,10 +1187,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 75.7,
-        "duration_min": 1477,
-        "elevation_m": 384,
-        "count": 4
+        "distance_km": 93.9,
+        "duration_min": 1536,
+        "elevation_m": 457,
+        "count": 6
       }
     ]
   },
