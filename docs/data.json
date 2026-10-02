@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T14:10:03",
+  "generated_at": "2026-10-02T13:33:36",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 52,
-      "total_distance_km": 795.6,
-      "total_duration_min": 9294,
-      "total_elevation_m": 7115
+      "total_activities": 51,
+      "total_distance_km": 764.1,
+      "total_duration_min": 8868,
+      "total_elevation_m": 6393
     },
     "activities": [
       {
@@ -34,6 +34,28 @@
         "strava_url": "https://www.strava.com/activities/20404840136"
       },
       {
+        "id": 20415609905,
+        "date": "2026-10-01",
+        "start_time": "2026-10-01 19:56",
+        "type": "Ride",
+        "name": "Evening Ride",
+        "description": "",
+        "distance_km": 10.0,
+        "duration_min": 272,
+        "moving_time": "32:17",
+        "elapsed_time": "4:31:59",
+        "pace": "18.6 km/h",
+        "avg_hr": 108,
+        "max_hr": 144,
+        "elevation_m": 42,
+        "calories": 216,
+        "avg_cadence": null,
+        "avg_watts": 112,
+        "suffer_score": 7,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20415609905"
+      },
+      {
         "id": 20391568115,
         "date": "2026-09-30",
         "start_time": "2026-09-30 12:49",
@@ -52,7 +74,7 @@
         "avg_cadence": 90,
         "avg_watts": 343,
         "suffer_score": 68,
-        "kudos": 6,
+        "kudos": 8,
         "strava_url": "https://www.strava.com/activities/20391568115"
       },
       {
@@ -1090,28 +1112,6 @@
         "strava_url": "https://www.strava.com/activities/20022564964"
       },
       {
-        "id": 20008482217,
-        "date": "2026-09-02",
-        "start_time": "2026-09-02 08:41",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 18.03,
-        "duration_min": 629,
-        "moving_time": "55:36",
-        "elapsed_time": "10:29:17",
-        "pace": "19.5 km/h",
-        "avg_hr": 123,
-        "max_hr": 168,
-        "elevation_m": 123,
-        "calories": 452,
-        "avg_cadence": null,
-        "avg_watts": 136,
-        "suffer_score": 28,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20008482217"
-      },
-      {
         "id": 20011462980,
         "date": "2026-09-02",
         "start_time": "2026-09-02 22:08",
@@ -1132,37 +1132,15 @@
         "suffer_score": 80,
         "kudos": 3,
         "strava_url": "https://www.strava.com/activities/20011462980"
-      },
-      {
-        "id": 19996462877,
-        "date": "2026-09-01",
-        "start_time": "2026-09-01 21:47",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Pyramid cadence efforts #2",
-        "description": "",
-        "distance_km": 23.43,
-        "duration_min": 68,
-        "moving_time": "1:08:30",
-        "elapsed_time": "1:08:30",
-        "pace": "20.5 km/h",
-        "avg_hr": 141,
-        "max_hr": 168,
-        "elevation_m": 641,
-        "calories": 690,
-        "avg_cadence": 85,
-        "avg_watts": 168,
-        "suffer_score": 86,
-        "kudos": 3,
-        "strava_url": "https://www.strava.com/activities/19996462877"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-31",
-        "distance_km": 180.9,
-        "duration_min": 1735,
-        "elevation_m": 2173,
-        "count": 9
+        "distance_km": 139.5,
+        "duration_min": 1038,
+        "elevation_m": 1409,
+        "count": 7
       },
       {
         "week_start": "2026-09-07",
@@ -1187,10 +1165,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 93.9,
-        "duration_min": 1536,
-        "elevation_m": 457,
-        "count": 6
+        "distance_km": 103.9,
+        "duration_min": 1808,
+        "elevation_m": 499,
+        "count": 7
       }
     ]
   },
