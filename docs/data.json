@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-10-02T13:33:36",
+  "generated_at": "2026-10-03T12:14:07",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 51,
-      "total_distance_km": 764.1,
-      "total_duration_min": 8868,
-      "total_elevation_m": 6393
+      "total_distance_km": 756.2,
+      "total_duration_min": 8270,
+      "total_elevation_m": 5942
     },
     "activities": [
+      {
+        "id": 20429345427,
+        "date": "2026-10-03",
+        "start_time": "2026-10-03 09:55",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Metal",
+        "description": "",
+        "distance_km": 25.73,
+        "duration_min": 48,
+        "moving_time": "48:19",
+        "elapsed_time": "48:19",
+        "pace": "32.0 km/h",
+        "avg_hr": 144,
+        "max_hr": 173,
+        "elevation_m": 68,
+        "calories": 526,
+        "avg_cadence": 84,
+        "avg_watts": 182,
+        "suffer_score": 67,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20429345427"
+      },
+      {
+        "id": 20422459640,
+        "date": "2026-10-02",
+        "start_time": "2026-10-02 18:10",
+        "type": "Run",
+        "name": "Evening Run",
+        "description": "",
+        "distance_km": 9.0,
+        "duration_min": 44,
+        "moving_time": "42:38",
+        "elapsed_time": "43:33",
+        "pace": "4:44/km",
+        "avg_hr": 143,
+        "max_hr": 164,
+        "elevation_m": 54,
+        "calories": 873,
+        "avg_cadence": 89,
+        "avg_watts": 343,
+        "suffer_score": 52,
+        "kudos": 9,
+        "strava_url": "https://www.strava.com/activities/20422459640"
+      },
       {
         "id": 20404840136,
         "date": "2026-10-01",
@@ -1088,59 +1132,15 @@
         "suffer_score": 145,
         "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20029893429"
-      },
-      {
-        "id": 20022564964,
-        "date": "2026-09-03",
-        "start_time": "2026-09-03 08:28",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 21.43,
-        "duration_min": 633,
-        "moving_time": "1:08:56",
-        "elapsed_time": "10:32:41",
-        "pace": "18.7 km/h",
-        "avg_hr": 119,
-        "max_hr": 168,
-        "elevation_m": 102,
-        "calories": 520,
-        "avg_cadence": null,
-        "avg_watts": 126,
-        "suffer_score": 27,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20022564964"
-      },
-      {
-        "id": 20011462980,
-        "date": "2026-09-02",
-        "start_time": "2026-09-02 22:08",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Steady Climbing #3",
-        "description": "",
-        "distance_km": 21.21,
-        "duration_min": 57,
-        "moving_time": "57:04",
-        "elapsed_time": "57:04",
-        "pace": "22.3 km/h",
-        "avg_hr": 144,
-        "max_hr": 173,
-        "elevation_m": 471,
-        "calories": 631,
-        "avg_cadence": 85,
-        "avg_watts": 184,
-        "suffer_score": 80,
-        "kudos": 3,
-        "strava_url": "https://www.strava.com/activities/20011462980"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-31",
-        "distance_km": 139.5,
-        "duration_min": 1038,
-        "elevation_m": 1409,
-        "count": 7
+        "distance_km": 96.8,
+        "duration_min": 348,
+        "elevation_m": 836,
+        "count": 5
       },
       {
         "week_start": "2026-09-07",
@@ -1165,10 +1165,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 103.9,
-        "duration_min": 1808,
-        "elevation_m": 499,
-        "count": 7
+        "distance_km": 138.7,
+        "duration_min": 1900,
+        "elevation_m": 621,
+        "count": 9
       }
     ]
   },
