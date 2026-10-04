@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-10-03T12:14:07",
+  "generated_at": "2026-10-04T13:02:27",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 51,
-      "total_distance_km": 756.2,
-      "total_duration_min": 8270,
-      "total_elevation_m": 5942
+      "total_distance_km": 840.2,
+      "total_duration_min": 8422,
+      "total_elevation_m": 6834
     },
     "activities": [
+      {
+        "id": 20443321622,
+        "date": "2026-10-04",
+        "start_time": "2026-10-04 06:55",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 96.79,
+        "duration_min": 214,
+        "moving_time": "3:32:36",
+        "elapsed_time": "3:33:38",
+        "pace": "27.3 km/h",
+        "avg_hr": 126,
+        "max_hr": 172,
+        "elevation_m": 930,
+        "calories": 2312,
+        "avg_cadence": 80,
+        "avg_watts": 181,
+        "suffer_score": 126,
+        "kudos": 13,
+        "strava_url": "https://www.strava.com/activities/20443321622"
+      },
       {
         "id": 20429345427,
         "date": "2026-10-03",
@@ -30,7 +52,7 @@
         "avg_cadence": 84,
         "avg_watts": 182,
         "suffer_score": 67,
-        "kudos": 0,
+        "kudos": 2,
         "strava_url": "https://www.strava.com/activities/20429345427"
       },
       {
@@ -52,7 +74,7 @@
         "avg_cadence": 89,
         "avg_watts": 343,
         "suffer_score": 52,
-        "kudos": 9,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/20422459640"
       },
       {
@@ -228,7 +250,7 @@
         "avg_cadence": 86,
         "avg_watts": 202,
         "suffer_score": 159,
-        "kudos": 21,
+        "kudos": 22,
         "strava_url": "https://www.strava.com/activities/20346031617"
       },
       {
@@ -1110,37 +1132,15 @@
         "suffer_score": null,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20053239580"
-      },
-      {
-        "id": 20029893429,
-        "date": "2026-09-04",
-        "start_time": "2026-09-04 08:24",
-        "type": "Run",
-        "name": "Morning Run",
-        "description": "",
-        "distance_km": 12.76,
-        "duration_min": 61,
-        "moving_time": "1:00:41",
-        "elapsed_time": "1:01:22",
-        "pace": "4:45/km",
-        "avg_hr": 158,
-        "max_hr": 184,
-        "elevation_m": 38,
-        "calories": 1215,
-        "avg_cadence": 90,
-        "avg_watts": 334,
-        "suffer_score": 145,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/20029893429"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-08-31",
-        "distance_km": 96.8,
-        "duration_min": 348,
-        "elevation_m": 836,
-        "count": 5
+        "distance_km": 84.1,
+        "duration_min": 287,
+        "elevation_m": 798,
+        "count": 4
       },
       {
         "week_start": "2026-09-07",
@@ -1165,10 +1165,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 138.7,
-        "duration_min": 1900,
-        "elevation_m": 621,
-        "count": 9
+        "distance_km": 235.5,
+        "duration_min": 2114,
+        "elevation_m": 1551,
+        "count": 10
       }
     ]
   },
