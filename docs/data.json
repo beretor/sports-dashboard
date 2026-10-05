@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T13:02:27",
+  "generated_at": "2026-10-05T15:33:08",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 51,
-      "total_distance_km": 840.2,
-      "total_duration_min": 8422,
-      "total_elevation_m": 6834
+      "total_distance_km": 760.8,
+      "total_duration_min": 8243,
+      "total_elevation_m": 6042
     },
     "activities": [
       {
@@ -30,8 +30,30 @@
         "avg_cadence": 80,
         "avg_watts": 181,
         "suffer_score": 126,
-        "kudos": 13,
+        "kudos": 18,
         "strava_url": "https://www.strava.com/activities/20443321622"
+      },
+      {
+        "id": 20447603143,
+        "date": "2026-10-04",
+        "start_time": "2026-10-04 14:44",
+        "type": "Swim",
+        "name": "Afternoon Swim",
+        "description": "",
+        "distance_km": 0.8,
+        "duration_min": 21,
+        "moving_time": "16:29",
+        "elapsed_time": "21:02",
+        "pace": "2.9 km/h",
+        "avg_hr": 112,
+        "max_hr": 138,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 23,
+        "avg_watts": null,
+        "suffer_score": 5,
+        "kudos": 5,
+        "strava_url": "https://www.strava.com/activities/20447603143"
       },
       {
         "id": 20429345427,
@@ -1090,28 +1112,6 @@
         "strava_url": "https://www.strava.com/activities/20062257671"
       },
       {
-        "id": 20043376101,
-        "date": "2026-09-05",
-        "start_time": "2026-09-05 07:47",
-        "type": "Ride",
-        "name": "Sortie avec Guillaume et Nico 🍒",
-        "description": "",
-        "distance_km": 80.25,
-        "duration_min": 200,
-        "moving_time": "3:09:44",
-        "elapsed_time": "3:20:27",
-        "pace": "25.4 km/h",
-        "avg_hr": 124,
-        "max_hr": 173,
-        "elevation_m": 792,
-        "calories": 1811,
-        "avg_cadence": 77,
-        "avg_watts": 161,
-        "suffer_score": 92,
-        "kudos": 15,
-        "strava_url": "https://www.strava.com/activities/20043376101"
-      },
-      {
         "id": 20053239580,
         "date": "2026-09-05",
         "start_time": "2026-09-06 00:56",
@@ -1137,10 +1137,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-08-31",
-        "distance_km": 84.1,
-        "duration_min": 287,
-        "elevation_m": 798,
-        "count": 4
+        "distance_km": 3.8,
+        "duration_min": 87,
+        "elevation_m": 6,
+        "count": 3
       },
       {
         "week_start": "2026-09-07",
@@ -1165,10 +1165,10 @@
       },
       {
         "week_start": "2026-09-28",
-        "distance_km": 235.5,
-        "duration_min": 2114,
+        "distance_km": 236.3,
+        "duration_min": 2135,
         "elevation_m": 1551,
-        "count": 10
+        "count": 11
       }
     ]
   },
