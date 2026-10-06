@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-10-05T15:33:08",
+  "generated_at": "2026-10-06T13:55:07",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 51,
-      "total_distance_km": 760.8,
-      "total_duration_min": 8243,
-      "total_elevation_m": 6042
+      "total_activities": 49,
+      "total_distance_km": 775.2,
+      "total_duration_min": 8782,
+      "total_elevation_m": 6107
     },
     "activities": [
+      {
+        "id": 20462650818,
+        "date": "2026-10-05",
+        "start_time": "2026-10-05 08:24",
+        "type": "Ride",
+        "name": "Morning Ride",
+        "description": "",
+        "distance_km": 18.26,
+        "duration_min": 625,
+        "moving_time": "56:53",
+        "elapsed_time": "10:25:27",
+        "pace": "19.3 km/h",
+        "avg_hr": 116,
+        "max_hr": 164,
+        "elevation_m": 71,
+        "calories": 412,
+        "avg_cadence": null,
+        "avg_watts": 121,
+        "suffer_score": 17,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20462650818"
+      },
       {
         "id": 20443321622,
         "date": "2026-10-04",
@@ -1066,82 +1088,9 @@
         "suffer_score": 76,
         "kudos": 4,
         "strava_url": "https://www.strava.com/activities/20079932765"
-      },
-      {
-        "id": 20058681580,
-        "date": "2026-09-06",
-        "start_time": "2026-09-06 11:47",
-        "type": "Tennis",
-        "name": "Tennis le midi",
-        "description": "",
-        "distance_km": 1.24,
-        "duration_min": 45,
-        "moving_time": "28:21",
-        "elapsed_time": "44:43",
-        "pace": "2.6 km/h",
-        "avg_hr": 110,
-        "max_hr": 199,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 59,
-        "avg_watts": null,
-        "suffer_score": 7,
-        "kudos": 5,
-        "strava_url": "https://www.strava.com/activities/20058681580"
-      },
-      {
-        "id": 20062257671,
-        "date": "2026-09-06",
-        "start_time": "2026-09-06 15:53",
-        "type": "Swim",
-        "name": "Natation dans l'après-midi",
-        "description": "",
-        "distance_km": 1.5,
-        "duration_min": 35,
-        "moving_time": "30:18",
-        "elapsed_time": "34:50",
-        "pace": "3.0 km/h",
-        "avg_hr": 110,
-        "max_hr": 127,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 8,
-        "kudos": 8,
-        "strava_url": "https://www.strava.com/activities/20062257671"
-      },
-      {
-        "id": 20053239580,
-        "date": "2026-09-05",
-        "start_time": "2026-09-06 00:56",
-        "type": "Ride",
-        "name": "Night Ride",
-        "description": "",
-        "distance_km": 1.09,
-        "duration_min": 7,
-        "moving_time": "4:07",
-        "elapsed_time": "6:44",
-        "pace": "15.9 km/h",
-        "avg_hr": 101,
-        "max_hr": 129,
-        "elevation_m": 6,
-        "calories": 24,
-        "avg_cadence": null,
-        "avg_watts": 98,
-        "suffer_score": null,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20053239580"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-08-31",
-        "distance_km": 3.8,
-        "duration_min": 87,
-        "elevation_m": 6,
-        "count": 3
-      },
       {
         "week_start": "2026-09-07",
         "distance_km": 181.2,
@@ -1169,6 +1118,13 @@
         "duration_min": 2135,
         "elevation_m": 1551,
         "count": 11
+      },
+      {
+        "week_start": "2026-10-05",
+        "distance_km": 18.3,
+        "duration_min": 625,
+        "elevation_m": 71,
+        "count": 1
       }
     ]
   },
