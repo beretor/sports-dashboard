@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-10-17T11:22:03",
+  "generated_at": "2026-10-18T11:56:20",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 44,
-      "total_distance_km": 714.2,
-      "total_duration_min": 9025,
-      "total_elevation_m": 4964
+      "total_distance_km": 848.2,
+      "total_duration_min": 9270,
+      "total_elevation_m": 5928
     },
     "activities": [
+      {
+        "id": 20631976345,
+        "date": "2026-10-18",
+        "start_time": "2026-10-18 07:03",
+        "type": "Ride",
+        "name": "Toboggan meudonnais 2026",
+        "description": "",
+        "distance_km": 111.22,
+        "duration_min": 283,
+        "moving_time": "4:16:24",
+        "elapsed_time": "4:43:19",
+        "pace": "26.0 km/h",
+        "avg_hr": 139,
+        "max_hr": 173,
+        "elevation_m": 1314,
+        "calories": 2802,
+        "avg_cadence": 80,
+        "avg_watts": 183,
+        "suffer_score": 279,
+        "kudos": 7,
+        "strava_url": "https://www.strava.com/activities/20631976345"
+      },
+      {
+        "id": 20621055074,
+        "date": "2026-10-17",
+        "start_time": "2026-10-17 13:38",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Strength Endurance #1",
+        "description": "",
+        "distance_km": 35.94,
+        "duration_min": 69,
+        "moving_time": "1:09:22",
+        "elapsed_time": "1:09:22",
+        "pace": "31.1 km/h",
+        "avg_hr": 132,
+        "max_hr": 162,
+        "elevation_m": 146,
+        "calories": 705,
+        "avg_cadence": 77,
+        "avg_watts": 170,
+        "suffer_score": 50,
+        "kudos": 4,
+        "strava_url": "https://www.strava.com/activities/20621055074"
+      },
       {
         "id": 20598514513,
         "date": "2026-10-15",
@@ -914,50 +958,6 @@
         "strava_url": "https://www.strava.com/activities/20235954655"
       },
       {
-        "id": 20223826408,
-        "date": "2026-09-18",
-        "start_time": "2026-09-18 08:31",
-        "type": "TrailRun",
-        "name": "Hvar trail",
-        "description": "",
-        "distance_km": 12.7,
-        "duration_min": 93,
-        "moving_time": "1:21:27",
-        "elapsed_time": "1:33:09",
-        "pace": "6:24/km",
-        "avg_hr": 157,
-        "max_hr": 182,
-        "elevation_m": 496,
-        "calories": 1341,
-        "avg_cadence": 84,
-        "avg_watts": 278,
-        "suffer_score": 188,
-        "kudos": 16,
-        "strava_url": "https://www.strava.com/activities/20223826408"
-      },
-      {
-        "id": 20224455167,
-        "date": "2026-09-18",
-        "start_time": "2026-09-18 11:14",
-        "type": "Swim",
-        "name": "Lunch Swim",
-        "description": "",
-        "distance_km": 0.55,
-        "duration_min": 15,
-        "moving_time": "15:15",
-        "elapsed_time": "15:19",
-        "pace": "2.2 km/h",
-        "avg_hr": 146,
-        "max_hr": 160,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 22,
-        "avg_watts": null,
-        "suffer_score": 33,
-        "kudos": 9,
-        "strava_url": "https://www.strava.com/activities/20224455167"
-      },
-      {
         "id": 20229852087,
         "date": "2026-09-18",
         "start_time": "2026-09-18 14:33",
@@ -983,10 +983,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-09-14",
-        "distance_km": 38.2,
-        "duration_min": 464,
-        "elevation_m": 1142,
-        "count": 4
+        "distance_km": 25.0,
+        "duration_min": 356,
+        "elevation_m": 646,
+        "count": 2
       },
       {
         "week_start": "2026-09-21",
@@ -1011,10 +1011,10 @@
       },
       {
         "week_start": "2026-10-12",
-        "distance_km": 85.9,
-        "duration_min": 2150,
-        "elevation_m": 409,
-        "count": 8
+        "distance_km": 233.1,
+        "duration_min": 2502,
+        "elevation_m": 1869,
+        "count": 10
       }
     ]
   },
