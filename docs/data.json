@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T12:31:46",
+  "generated_at": "2026-10-21T12:42:42",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 46,
-      "total_distance_km": 852.3,
-      "total_duration_min": 9829,
-      "total_elevation_m": 5421
+      "total_activities": 45,
+      "total_distance_km": 843.6,
+      "total_duration_min": 9843,
+      "total_elevation_m": 5400
     },
     "activities": [
       {
@@ -52,8 +52,30 @@
         "avg_cadence": 23,
         "avg_watts": null,
         "suffer_score": 15,
-        "kudos": 0,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20659509831"
+      },
+      {
+        "id": 20663464601,
+        "date": "2026-10-20",
+        "start_time": "2026-10-20 13:43",
+        "type": "Ride",
+        "name": "Sortie vélo dans l'après-midi",
+        "description": "",
+        "distance_km": 10.29,
+        "duration_min": 306,
+        "moving_time": "32:24",
+        "elapsed_time": "5:06:28",
+        "pace": "19.1 km/h",
+        "avg_hr": 106,
+        "max_hr": 142,
+        "elevation_m": 38,
+        "calories": 219,
+        "avg_cadence": null,
+        "avg_watts": 113,
+        "suffer_score": 6,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20663464601"
       },
       {
         "id": 20649587418,
@@ -958,50 +980,6 @@
         "strava_url": "https://www.strava.com/activities/20283912294"
       },
       {
-        "id": 20265306576,
-        "date": "2026-09-21",
-        "start_time": "2026-09-21 08:26",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 8.83,
-        "duration_min": 247,
-        "moving_time": "28:32",
-        "elapsed_time": "4:07:18",
-        "pace": "18.6 km/h",
-        "avg_hr": 121,
-        "max_hr": 161,
-        "elevation_m": 35,
-        "calories": 205,
-        "avg_cadence": null,
-        "avg_watts": 120,
-        "suffer_score": 12,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20265306576"
-      },
-      {
-        "id": 20265898273,
-        "date": "2026-09-21",
-        "start_time": "2026-09-21 12:34",
-        "type": "Run",
-        "name": "Lunch Run",
-        "description": "",
-        "distance_km": 10.1,
-        "duration_min": 46,
-        "moving_time": "45:41",
-        "elapsed_time": "45:58",
-        "pace": "4:31/km",
-        "avg_hr": 151,
-        "max_hr": 168,
-        "elevation_m": 24,
-        "calories": 945,
-        "avg_cadence": 90,
-        "avg_watts": 346,
-        "suffer_score": 85,
-        "kudos": 7,
-        "strava_url": "https://www.strava.com/activities/20265898273"
-      },
-      {
         "id": 20269743835,
         "date": "2026-09-21",
         "start_time": "2026-09-21 18:11",
@@ -1027,10 +1005,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-09-21",
-        "distance_km": 196.7,
-        "duration_min": 2405,
-        "elevation_m": 1229,
-        "count": 12
+        "distance_km": 177.8,
+        "duration_min": 2112,
+        "elevation_m": 1170,
+        "count": 10
       },
       {
         "week_start": "2026-09-28",
@@ -1055,10 +1033,10 @@
       },
       {
         "week_start": "2026-10-19",
-        "distance_km": 29.1,
-        "duration_min": 917,
-        "elevation_m": 139,
-        "count": 4
+        "distance_km": 39.4,
+        "duration_min": 1223,
+        "elevation_m": 177,
+        "count": 5
       }
     ]
   },
