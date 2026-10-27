@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26T13:52:56",
+  "generated_at": "2026-10-27T12:58:12",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 45,
-      "total_distance_km": 863.6,
-      "total_duration_min": 9493,
-      "total_elevation_m": 6020
+      "total_activities": 43,
+      "total_distance_km": 757.2,
+      "total_duration_min": 9207,
+      "total_elevation_m": 5214
     },
     "activities": [
       {
@@ -936,50 +936,6 @@
         "strava_url": "https://www.strava.com/activities/20366968225"
       },
       {
-        "id": 20346031617,
-        "date": "2026-09-27",
-        "start_time": "2026-09-27 05:29",
-        "type": "Ride",
-        "name": "Ⓜ️Ⓜ️",
-        "description": "",
-        "distance_km": 103.46,
-        "duration_min": 216,
-        "moving_time": "3:14:01",
-        "elapsed_time": "3:35:52",
-        "pace": "32.0 km/h",
-        "avg_hr": 133,
-        "max_hr": 168,
-        "elevation_m": 806,
-        "calories": 2349,
-        "avg_cadence": 86,
-        "avg_watts": 202,
-        "suffer_score": 159,
-        "kudos": 22,
-        "strava_url": "https://www.strava.com/activities/20346031617"
-      },
-      {
-        "id": 20351018831,
-        "date": "2026-09-27",
-        "start_time": "2026-09-27 13:32",
-        "type": "Tennis",
-        "name": "Afternoon Tennis",
-        "description": "",
-        "distance_km": 2.89,
-        "duration_min": 70,
-        "moving_time": "1:02:29",
-        "elapsed_time": "1:09:48",
-        "pace": "2.8 km/h",
-        "avg_hr": 117,
-        "max_hr": 155,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 56,
-        "avg_watts": null,
-        "suffer_score": 15,
-        "kudos": 4,
-        "strava_url": "https://www.strava.com/activities/20351018831"
-      },
-      {
         "id": 20351669680,
         "date": "2026-09-27",
         "start_time": "2026-09-27 15:05",
@@ -1005,10 +961,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-09-21",
-        "distance_km": 106.8,
-        "duration_min": 300,
-        "elevation_m": 806,
-        "count": 3
+        "distance_km": 0.5,
+        "duration_min": 14,
+        "elevation_m": 0,
+        "count": 1
       },
       {
         "week_start": "2026-09-28",
