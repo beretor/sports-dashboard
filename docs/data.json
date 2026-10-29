@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-10-28T13:49:05",
+  "generated_at": "2026-10-29T13:55:55",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 41,
-      "total_distance_km": 739.0,
-      "total_duration_min": 8555,
-      "total_elevation_m": 5125
+      "total_distance_km": 732.2,
+      "total_duration_min": 7887,
+      "total_elevation_m": 5230
     },
     "activities": [
+      {
+        "id": 20768479496,
+        "date": "2026-10-28",
+        "start_time": "2026-10-28 18:09",
+        "type": "Run",
+        "name": "Course à pied en soirée",
+        "description": "",
+        "distance_km": 11.4,
+        "duration_min": 59,
+        "moving_time": "56:13",
+        "elapsed_time": "58:39",
+        "pace": "4:55/km",
+        "avg_hr": 154,
+        "max_hr": 177,
+        "elevation_m": 171,
+        "calories": 1114,
+        "avg_cadence": 88,
+        "avg_watts": 330,
+        "suffer_score": 116,
+        "kudos": 13,
+        "strava_url": "https://www.strava.com/activities/20768479496"
+      },
       {
         "id": 20721727258,
         "date": "2026-10-25",
@@ -30,7 +52,7 @@
         "avg_cadence": 88,
         "avg_watts": 313,
         "suffer_score": 76,
-        "kudos": 16,
+        "kudos": 17,
         "strava_url": "https://www.strava.com/activities/20721727258"
       },
       {
@@ -870,28 +892,6 @@
         "strava_url": "https://www.strava.com/activities/20395474731"
       },
       {
-        "id": 20382690999,
-        "date": "2026-09-29",
-        "start_time": "2026-09-29 08:21",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 18.17,
-        "duration_min": 727,
-        "moving_time": "59:43",
-        "elapsed_time": "12:06:32",
-        "pace": "18.3 km/h",
-        "avg_hr": 114,
-        "max_hr": 150,
-        "elevation_m": 66,
-        "calories": 406,
-        "avg_cadence": null,
-        "avg_watts": 114,
-        "suffer_score": 18,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20382690999"
-      },
-      {
         "id": 20384132305,
         "date": "2026-09-29",
         "start_time": "2026-09-29 21:53",
@@ -917,10 +917,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-09-28",
-        "distance_km": 218.5,
-        "duration_min": 1497,
-        "elevation_m": 1462,
-        "count": 10
+        "distance_km": 200.3,
+        "duration_min": 770,
+        "elevation_m": 1396,
+        "count": 9
       },
       {
         "week_start": "2026-10-05",
@@ -942,6 +942,13 @@
         "duration_min": 2685,
         "elevation_m": 1161,
         "count": 12
+      },
+      {
+        "week_start": "2026-10-26",
+        "distance_km": 11.4,
+        "duration_min": 59,
+        "elevation_m": 171,
+        "count": 1
       }
     ]
   },
