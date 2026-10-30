@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-10-29T13:55:55",
+  "generated_at": "2026-10-30T13:50:43",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 41,
-      "total_distance_km": 732.2,
-      "total_duration_min": 7887,
-      "total_elevation_m": 5230
+      "total_distance_km": 700.7,
+      "total_duration_min": 7839,
+      "total_elevation_m": 5123
     },
     "activities": [
+      {
+        "id": 20788439089,
+        "date": "2026-10-30",
+        "start_time": "2026-10-30 10:07",
+        "type": "Workout",
+        "name": "Entraînement le matin",
+        "description": "",
+        "distance_km": 0.0,
+        "duration_min": 21,
+        "moving_time": "21:24",
+        "elapsed_time": "21:24",
+        "pace": "—",
+        "avg_hr": 98,
+        "max_hr": 142,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 3,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20788439089"
+      },
+      {
+        "id": 20781721458,
+        "date": "2026-10-29",
+        "start_time": "2026-10-29 18:28",
+        "type": "Run",
+        "name": "Course à pied en soirée",
+        "description": "",
+        "distance_km": 8.23,
+        "duration_min": 42,
+        "moving_time": "40:01",
+        "elapsed_time": "42:15",
+        "pace": "4:51/km",
+        "avg_hr": 144,
+        "max_hr": 177,
+        "elevation_m": 122,
+        "calories": 799,
+        "avg_cadence": 89,
+        "avg_watts": 333,
+        "suffer_score": 54,
+        "kudos": 9,
+        "strava_url": "https://www.strava.com/activities/20781721458"
+      },
       {
         "id": 20768479496,
         "date": "2026-10-28",
@@ -30,7 +74,7 @@
         "avg_cadence": 88,
         "avg_watts": 330,
         "suffer_score": 116,
-        "kudos": 13,
+        "kudos": 14,
         "strava_url": "https://www.strava.com/activities/20768479496"
       },
       {
@@ -848,28 +892,6 @@
         "strava_url": "https://www.strava.com/activities/20415609905"
       },
       {
-        "id": 20391568115,
-        "date": "2026-09-30",
-        "start_time": "2026-09-30 12:49",
-        "type": "Run",
-        "name": "Lunch Run",
-        "description": "",
-        "distance_km": 12.15,
-        "duration_min": 56,
-        "moving_time": "55:32",
-        "elapsed_time": "55:44",
-        "pace": "4:34/km",
-        "avg_hr": 142,
-        "max_hr": 159,
-        "elevation_m": 16,
-        "calories": 1140,
-        "avg_cadence": 90,
-        "avg_watts": 343,
-        "suffer_score": 68,
-        "kudos": 8,
-        "strava_url": "https://www.strava.com/activities/20391568115"
-      },
-      {
         "id": 20395474731,
         "date": "2026-09-30",
         "start_time": "2026-09-30 18:16",
@@ -890,37 +912,15 @@
         "suffer_score": 5,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20395474731"
-      },
-      {
-        "id": 20384132305,
-        "date": "2026-09-29",
-        "start_time": "2026-09-29 21:53",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Sub Threshold #1",
-        "description": "",
-        "distance_km": 27.61,
-        "duration_min": 56,
-        "moving_time": "56:12",
-        "elapsed_time": "56:12",
-        "pace": "29.5 km/h",
-        "avg_hr": 143,
-        "max_hr": 168,
-        "elevation_m": 213,
-        "calories": 600,
-        "avg_cadence": 84,
-        "avg_watts": 178,
-        "suffer_score": 80,
-        "kudos": 3,
-        "strava_url": "https://www.strava.com/activities/20384132305"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-09-28",
-        "distance_km": 200.3,
-        "duration_min": 770,
-        "elevation_m": 1396,
-        "count": 9
+        "distance_km": 160.6,
+        "duration_min": 658,
+        "elevation_m": 1167,
+        "count": 7
       },
       {
         "week_start": "2026-10-05",
@@ -945,10 +945,10 @@
       },
       {
         "week_start": "2026-10-26",
-        "distance_km": 11.4,
-        "duration_min": 59,
-        "elevation_m": 171,
-        "count": 1
+        "distance_km": 19.6,
+        "duration_min": 122,
+        "elevation_m": 293,
+        "count": 3
       }
     ]
   },
