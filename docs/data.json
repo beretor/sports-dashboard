@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-02T16:49:07",
+  "generated_at": "2026-11-03T14:50:59",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 40,
-      "total_distance_km": 669.1,
-      "total_duration_min": 7724,
-      "total_elevation_m": 5309
+      "total_activities": 39,
+      "total_distance_km": 581.0,
+      "total_duration_min": 7520,
+      "total_elevation_m": 4406
     },
     "activities": [
       {
@@ -52,8 +52,30 @@
         "avg_cadence": 91,
         "avg_watts": 337,
         "suffer_score": 51,
-        "kudos": 6,
+        "kudos": 9,
         "strava_url": "https://www.strava.com/activities/20828273760"
+      },
+      {
+        "id": 20832415634,
+        "date": "2026-11-02",
+        "start_time": "2026-11-02 18:28",
+        "type": "Ride",
+        "name": "Sortie vélo en soirée",
+        "description": "",
+        "distance_km": 9.44,
+        "duration_min": 31,
+        "moving_time": "29:56",
+        "elapsed_time": "30:42",
+        "pace": "18.9 km/h",
+        "avg_hr": 118,
+        "max_hr": 153,
+        "elevation_m": 27,
+        "calories": 192,
+        "avg_cadence": null,
+        "avg_watts": 107,
+        "suffer_score": 9,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20832415634"
       },
       {
         "id": 20802874102,
@@ -846,60 +868,9 @@
         "suffer_score": 17,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20462650818"
-      },
-      {
-        "id": 20443321622,
-        "date": "2026-10-04",
-        "start_time": "2026-10-04 06:55",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 96.79,
-        "duration_min": 214,
-        "moving_time": "3:32:36",
-        "elapsed_time": "3:33:38",
-        "pace": "27.3 km/h",
-        "avg_hr": 126,
-        "max_hr": 172,
-        "elevation_m": 930,
-        "calories": 2312,
-        "avg_cadence": 80,
-        "avg_watts": 181,
-        "suffer_score": 126,
-        "kudos": 18,
-        "strava_url": "https://www.strava.com/activities/20443321622"
-      },
-      {
-        "id": 20447603143,
-        "date": "2026-10-04",
-        "start_time": "2026-10-04 14:44",
-        "type": "Swim",
-        "name": "Afternoon Swim",
-        "description": "",
-        "distance_km": 0.8,
-        "duration_min": 21,
-        "moving_time": "16:29",
-        "elapsed_time": "21:02",
-        "pace": "2.9 km/h",
-        "avg_hr": 112,
-        "max_hr": 138,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 23,
-        "avg_watts": null,
-        "suffer_score": 5,
-        "kudos": 5,
-        "strava_url": "https://www.strava.com/activities/20447603143"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-09-28",
-        "distance_km": 97.6,
-        "duration_min": 235,
-        "elevation_m": 930,
-        "count": 2
-      },
       {
         "week_start": "2026-10-05",
         "distance_km": 157.1,
@@ -930,10 +901,10 @@
       },
       {
         "week_start": "2026-11-02",
-        "distance_km": 18.9,
-        "duration_min": 77,
-        "elevation_m": 71,
-        "count": 2
+        "distance_km": 28.4,
+        "duration_min": 108,
+        "elevation_m": 98,
+        "count": 3
       }
     ]
   },
