@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-11-03T14:50:59",
+  "generated_at": "2026-11-04T15:05:15",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 39,
-      "total_distance_km": 581.0,
-      "total_duration_min": 7520,
-      "total_elevation_m": 4406
+      "total_activities": 40,
+      "total_distance_km": 609.8,
+      "total_duration_min": 7574,
+      "total_elevation_m": 4468
     },
     "activities": [
+      {
+        "id": 20845810588,
+        "date": "2026-11-03",
+        "start_time": "2026-11-03 08:22",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 17.0,
+        "duration_min": 623,
+        "moving_time": "55:54",
+        "elapsed_time": "10:22:47",
+        "pace": "18.2 km/h",
+        "avg_hr": 115,
+        "max_hr": 175,
+        "elevation_m": 91,
+        "calories": 376,
+        "avg_cadence": null,
+        "avg_watts": 112,
+        "suffer_score": 19,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20845810588"
+      },
+      {
+        "id": 20848211155,
+        "date": "2026-11-03",
+        "start_time": "2026-11-03 20:56",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Low Cadence Power #1",
+        "description": "",
+        "distance_km": 30.07,
+        "duration_min": 57,
+        "moving_time": "56:57",
+        "elapsed_time": "56:57",
+        "pace": "31.7 km/h",
+        "avg_hr": 134,
+        "max_hr": 152,
+        "elevation_m": 42,
+        "calories": 589,
+        "avg_cadence": 73,
+        "avg_watts": 172,
+        "suffer_score": 47,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20848211155"
+      },
       {
         "id": 20825791843,
         "date": "2026-11-02",
@@ -846,37 +890,15 @@
         "suffer_score": 22,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20477095357"
-      },
-      {
-        "id": 20462650818,
-        "date": "2026-10-05",
-        "start_time": "2026-10-05 08:24",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 18.26,
-        "duration_min": 625,
-        "moving_time": "56:53",
-        "elapsed_time": "10:25:27",
-        "pace": "19.3 km/h",
-        "avg_hr": 116,
-        "max_hr": 164,
-        "elevation_m": 71,
-        "calories": 412,
-        "avg_cadence": null,
-        "avg_watts": 121,
-        "suffer_score": 17,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20462650818"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-05",
-        "distance_km": 157.1,
-        "duration_min": 1869,
-        "elevation_m": 633,
-        "count": 9
+        "distance_km": 138.8,
+        "duration_min": 1244,
+        "elevation_m": 562,
+        "count": 8
       },
       {
         "week_start": "2026-10-12",
@@ -901,10 +923,10 @@
       },
       {
         "week_start": "2026-11-02",
-        "distance_km": 28.4,
-        "duration_min": 108,
-        "elevation_m": 98,
-        "count": 3
+        "distance_km": 75.5,
+        "duration_min": 788,
+        "elevation_m": 231,
+        "count": 5
       }
     ]
   },
