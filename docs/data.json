@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T15:09:50",
+  "generated_at": "2026-11-06T14:46:44",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 43,
-      "total_distance_km": 614.9,
-      "total_duration_min": 7645,
-      "total_elevation_m": 4521
+      "total_activities": 44,
+      "total_distance_km": 624.4,
+      "total_duration_min": 7672,
+      "total_elevation_m": 4547
     },
     "activities": [
       {
@@ -52,8 +52,30 @@
         "avg_cadence": 24,
         "avg_watts": null,
         "suffer_score": 20,
-        "kudos": 2,
+        "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20869078014"
+      },
+      {
+        "id": 20872905932,
+        "date": "2026-11-05",
+        "start_time": "2026-11-05 18:27",
+        "type": "Ride",
+        "name": "Sortie vélo en soirée",
+        "description": "",
+        "distance_km": 9.42,
+        "duration_min": 27,
+        "moving_time": "26:54",
+        "elapsed_time": "27:11",
+        "pace": "21.0 km/h",
+        "avg_hr": 114,
+        "max_hr": 161,
+        "elevation_m": 26,
+        "calories": 194,
+        "avg_cadence": null,
+        "avg_watts": 121,
+        "suffer_score": 7,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/20872905932"
       },
       {
         "id": 20859614139,
@@ -989,10 +1011,10 @@
       },
       {
         "week_start": "2026-11-02",
-        "distance_km": 99.9,
-        "duration_min": 1475,
-        "elevation_m": 358,
-        "count": 9
+        "distance_km": 109.3,
+        "duration_min": 1502,
+        "elevation_m": 384,
+        "count": 10
       }
     ]
   },
