@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-11-06T14:46:44",
+  "generated_at": "2026-11-07T13:44:31",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 44,
-      "total_distance_km": 624.4,
-      "total_duration_min": 7672,
-      "total_elevation_m": 4547
+      "total_activities": 42,
+      "total_distance_km": 588.0,
+      "total_duration_min": 7575,
+      "total_elevation_m": 4448
     },
     "activities": [
+      {
+        "id": 20885519889,
+        "date": "2026-11-06",
+        "start_time": "2026-11-06 18:27",
+        "type": "Run",
+        "name": "Course à pied en soirée",
+        "description": "",
+        "distance_km": 8.05,
+        "duration_min": 43,
+        "moving_time": "37:58",
+        "elapsed_time": "43:21",
+        "pace": "4:43/km",
+        "avg_hr": 147,
+        "max_hr": 169,
+        "elevation_m": 53,
+        "calories": 773,
+        "avg_cadence": 90,
+        "avg_watts": 341,
+        "suffer_score": 57,
+        "kudos": 9,
+        "strava_url": "https://www.strava.com/activities/20885519889"
+      },
       {
         "id": 20866342062,
         "date": "2026-11-05",
@@ -892,50 +914,6 @@
         "strava_url": "https://www.strava.com/activities/20514231009"
       },
       {
-        "id": 20498621793,
-        "date": "2026-10-08",
-        "start_time": "2026-10-08 08:17",
-        "type": "Ride",
-        "name": "Morning Ride",
-        "description": "",
-        "distance_km": 9.52,
-        "duration_min": 31,
-        "moving_time": "29:55",
-        "elapsed_time": "31:15",
-        "pace": "19.1 km/h",
-        "avg_hr": 136,
-        "max_hr": 167,
-        "elevation_m": 66,
-        "calories": 241,
-        "avg_cadence": null,
-        "avg_watts": 135,
-        "suffer_score": 30,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20498621793"
-      },
-      {
-        "id": 20501154535,
-        "date": "2026-10-08",
-        "start_time": "2026-10-08 12:22",
-        "type": "Run",
-        "name": "Lunch Run",
-        "description": "",
-        "distance_km": 15.18,
-        "duration_min": 71,
-        "moving_time": "1:08:25",
-        "elapsed_time": "1:11:01",
-        "pace": "4:30/km",
-        "avg_hr": 153,
-        "max_hr": 182,
-        "elevation_m": 63,
-        "calories": 1443,
-        "avg_cadence": 90,
-        "avg_watts": 352,
-        "suffer_score": 136,
-        "kudos": 8,
-        "strava_url": "https://www.strava.com/activities/20501154535"
-      },
-      {
         "id": 20505345240,
         "date": "2026-10-08",
         "start_time": "2026-10-08 18:44",
@@ -956,37 +934,15 @@
         "suffer_score": 5,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/20505345240"
-      },
-      {
-        "id": 20494061239,
-        "date": "2026-10-07",
-        "start_time": "2026-10-07 21:40",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Ramp Test - MyWhoosh",
-        "description": "",
-        "distance_km": 19.69,
-        "duration_min": 38,
-        "moving_time": "37:59",
-        "elapsed_time": "37:59",
-        "pace": "31.1 km/h",
-        "avg_hr": 130,
-        "max_hr": 184,
-        "elevation_m": 23,
-        "calories": 388,
-        "avg_cadence": 72,
-        "avg_watts": 170,
-        "suffer_score": 31,
-        "kudos": 3,
-        "strava_url": "https://www.strava.com/activities/20494061239"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-05",
-        "distance_km": 119.6,
-        "duration_min": 627,
-        "elevation_m": 488,
-        "count": 7
+        "distance_km": 75.2,
+        "duration_min": 487,
+        "elevation_m": 336,
+        "count": 4
       },
       {
         "week_start": "2026-10-12",
@@ -1011,15 +967,15 @@
       },
       {
         "week_start": "2026-11-02",
-        "distance_km": 109.3,
-        "duration_min": 1502,
-        "elevation_m": 384,
-        "count": 10
+        "distance_km": 117.4,
+        "duration_min": 1545,
+        "elevation_m": 437,
+        "count": 11
       }
     ]
   },
   "suggestions": [],
   "errors": [
-    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    "Claude : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}"
   ]
 }
