@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-08T14:03:24",
+  "generated_at": "2026-11-09T17:09:00",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 41,
-      "total_distance_km": 668.3,
-      "total_duration_min": 7463,
-      "total_elevation_m": 5540
+      "total_activities": 40,
+      "total_distance_km": 634.8,
+      "total_duration_min": 7404,
+      "total_elevation_m": 5485
     },
     "activities": [
       {
@@ -30,7 +30,7 @@
         "avg_cadence": 77,
         "avg_watts": 182,
         "suffer_score": 299,
-        "kudos": 8,
+        "kudos": 15,
         "strava_url": "https://www.strava.com/activities/20906412783"
       },
       {
@@ -52,7 +52,7 @@
         "avg_cadence": 90,
         "avg_watts": 341,
         "suffer_score": 57,
-        "kudos": 11,
+        "kudos": 12,
         "strava_url": "https://www.strava.com/activities/20885519889"
       },
       {
@@ -890,37 +890,15 @@
         "suffer_score": 151,
         "kudos": 11,
         "strava_url": "https://www.strava.com/activities/20538542844"
-      },
-      {
-        "id": 20525463636,
-        "date": "2026-10-10",
-        "start_time": "2026-10-10 11:09",
-        "type": "VirtualRide",
-        "name": "MyWhoosh - Cruise Intervals #4",
-        "description": "",
-        "distance_km": 33.47,
-        "duration_min": 59,
-        "moving_time": "59:18",
-        "elapsed_time": "59:18",
-        "pace": "33.9 km/h",
-        "avg_hr": 150,
-        "max_hr": 171,
-        "elevation_m": 55,
-        "calories": 743,
-        "avg_cadence": 83,
-        "avg_watts": 209,
-        "suffer_score": 108,
-        "kudos": 4,
-        "strava_url": "https://www.strava.com/activities/20525463636"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-05",
-        "distance_km": 47.5,
-        "duration_min": 126,
-        "elevation_m": 198,
-        "count": 2
+        "distance_km": 14.0,
+        "duration_min": 67,
+        "elevation_m": 143,
+        "count": 1
       },
       {
         "week_start": "2026-10-12",
