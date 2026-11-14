@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-11-13T15:05:44",
+  "generated_at": "2026-11-14T13:56:45",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 38,
-      "total_distance_km": 606.2,
-      "total_duration_min": 7672,
-      "total_elevation_m": 5262
+      "total_distance_km": 613.7,
+      "total_duration_min": 7085,
+      "total_elevation_m": 5629
     },
     "activities": [
+      {
+        "id": 20974788646,
+        "date": "2026-11-13",
+        "start_time": "2026-11-13 17:59",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - Endurance #7",
+        "description": "",
+        "distance_km": 25.82,
+        "duration_min": 58,
+        "moving_time": "58:07",
+        "elapsed_time": "58:07",
+        "pace": "26.7 km/h",
+        "avg_hr": 139,
+        "max_hr": 160,
+        "elevation_m": 453,
+        "calories": 598,
+        "avg_cadence": 85,
+        "avg_watts": 172,
+        "suffer_score": 61,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/20974788646"
+      },
       {
         "id": 20958575415,
         "date": "2026-11-12",
@@ -824,37 +846,15 @@
         "suffer_score": 50,
         "kudos": 6,
         "strava_url": "https://www.strava.com/activities/20621055074"
-      },
-      {
-        "id": 20598514513,
-        "date": "2026-10-15",
-        "start_time": "2026-10-15 08:26",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 18.32,
-        "duration_min": 645,
-        "moving_time": "54:34",
-        "elapsed_time": "10:45:04",
-        "pace": "20.1 km/h",
-        "avg_hr": 129,
-        "max_hr": 165,
-        "elevation_m": 86,
-        "calories": 399,
-        "avg_cadence": null,
-        "avg_watts": 122,
-        "suffer_score": 41,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20598514513"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-12",
-        "distance_km": 165.5,
-        "duration_min": 997,
-        "elevation_m": 1546,
-        "count": 3
+        "distance_km": 147.2,
+        "duration_min": 352,
+        "elevation_m": 1460,
+        "count": 2
       },
       {
         "week_start": "2026-10-19",
@@ -879,10 +879,10 @@
       },
       {
         "week_start": "2026-11-09",
-        "distance_km": 53.0,
-        "duration_min": 1841,
-        "elevation_m": 243,
-        "count": 6
+        "distance_km": 78.8,
+        "duration_min": 1899,
+        "elevation_m": 696,
+        "count": 7
       }
     ]
   },
