@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-11-16T16:45:12",
+  "generated_at": "2026-11-17T16:40:37",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 38,
-      "total_distance_km": 577.7,
-      "total_duration_min": 7032,
-      "total_elevation_m": 5483
+      "total_distance_km": 485.9,
+      "total_duration_min": 7371,
+      "total_elevation_m": 4256
     },
     "activities": [
+      {
+        "id": 21011428357,
+        "date": "2026-11-16",
+        "start_time": "2026-11-16 08:24",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 19.39,
+        "duration_min": 623,
+        "moving_time": "1:05:23",
+        "elapsed_time": "10:22:34",
+        "pace": "17.8 km/h",
+        "avg_hr": 110,
+        "max_hr": 150,
+        "elevation_m": 87,
+        "calories": 414,
+        "avg_cadence": null,
+        "avg_watts": 106,
+        "suffer_score": 17,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/21011428357"
+      },
       {
         "id": 21002587289,
         "date": "2026-11-15",
@@ -824,38 +846,9 @@
         "suffer_score": 1,
         "kudos": 3,
         "strava_url": "https://www.strava.com/activities/20651307694"
-      },
-      {
-        "id": 20631976345,
-        "date": "2026-10-18",
-        "start_time": "2026-10-18 07:03",
-        "type": "Ride",
-        "name": "Toboggan meudonnais 2026",
-        "description": "",
-        "distance_km": 111.22,
-        "duration_min": 283,
-        "moving_time": "4:16:24",
-        "elapsed_time": "4:43:19",
-        "pace": "26.0 km/h",
-        "avg_hr": 139,
-        "max_hr": 173,
-        "elevation_m": 1314,
-        "calories": 2802,
-        "avg_cadence": 80,
-        "avg_watts": 183,
-        "suffer_score": 279,
-        "kudos": 18,
-        "strava_url": "https://www.strava.com/activities/20631976345"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-10-12",
-        "distance_km": 111.2,
-        "duration_min": 283,
-        "elevation_m": 1314,
-        "count": 1
-      },
       {
         "week_start": "2026-10-19",
         "distance_km": 130.3,
@@ -883,6 +876,13 @@
         "duration_min": 1915,
         "elevation_m": 696,
         "count": 8
+      },
+      {
+        "week_start": "2026-11-16",
+        "distance_km": 19.4,
+        "duration_min": 623,
+        "elevation_m": 87,
+        "count": 1
       }
     ]
   },
