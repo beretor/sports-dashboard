@@ -1,16 +1,82 @@
 {
-  "generated_at": "2026-11-17T16:40:37",
+  "generated_at": "2026-11-18T16:10:02",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 38,
-      "total_distance_km": 485.9,
-      "total_duration_min": 7371,
-      "total_elevation_m": 4256
+      "total_activities": 40,
+      "total_distance_km": 497.3,
+      "total_duration_min": 7670,
+      "total_elevation_m": 4339
     },
     "activities": [
+      {
+        "id": 21032966045,
+        "date": "2026-11-18",
+        "start_time": "2026-11-18 08:50",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 10.03,
+        "duration_min": 216,
+        "moving_time": "32:27",
+        "elapsed_time": "3:36:09",
+        "pace": "18.5 km/h",
+        "avg_hr": 119,
+        "max_hr": 158,
+        "elevation_m": 69,
+        "calories": 244,
+        "avg_cadence": null,
+        "avg_watts": 126,
+        "suffer_score": 13,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/21032966045"
+      },
+      {
+        "id": 21033710161,
+        "date": "2026-11-18",
+        "start_time": "2026-11-18 12:38",
+        "type": "Swim",
+        "name": "Natation le midi",
+        "description": "",
+        "distance_km": 2.0,
+        "duration_min": 47,
+        "moving_time": "42:01",
+        "elapsed_time": "47:20",
+        "pace": "2.9 km/h",
+        "avg_hr": 117,
+        "max_hr": 139,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": 23,
+        "avg_watts": null,
+        "suffer_score": 18,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/21033710161"
+      },
+      {
+        "id": 21024381508,
+        "date": "2026-11-17",
+        "start_time": "2026-11-17 08:21",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 18.19,
+        "duration_min": 639,
+        "moving_time": "1:01:30",
+        "elapsed_time": "10:38:53",
+        "pace": "17.7 km/h",
+        "avg_hr": 113,
+        "max_hr": 153,
+        "elevation_m": 82,
+        "calories": 410,
+        "avg_cadence": null,
+        "avg_watts": 111,
+        "suffer_score": 15,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/21024381508"
+      },
       {
         "id": 21011428357,
         "date": "2026-11-16",
@@ -804,28 +870,6 @@
         "strava_url": "https://www.strava.com/activities/20663464601"
       },
       {
-        "id": 20649587418,
-        "date": "2026-10-19",
-        "start_time": "2026-10-19 08:44",
-        "type": "Ride",
-        "name": "Sortie vélo le matin",
-        "description": "",
-        "distance_km": 18.81,
-        "duration_min": 604,
-        "moving_time": "58:32",
-        "elapsed_time": "10:03:34",
-        "pace": "19.3 km/h",
-        "avg_hr": 115,
-        "max_hr": 162,
-        "elevation_m": 68,
-        "calories": 421,
-        "avg_cadence": null,
-        "avg_watts": 120,
-        "suffer_score": 21,
-        "kudos": 0,
-        "strava_url": "https://www.strava.com/activities/20649587418"
-      },
-      {
         "id": 20651307694,
         "date": "2026-10-19",
         "start_time": "2026-10-19 20:39",
@@ -851,10 +895,10 @@
     "weekly_stats": [
       {
         "week_start": "2026-10-19",
-        "distance_km": 130.3,
-        "duration_min": 2685,
-        "elevation_m": 1161,
-        "count": 12
+        "distance_km": 111.5,
+        "duration_min": 2081,
+        "elevation_m": 1093,
+        "count": 11
       },
       {
         "week_start": "2026-10-26",
@@ -879,10 +923,10 @@
       },
       {
         "week_start": "2026-11-16",
-        "distance_km": 19.4,
-        "duration_min": 623,
-        "elevation_m": 87,
-        "count": 1
+        "distance_km": 49.6,
+        "duration_min": 1525,
+        "elevation_m": 238,
+        "count": 4
       }
     ]
   },
