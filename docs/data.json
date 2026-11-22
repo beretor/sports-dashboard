@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-11-21T15:05:16",
+  "generated_at": "2026-11-22T15:02:44",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 35,
-      "total_distance_km": 448.8,
-      "total_duration_min": 6066,
-      "total_elevation_m": 3988
+      "total_activities": 36,
+      "total_distance_km": 450.5,
+      "total_duration_min": 6088,
+      "total_elevation_m": 4060
     },
     "activities": [
+      {
+        "id": 21080623990,
+        "date": "2026-11-22",
+        "start_time": "2026-11-22 10:25",
+        "type": "Workout",
+        "name": "Entraînement le matin",
+        "description": "",
+        "distance_km": 0.0,
+        "duration_min": 31,
+        "moving_time": "31:21",
+        "elapsed_time": "31:21",
+        "pace": "—",
+        "avg_hr": 89,
+        "max_hr": 121,
+        "elevation_m": 0,
+        "calories": null,
+        "avg_cadence": null,
+        "avg_watts": null,
+        "suffer_score": 4,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/21080623990"
+      },
+      {
+        "id": 21080783334,
+        "date": "2026-11-22",
+        "start_time": "2026-11-22 11:05",
+        "type": "VirtualRide",
+        "name": "MyWhoosh - All I need",
+        "description": "",
+        "distance_km": 1.68,
+        "duration_min": 8,
+        "moving_time": "8:13",
+        "elapsed_time": "8:13",
+        "pace": "12.3 km/h",
+        "avg_hr": 89,
+        "max_hr": 131,
+        "elevation_m": 72,
+        "calories": 63,
+        "avg_cadence": 66,
+        "avg_watts": 128,
+        "suffer_score": 1,
+        "kudos": 2,
+        "strava_url": "https://www.strava.com/activities/21080783334"
+      },
       {
         "id": 21046063195,
         "date": "2026-11-19",
@@ -74,7 +118,7 @@
         "avg_cadence": 23,
         "avg_watts": null,
         "suffer_score": 18,
-        "kudos": 4,
+        "kudos": 5,
         "strava_url": "https://www.strava.com/activities/21033710161"
       },
       {
@@ -758,37 +802,15 @@
         "suffer_score": 34,
         "kudos": 5,
         "strava_url": "https://www.strava.com/activities/20702566931"
-      },
-      {
-        "id": 20692343423,
-        "date": "2026-10-22",
-        "start_time": "2026-10-22 20:57",
-        "type": "Workout",
-        "name": "Entraînement en soirée",
-        "description": "",
-        "distance_km": 0.0,
-        "duration_min": 18,
-        "moving_time": "17:33",
-        "elapsed_time": "17:33",
-        "pace": "—",
-        "avg_hr": 89,
-        "max_hr": 179,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": null,
-        "avg_watts": null,
-        "suffer_score": 2,
-        "kudos": 3,
-        "strava_url": "https://www.strava.com/activities/20692343423"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-19",
         "distance_km": 32.5,
-        "duration_min": 160,
+        "duration_min": 142,
         "elevation_m": 609,
-        "count": 4
+        "count": 3
       },
       {
         "week_start": "2026-10-26",
@@ -813,10 +835,10 @@
       },
       {
         "week_start": "2026-11-16",
-        "distance_km": 80.1,
-        "duration_min": 1843,
-        "elevation_m": 371,
-        "count": 6
+        "distance_km": 81.8,
+        "duration_min": 1882,
+        "elevation_m": 443,
+        "count": 8
       }
     ]
   },
