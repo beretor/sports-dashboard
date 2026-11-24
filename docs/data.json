@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-11-23T18:58:20",
+  "generated_at": "2026-11-24T18:38:16",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
-      "total_activities": 36,
-      "total_distance_km": 454.5,
-      "total_duration_min": 6652,
-      "total_elevation_m": 3707
+      "total_activities": 35,
+      "total_distance_km": 462.2,
+      "total_duration_min": 7169,
+      "total_elevation_m": 3741
     },
     "activities": [
+      {
+        "id": 21110316346,
+        "date": "2026-11-24",
+        "start_time": "2026-11-24 09:05",
+        "type": "Ride",
+        "name": "Sortie vélo le matin",
+        "description": "",
+        "distance_km": 18.87,
+        "duration_min": 601,
+        "moving_time": "1:01:51",
+        "elapsed_time": "10:00:48",
+        "pace": "18.3 km/h",
+        "avg_hr": 112,
+        "max_hr": 166,
+        "elevation_m": 108,
+        "calories": 432,
+        "avg_cadence": null,
+        "avg_watts": 116,
+        "suffer_score": 17,
+        "kudos": 0,
+        "strava_url": "https://www.strava.com/activities/21110316346"
+      },
       {
         "id": 21097474880,
         "date": "2026-11-23",
@@ -758,60 +780,9 @@
         "suffer_score": 116,
         "kudos": 16,
         "strava_url": "https://www.strava.com/activities/20768479496"
-      },
-      {
-        "id": 20721727258,
-        "date": "2026-10-25",
-        "start_time": "2026-10-25 08:59",
-        "type": "Run",
-        "name": "Course à pied le matin",
-        "description": "",
-        "distance_km": 9.58,
-        "duration_min": 52,
-        "moving_time": "50:14",
-        "elapsed_time": "52:24",
-        "pace": "5:14/km",
-        "avg_hr": 146,
-        "max_hr": 171,
-        "elevation_m": 74,
-        "calories": 945,
-        "avg_cadence": 88,
-        "avg_watts": 313,
-        "suffer_score": 76,
-        "kudos": 17,
-        "strava_url": "https://www.strava.com/activities/20721727258"
-      },
-      {
-        "id": 20723622276,
-        "date": "2026-10-25",
-        "start_time": "2026-10-25 11:22",
-        "type": "Tennis",
-        "name": "Tennis le midi",
-        "description": "",
-        "distance_km": 1.62,
-        "duration_min": 32,
-        "moving_time": "30:00",
-        "elapsed_time": "31:55",
-        "pace": "3.2 km/h",
-        "avg_hr": 124,
-        "max_hr": 181,
-        "elevation_m": 0,
-        "calories": null,
-        "avg_cadence": 56,
-        "avg_watts": null,
-        "suffer_score": 11,
-        "kudos": 5,
-        "strava_url": "https://www.strava.com/activities/20723622276"
       }
     ],
     "weekly_stats": [
-      {
-        "week_start": "2026-10-19",
-        "distance_km": 11.2,
-        "duration_min": 84,
-        "elevation_m": 74,
-        "count": 2
-      },
       {
         "week_start": "2026-10-26",
         "distance_km": 32.1,
@@ -842,10 +813,10 @@
       },
       {
         "week_start": "2026-11-23",
-        "distance_km": 25.3,
-        "duration_min": 622,
-        "elevation_m": 182,
-        "count": 1
+        "distance_km": 44.2,
+        "duration_min": 1223,
+        "elevation_m": 290,
+        "count": 2
       }
     ]
   },
