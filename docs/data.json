@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-26T17:31:19",
+  "generated_at": "2026-11-27T17:12:59",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
     "summary_ai": "",
     "stats": {
       "total_activities": 40,
-      "total_distance_km": 491.9,
-      "total_duration_min": 8263,
-      "total_elevation_m": 3909
+      "total_distance_km": 500.1,
+      "total_duration_min": 8506,
+      "total_elevation_m": 3826
     },
     "activities": [
       {
@@ -52,7 +52,7 @@
         "avg_cadence": 23,
         "avg_watts": null,
         "suffer_score": 14,
-        "kudos": 1,
+        "kudos": 2,
         "strava_url": "https://www.strava.com/activities/21130539930"
       },
       {
@@ -76,6 +76,28 @@
         "suffer_score": null,
         "kudos": 0,
         "strava_url": "https://www.strava.com/activities/21131003869"
+      },
+      {
+        "id": 21134832197,
+        "date": "2026-11-26",
+        "start_time": "2026-11-26 14:02",
+        "type": "Ride",
+        "name": "Sortie vélo dans l'après-midi",
+        "description": "",
+        "distance_km": 19.52,
+        "duration_min": 302,
+        "moving_time": "59:01",
+        "elapsed_time": "5:02:17",
+        "pace": "19.8 km/h",
+        "avg_hr": 125,
+        "max_hr": 178,
+        "elevation_m": 88,
+        "calories": 273,
+        "avg_cadence": null,
+        "avg_watts": 77,
+        "suffer_score": 33,
+        "kudos": 3,
+        "strava_url": "https://www.strava.com/activities/21134832197"
       },
       {
         "id": 21124670568,
@@ -868,37 +890,15 @@
         "suffer_score": 54,
         "kudos": 11,
         "strava_url": "https://www.strava.com/activities/20781721458"
-      },
-      {
-        "id": 20768479496,
-        "date": "2026-10-28",
-        "start_time": "2026-10-28 18:09",
-        "type": "Run",
-        "name": "Course à pied en soirée",
-        "description": "",
-        "distance_km": 11.4,
-        "duration_min": 59,
-        "moving_time": "56:13",
-        "elapsed_time": "58:39",
-        "pace": "4:55/km",
-        "avg_hr": 154,
-        "max_hr": 177,
-        "elevation_m": 171,
-        "calories": 1114,
-        "avg_cadence": 88,
-        "avg_watts": 330,
-        "suffer_score": 116,
-        "kudos": 16,
-        "strava_url": "https://www.strava.com/activities/20768479496"
       }
     ],
     "weekly_stats": [
       {
         "week_start": "2026-10-26",
-        "distance_km": 32.1,
-        "duration_min": 354,
-        "elevation_m": 645,
-        "count": 5
+        "distance_km": 20.7,
+        "duration_min": 295,
+        "elevation_m": 474,
+        "count": 4
       },
       {
         "week_start": "2026-11-02",
@@ -923,10 +923,10 @@
       },
       {
         "week_start": "2026-11-23",
-        "distance_km": 73.9,
-        "duration_min": 2316,
-        "elevation_m": 458,
-        "count": 7
+        "distance_km": 93.4,
+        "duration_min": 2618,
+        "elevation_m": 546,
+        "count": 8
       }
     ]
   },
