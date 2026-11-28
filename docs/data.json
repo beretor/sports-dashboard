@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:12:59",
+  "generated_at": "2026-11-28T15:57:31",
   "strava": {
     "athlete": "Pierre",
     "period_days": 30,
@@ -92,11 +92,11 @@
         "avg_hr": 125,
         "max_hr": 178,
         "elevation_m": 88,
-        "calories": 273,
+        "calories": 424,
         "avg_cadence": null,
-        "avg_watts": 77,
+        "avg_watts": 120,
         "suffer_score": 33,
-        "kudos": 3,
+        "kudos": 4,
         "strava_url": "https://www.strava.com/activities/21134832197"
       },
       {
